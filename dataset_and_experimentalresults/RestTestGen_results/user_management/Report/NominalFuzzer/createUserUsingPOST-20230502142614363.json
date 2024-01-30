@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "createUserUsingPOST-20230502142614363",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "http://localhost:50115/users",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "{\"address\": \"LOGIN\", \"birthDate\": \"2007/08/07\", \"country\": \"warderer\"}",
+      "requestSentAt": "May 2, 2023, 2:26:14 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Type: application/json\nTransfer-Encoding: chunked\nDate: Tue, 02 May 2023 08:56:14 GMT\nConnection: close\n",
+      "responseBody": "{\"timestamp\":\"2023-05-02T08:56:14.477+0000\",\"status\":400,\"error\":\"Bad Request\",\"message\":\"JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String \\\"2007/08/07\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \u00272007/08/07\u0027 could not be parsed at index 4; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String \\\"2007/08/07\\\": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text \u00272007/08/07\u0027 could not be parsed at index 4\\n at [Source: (PushbackInputStream); line: 1, column: 35] (through reference chain: com.giassi.microservice.demo2.rest.users.dtos.requests.CreateOrUpdateUserDTO[\\\"birthDate\\\"])\",\"path\":\"/users\"}",
+      "responseReceivedAt": "May 2, 2023, 2:26:14 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "May 2, 2023, 2:26:14 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

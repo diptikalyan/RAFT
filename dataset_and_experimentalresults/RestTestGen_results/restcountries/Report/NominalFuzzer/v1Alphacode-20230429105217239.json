@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "v1Alphacode-20230429105217239",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://irlverifai.sl.cloud9.ibm.com:6060/rest/v1/alpha/crustaceal%20VUIT%20n",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:52:17 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dutf-8\nContent-Length: 38\nDate: Sat, 29 Apr 2023 05:22:17 GMT\nConnection: close\n",
+      "responseBody": "{\"status\":400,\"message\":\"Bad Request\"}",
+      "responseReceivedAt": "Apr 29, 2023, 10:52:17 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:52:17 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

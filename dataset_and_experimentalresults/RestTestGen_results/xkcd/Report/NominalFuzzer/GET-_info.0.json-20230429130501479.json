@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/info.0.json-20230429130501479",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://xkcd.com/info.0.json",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 1:05:02 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Connection: keep-alive\nServer: nginx\nContent-Type: application/json\nLast-Modified: Fri, 28 Apr 2023 21:53:53 GMT\nETag: W/\"644c4071-14d\"\nExpires: Fri, 28 Apr 2023 22:00:09 GMT\nCache-Control: max-age\u003d300\nVia: 1.1 varnish, 1.1 varnish\nAccept-Ranges: bytes\nDate: Sat, 29 Apr 2023 07:35:02 GMT\nAge: 247\nX-Served-By: cache-dfw-kdfw8210069-DFW, cache-maa10250-MAA\nX-Cache: HIT, HIT\nX-Cache-Hits: 4652, 1\nX-Timer: S1682753702.393221,VS0,VE1\nVary: Accept-Encoding\n",
+      "responseBody": "{\"month\": \"4\", \"num\": 2769, \"link\": \"\", \"year\": \"2023\", \"news\": \"\", \"safe_title\": \"Overlapping Circles\", \"transcript\": \"\", \"alt\": \"\\\"The Venn diagram of the sun and the moon is a circle.\\\" --someone being snarky at totality\", \"img\": \"https://imgs.xkcd.com/comics/overlapping_circles.png\", \"title\": \"Overlapping Circles\", \"day\": \"28\"}",
+      "responseReceivedAt": "Apr 29, 2023, 1:05:02 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 1:05:01 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

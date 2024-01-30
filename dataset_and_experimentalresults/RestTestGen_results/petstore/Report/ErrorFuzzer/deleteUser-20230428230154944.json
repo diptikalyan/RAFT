@@ -1,0 +1,31 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "deleteUser-20230428230154944",
+  "testInteractions": [
+    {
+      "requestMethod": "DELETE",
+      "requestURL": "https://petstore.swagger.io/v2/user/%7Busername%7D",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 28, 2023, 11:01:54 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "date: Fri, 28 Apr 2023 17:31:57 GMT\ncontent-length: 0\naccess-control-allow-origin: *\naccess-control-allow-methods: GET, POST, DELETE, PUT\naccess-control-allow-headers: Content-Type, api_key, Authorization\nserver: Jetty(9.2.9.v20150224)\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 28, 2023, 11:01:55 PM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 28, 2023, 11:01:54 PM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "PASS",
+      "message": "The erroneous test sequence was rejected by the server."
+    }
+  },
+  "tags": []
+}

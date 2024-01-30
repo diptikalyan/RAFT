@@ -1,0 +1,12 @@
+name,Operation Coverage (Suite)-value,Parameter coverage-value,Operation Coverage (Runtime Unique)-value_success,Operation Coverage (Runtime Unique)-value_failure,Operation Coverage (Runtime Unique)-value_invalid,Operation Coverage (Runtime Instance-wise)-value_success,Operation Coverage (Runtime Instance-wise)-value_failure,Operation Coverage (Runtime Instance-wise)-value_invalid,Output status code coverage-value,Parameter coverage-value_success,Parameter coverage-value_failure,Parameter coverage-value_invalid,Number of TestOp Executions,Number of 2xx,Number of 4xx,Number of 5xx,Number of Sequences,Successful Sequences
+gestao-hospitalar_morest_metrics.json,100,77.1,90,10,95,34.5,29.8,35.7,53.4,88.9,11.1,100,10900,3760,3893,3247,6553,3350
+languagetool_morest_metrics.json,50,0,100,0,0,100,0,0,50,0,0,0,20,20,0,0,20,20
+market_morest_metrics.json,100,76.5,0,100,0,0,100,0,23.6,0,100,0,305522,0,0,305522,303460,0
+ncs_morest_metrics.json,100,100,100,0,0,100,0,0,25,100,0,0,84735,84735,0,0,80304,80304
+person-controller_morest_metrics.json,91.7,50,63.6,72.7,0,1.5,98.5,0,30,75,100,0,175324,2546,0,172778,175315,2544
+petstore_morest_metrics.json,95,80,100,21.1,10.5,95.8,3.3,0.9,75.8,100,20,10,659,631,6,22,605,589
+project_problem_controller_morest_metrics.json,62.5,30,60,40,0,45.8,54.2,0,13.9,66.7,33.3,0,18307,8389,0,9918,18307,8389
+restcountries_morest_metrics.json,95.5,94.1,100,4.8,0,73.3,26.7,0,100,100,6.2,0,720,528,0,192,719,527
+restfulwebservices_morest_metrics.json,100,28.1,75.8,21.2,48.5,8.4,83.1,8.5,34.5,33.3,0,77.8,35416,2971,3024,29421,31016,2603
+scs_morest_metrics.json,100,100,100,0,0,100,0,0,25,100,0,0,88659,88659,0,0,88659,88659
+xkcd_morest_metrics.json,100,0,100,0,0,100,0,0,100,0,0,0,15517,15517,0,0,15517,15517

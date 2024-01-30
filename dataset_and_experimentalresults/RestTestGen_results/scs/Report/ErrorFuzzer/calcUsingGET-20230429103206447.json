@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "calcUsingGET-20230429103206447",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/calc/%7Bop%7D/-9223372036854775808/-9223372036854775808",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:32:06 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nContent-Length: 3\nDate: Sat, 29 Apr 2023 05:02:05 GMT\n",
+      "responseBody": "0.0",
+      "responseReceivedAt": "Apr 29, 2023, 10:32:06 AM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:32:06 AM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "The erroneous test sequence was accepted as valid by the server."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "v1Subregion-20230429104922151",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://irlverifai.sl.cloud9.ibm.com:6060/rest/v1/subregion/",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:49:22 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "Content-Length: 0\nDate: Sat, 29 Apr 2023 05:19:22 GMT\nKeep-Alive: timeout\u003d60\nConnection: keep-alive\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 29, 2023, 10:49:22 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:49:22 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

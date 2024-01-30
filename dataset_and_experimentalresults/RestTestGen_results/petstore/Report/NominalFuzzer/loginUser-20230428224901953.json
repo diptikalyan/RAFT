@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "loginUser-20230428224901953",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://petstore.swagger.io/v2/user/login?password\u003dWvfp\u0026username\u003dprotozoacide",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 28, 2023, 10:49:02 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "date: Fri, 28 Apr 2023 17:19:05 GMT\ncontent-type: application/json\naccess-control-allow-origin: *\naccess-control-allow-methods: GET, POST, DELETE, PUT\naccess-control-allow-headers: Content-Type, api_key, Authorization\nx-expires-after: Fri Apr 28 18:19:05 UTC 2023\nx-rate-limit: 5000\nserver: Jetty(9.2.9.v20150224)\n",
+      "responseBody": "{\"code\":200,\"type\":\"unknown\",\"message\":\"logged in user session:1682702345111\"}",
+      "responseReceivedAt": "Apr 28, 2023, 10:49:02 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 28, 2023, 10:49:01 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

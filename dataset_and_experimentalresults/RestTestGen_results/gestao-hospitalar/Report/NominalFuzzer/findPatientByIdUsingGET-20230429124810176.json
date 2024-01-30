@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "findPatientByIdUsingGET-20230429124810176",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/v1/hospitais/eb86:12ca:d9b9:6abf:91fc:b12e:91a2:9910/pacientes/3ea8:1774:b11f:fd27:a347:e698:3372:1ce8",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:48:10 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "Content-Length: 0\nDate: Sat, 29 Apr 2023 07:18:09 GMT\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:10 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:10 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

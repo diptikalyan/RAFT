@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getOrderById-20230428224849632",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://petstore.swagger.io/v2/store/order/17",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 28, 2023, 10:48:52 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "date: Fri, 28 Apr 2023 17:18:55 GMT\ncontent-type: application/json\naccess-control-allow-origin: *\naccess-control-allow-methods: GET, POST, DELETE, PUT\naccess-control-allow-headers: Content-Type, api_key, Authorization\nserver: Jetty(9.2.9.v20150224)\n",
+      "responseBody": "{\"id\":17,\"petId\":17,\"quantity\":0,\"shipDate\":\"2023-04-28T14:56:32.205+0000\",\"status\":\"placed\",\"complete\":true}",
+      "responseReceivedAt": "Apr 28, 2023, 10:48:52 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 28, 2023, 10:48:49 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

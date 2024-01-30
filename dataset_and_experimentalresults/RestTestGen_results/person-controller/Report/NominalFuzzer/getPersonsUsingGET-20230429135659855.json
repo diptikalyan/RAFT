@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getPersonsUsingGET-20230429135659855",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:50111/api/persons",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 1:57:00 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 08:27:00 GMT\nKeep-Alive: timeout\u003d60\nConnection: keep-alive\n",
+      "responseBody": "[{\"id\":\"63e4aac7010cd61b01cd5c57\",\"firstName\":\"swagatam\",\"lastName\":\"swagatam\",\"age\":25,\"address\":{\"number\":0,\"street\":\"kolk\",\"postcode\":\"string\",\"city\":\"blr\",\"country\":\"string\"},\"createdAt\":\"2023-02-09T08:10:52.481+00:00\",\"insurance\":true,\"cars\":[{\"brand\":\"lambo\",\"model\":\"string\",\"maxSpeedKmH\":0.0}]}]",
+      "responseReceivedAt": "Apr 29, 2023, 1:57:00 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 1:56:59 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

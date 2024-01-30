@@ -1,0 +1,123 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 2 and covered is 2",
+   "details": {
+    "Operations covered": [
+     "POST /check",
+     "GET /languages"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 0.0,
+   "explanation": "Total number of parameters is 12 and covered parameters is 0",
+   "details": {
+    "Parameters covered": {},
+    "Parameters missed": {
+     "checkUsingPOST": [
+      "enabledCategories",
+      "data",
+      "preferredVariants",
+      "language",
+      "dicts",
+      "enabledRules",
+      "level",
+      "disabledCategories",
+      "motherTongue",
+      "enabledOnly",
+      "text",
+      "disabledRules"
+     ]
+    }
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 50.0,
+   "value_failure": 0.0,
+   "value_invalid": 50.0,
+   "explanation": "Total number of test suite operations is 2 and successfully covered is 1",
+   "details": {
+    "Operations successful": [
+     "GET_languages"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "POST_check"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 8.4,
+   "value_failure": 0.0,
+   "value_invalid": 91.6,
+   "explanation": "Total number of test suite operations is 215 and successfully covered is 18",
+   "details": {
+    "Operations successful": [
+     "GET_languages"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "POST_check"
+    ]
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 0.0,
+   "explanation": "Total number of parameters is 12 and covered parameters is 0",
+   "details": {
+    "Parameters covered": {},
+    "Parameters missed": {
+     "checkUsingPOST": [
+      "enabledCategories",
+      "data",
+      "preferredVariants",
+      "language",
+      "dicts",
+      "enabledRules",
+      "level",
+      "disabledCategories",
+      "motherTongue",
+      "enabledOnly",
+      "text",
+      "disabledRules"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 100.0,
+   "explanation": "Total number of status codes in API is 2 and codes covered is 2",
+   "details": {
+    "Missed response codes": {
+     "checkUsingPOST": [
+      "200"
+     ],
+     "languagesUsingGET": []
+    }
+   }
+  }
+ ],
+ "Number of TestOp Executions": 215,
+ "Number of 2xx": 18,
+ "Number of 4xx": 197,
+ "Number of 5xx": 0,
+ "Number of Sequences": 215,
+ "Successful Sequences": 18
+}

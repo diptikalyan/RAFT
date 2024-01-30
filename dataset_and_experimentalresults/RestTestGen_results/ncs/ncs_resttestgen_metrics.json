@@ -1,0 +1,195 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 6 and covered is 6",
+   "details": {
+    "Operations covered": [
+     "GET /api/gammq/{a}/{x}",
+     "GET /api/fisher/{m}/{n}/{x}",
+     "GET /api/remainder/{a}/{b}",
+     "GET /api/bessj/{n}/{x}",
+     "GET /api/expint/{n}/{x}",
+     "GET /api/triangle/{a}/{b}/{c}"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 100.0,
+   "explanation": "Total number of parameters is 14 and covered parameters is 14",
+   "details": {
+    "Parameters covered": {
+     "bessjUsingGET": [
+      "n",
+      "x"
+     ],
+     "expintUsingGET": [
+      "n",
+      "x"
+     ],
+     "fisherUsingGET": [
+      "n",
+      "x",
+      "m"
+     ],
+     "gammqUsingGET": [
+      "x",
+      "a"
+     ],
+     "remainderUsingGET": [
+      "b",
+      "a"
+     ],
+     "checkTriangleUsingGET": [
+      "b",
+      "c",
+      "a"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 100.0,
+   "value_failure": 0.0,
+   "value_invalid": 83.3,
+   "explanation": "Total number of test suite operations is 6 and successfully covered is 6",
+   "details": {
+    "Operations successful": [
+     "expintUsingGET",
+     "fisherUsingGET",
+     "remainderUsingGET",
+     "bessjUsingGET",
+     "checkTriangleUsingGET",
+     "gammqUsingGET"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "expintUsingGET",
+     "fisherUsingGET",
+     "remainderUsingGET",
+     "bessjUsingGET",
+     "gammqUsingGET"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 54.5,
+   "value_failure": 0.0,
+   "value_invalid": 45.5,
+   "explanation": "Total number of test suite operations is 112 and successfully covered is 61",
+   "details": {
+    "Operations successful": [
+     "expintUsingGET",
+     "fisherUsingGET",
+     "remainderUsingGET",
+     "bessjUsingGET",
+     "checkTriangleUsingGET",
+     "gammqUsingGET"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "expintUsingGET",
+     "fisherUsingGET",
+     "remainderUsingGET",
+     "bessjUsingGET",
+     "gammqUsingGET"
+    ]
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 100.0,
+   "explanation": "Total number of parameters is 14 and covered parameters is 14",
+   "details": {
+    "Parameters covered": {
+     "bessjUsingGET": [
+      "n",
+      "x"
+     ],
+     "expintUsingGET": [
+      "n",
+      "x"
+     ],
+     "fisherUsingGET": [
+      "n",
+      "x",
+      "m"
+     ],
+     "gammqUsingGET": [
+      "x",
+      "a"
+     ],
+     "remainderUsingGET": [
+      "b",
+      "a"
+     ],
+     "checkTriangleUsingGET": [
+      "b",
+      "c",
+      "a"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 50.0,
+   "explanation": "Total number of status codes in API is 24 and codes covered is 12",
+   "details": {
+    "Missed response codes": {
+     "bessjUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "expintUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "fisherUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "gammqUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "remainderUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "checkTriangleUsingGET": [
+      "404",
+      "403",
+      "401"
+     ]
+    }
+   }
+  }
+ ],
+ "Number of TestOp Executions": 112,
+ "Number of 2xx": 61,
+ "Number of 4xx": 51,
+ "Number of 5xx": 0,
+ "Number of Sequences": 112,
+ "Successful Sequences": 61
+}

@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "text2txtUsingGET-20230429103207872",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/text2txt/%7Bword1%7D/e45b:b934:7322:6020:007f:c4c7:3cd8:34fa/psychophonasthenia",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:32:07 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nContent-Length: 0\nDate: Sat, 29 Apr 2023 05:02:07 GMT\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 29, 2023, 10:32:07 AM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:32:07 AM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "The erroneous test sequence was accepted as valid by the server."
+    }
+  },
+  "tags": []
+}

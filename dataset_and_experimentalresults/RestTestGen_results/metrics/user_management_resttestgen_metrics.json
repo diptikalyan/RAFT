@@ -1,0 +1,510 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 23 and covered is 23",
+   "details": {
+    "Operations covered": [
+     "OPTIONS /error",
+     "HEAD /error",
+     "GET /users/{id}",
+     "POST /users/rbac/roles",
+     "PUT /error",
+     "DELETE /users/{id}/roles/{roleId}",
+     "GET /users",
+     "POST /users",
+     "PUT /users/{id}",
+     "PATCH /error",
+     "POST /error",
+     "DELETE /users/rbac/roles/{roleId}",
+     "GET /users/rbac/roles/{roleId}",
+     "DELETE /error",
+     "POST /login",
+     "GET /users/rbac/permissions",
+     "POST /users/rbac/roles/{roleId}/permissions/{permissionKey}",
+     "POST /users/{id}/roles/{roleId}",
+     "DELETE /users/{id}",
+     "DELETE /users/rbac/roles/{roleId}/permissions/{permissionKey}",
+     "GET /users/rbac/roles",
+     "POST /users/register",
+     "GET /error"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 350.0,
+   "explanation": "Total number of parameters is 18 and covered parameters is 63",
+   "details": {
+    "Parameters covered": {
+     "loginUsingPOST": [
+      "password",
+      "username"
+     ],
+     "createUserUsingPOST": [
+      "address",
+      "facebook",
+      "username",
+      "contactNote",
+      "note",
+      "linkedin",
+      "secured",
+      "mobile",
+      "email",
+      "surname",
+      "country",
+      "enabled",
+      "address2",
+      "city",
+      "zipCode",
+      "gender",
+      "birthDate",
+      "website",
+      "skype",
+      "name",
+      "password"
+     ],
+     "getRoleByIdUsingGET": [
+      "roleId"
+     ],
+     "deleteRoleByIdUsingDELETE": [
+      "roleId"
+     ],
+     "addPermissionOnRoleUsingPOST": [
+      "permissionKey",
+      "roleId"
+     ],
+     "removePermissionOnRoleUsingDELETE": [
+      "permissionKey",
+      "roleId"
+     ],
+     "registerNewUserAccountUsingPOST": [
+      "name",
+      "username",
+      "email",
+      "surname",
+      "password",
+      "gender"
+     ],
+     "getUserByIdUsingGET": [
+      "id"
+     ],
+     "updateUserUsingPUT": [
+      "address",
+      "facebook",
+      "username",
+      "contactNote",
+      "note",
+      "linkedin",
+      "secured",
+      "mobile",
+      "email",
+      "surname",
+      "country",
+      "enabled",
+      "address2",
+      "city",
+      "zipCode",
+      "gender",
+      "id",
+      "birthDate",
+      "website",
+      "skype",
+      "name",
+      "password"
+     ],
+     "deleteByIdUsingDELETE": [
+      "id"
+     ],
+     "addRoleUsingPOST": [
+      "id",
+      "roleId"
+     ],
+     "removeRoleUsingDELETE": [
+      "id",
+      "roleId"
+     ]
+    },
+    "Parameters missed": {
+     "loginUsingPOST": [
+      ""
+     ],
+     "createUserUsingPOST": [
+      ""
+     ],
+     "createRoleUsingPOST": [
+      "string"
+     ],
+     "registerNewUserAccountUsingPOST": [
+      ""
+     ],
+     "updateUserUsingPUT": [
+      ""
+     ]
+    }
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 8.7,
+   "value_failure": 87.0,
+   "value_invalid": 13.0,
+   "explanation": "Total number of test suite operations is 23 and successfully covered is 2",
+   "details": {
+    "Operations successful": [
+     "getRolePresentationListUsingGET",
+     "getPermissionPresentationListUsingGET"
+    ],
+    "Operations failed": [
+     "deleteRoleByIdUsingDELETE",
+     "errorUsingOPTIONS",
+     "errorUsingPATCH",
+     "createUserUsingPOST",
+     "errorUsingPUT",
+     "errorUsingHEAD",
+     "getRoleByIdUsingGET",
+     "errorUsingDELETE",
+     "getUserByIdUsingGET",
+     "registerNewUserAccountUsingPOST",
+     "removePermissionOnRoleUsingDELETE",
+     "deleteByIdUsingDELETE",
+     "updateUserUsingPUT",
+     "errorUsingPOST",
+     "addRoleUsingPOST",
+     "errorUsingGET",
+     "loginUsingPOST",
+     "addPermissionOnRoleUsingPOST",
+     "removeRoleUsingDELETE",
+     "getUserPresentationListUsingGET"
+    ],
+    "Operations invalid": [
+     "createRoleUsingPOST",
+     "updateUserUsingPUT",
+     "createUserUsingPOST"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 1.1,
+   "value_failure": 93.3,
+   "value_invalid": 5.6,
+   "explanation": "Total number of test suite operations is 980 and successfully covered is 11",
+   "details": {
+    "Operations successful": [
+     "getRolePresentationListUsingGET",
+     "getPermissionPresentationListUsingGET"
+    ],
+    "Operations failed": [
+     "deleteRoleByIdUsingDELETE",
+     "errorUsingOPTIONS",
+     "errorUsingPATCH",
+     "createUserUsingPOST",
+     "errorUsingPUT",
+     "errorUsingHEAD",
+     "getRoleByIdUsingGET",
+     "errorUsingDELETE",
+     "getUserByIdUsingGET",
+     "registerNewUserAccountUsingPOST",
+     "removePermissionOnRoleUsingDELETE",
+     "deleteByIdUsingDELETE",
+     "updateUserUsingPUT",
+     "errorUsingPOST",
+     "addRoleUsingPOST",
+     "errorUsingGET",
+     "loginUsingPOST",
+     "addPermissionOnRoleUsingPOST",
+     "removeRoleUsingDELETE",
+     "getUserPresentationListUsingGET"
+    ],
+    "Operations invalid": [
+     "createRoleUsingPOST",
+     "updateUserUsingPUT",
+     "createUserUsingPOST"
+    ]
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 350.0,
+   "explanation": "Total number of parameters is 18 and covered parameters is 63",
+   "details": {
+    "Parameters covered": {
+     "loginUsingPOST": [
+      "password",
+      "username"
+     ],
+     "createUserUsingPOST": [
+      "address",
+      "facebook",
+      "username",
+      "contactNote",
+      "note",
+      "linkedin",
+      "secured",
+      "mobile",
+      "email",
+      "surname",
+      "country",
+      "enabled",
+      "address2",
+      "city",
+      "zipCode",
+      "gender",
+      "birthDate",
+      "website",
+      "skype",
+      "name",
+      "password"
+     ],
+     "getRoleByIdUsingGET": [
+      "roleId"
+     ],
+     "deleteRoleByIdUsingDELETE": [
+      "roleId"
+     ],
+     "addPermissionOnRoleUsingPOST": [
+      "permissionKey",
+      "roleId"
+     ],
+     "removePermissionOnRoleUsingDELETE": [
+      "permissionKey",
+      "roleId"
+     ],
+     "registerNewUserAccountUsingPOST": [
+      "name",
+      "username",
+      "email",
+      "surname",
+      "password",
+      "gender"
+     ],
+     "getUserByIdUsingGET": [
+      "id"
+     ],
+     "updateUserUsingPUT": [
+      "address",
+      "facebook",
+      "username",
+      "contactNote",
+      "note",
+      "linkedin",
+      "secured",
+      "mobile",
+      "email",
+      "surname",
+      "country",
+      "enabled",
+      "address2",
+      "city",
+      "zipCode",
+      "gender",
+      "id",
+      "birthDate",
+      "website",
+      "skype",
+      "name",
+      "password"
+     ],
+     "deleteByIdUsingDELETE": [
+      "id"
+     ],
+     "addRoleUsingPOST": [
+      "id",
+      "roleId"
+     ],
+     "removeRoleUsingDELETE": [
+      "id",
+      "roleId"
+     ]
+    },
+    "Parameters missed": {
+     "loginUsingPOST": [
+      ""
+     ],
+     "createUserUsingPOST": [
+      ""
+     ],
+     "createRoleUsingPOST": [
+      "string"
+     ],
+     "registerNewUserAccountUsingPOST": [
+      ""
+     ],
+     "updateUserUsingPUT": [
+      ""
+     ]
+    }
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 27.7,
+   "explanation": "Total number of status codes in API is 101 and codes covered is 28",
+   "details": {
+    "Missed response codes": {
+     "errorUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "errorUsingPUT": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "errorUsingPOST": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "errorUsingDELETE": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "errorUsingOPTIONS": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "errorUsingHEAD": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "errorUsingPATCH": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "loginUsingPOST": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "getUserPresentationListUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "createUserUsingPOST": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "getPermissionPresentationListUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "getRolePresentationListUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "createRoleUsingPOST": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "getRoleByIdUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "deleteRoleByIdUsingDELETE": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "addPermissionOnRoleUsingPOST": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "removePermissionOnRoleUsingDELETE": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "registerNewUserAccountUsingPOST": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "getUserByIdUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "updateUserUsingPUT": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "deleteByIdUsingDELETE": [
+      "200",
+      "403",
+      "401"
+     ],
+     "addRoleUsingPOST": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "removeRoleUsingDELETE": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ]
+    }
+   }
+  }
+ ],
+ "Number of TestOp Executions": 980,
+ "Number of 2xx": 11,
+ "Number of 4xx": 55,
+ "Number of 5xx": 914,
+ "Number of Sequences": 980,
+ "Successful Sequences": 11
+}

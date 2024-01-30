@@ -1,0 +1,299 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 12 and covered is 12",
+   "details": {
+    "Operations covered": [
+     "averageAgeUsingGET",
+     "putPersonUsingPUT_1",
+     "postPersonUsingPOST",
+     "getPersonsUsingGET_1",
+     "postPersonsUsingPOST",
+     "deletePersonsUsingDELETE",
+     "getCountUsingGET",
+     "putPersonUsingPUT",
+     "getPersonUsingGET",
+     "deletePersonsUsingDELETE_1",
+     "getPersonsUsingGET",
+     "deletePersonUsingDELETE"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 100.0,
+   "explanation": "Total number of parameters is 8 and covered parameters is 8",
+   "details": {
+    "Parameters covered": {
+     "postPersonUsingPOST": [
+      "person"
+     ],
+     "putPersonUsingPUT": [
+      "person"
+     ],
+     "getPersonUsingGET": [
+      "id"
+     ],
+     "deletePersonUsingDELETE": [
+      "id"
+     ],
+     "postPersonsUsingPOST": [
+      "persons"
+     ],
+     "putPersonUsingPUT_1": [
+      "persons"
+     ],
+     "getPersonsUsingGET_1": [
+      "ids"
+     ],
+     "deletePersonsUsingDELETE_1": [
+      "ids"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 41.7,
+   "value_failure": 50.0,
+   "value_invalid": 0.0,
+   "explanation": "Total number of test suite operations is 12 and successfully covered is 5",
+   "details": {
+    "Operations successful": [
+     "averageAgeUsingGET",
+     "postPersonUsingPOST",
+     "putPersonUsingPUT",
+     "getCountUsingGET",
+     "getPersonsUsingGET"
+    ],
+    "Operations failed": [
+     "getPersonsUsingGET_1",
+     "postPersonsUsingPOST",
+     "deletePersonsUsingDELETE",
+     "getPersonUsingGET",
+     "deletePersonsUsingDELETE_1",
+     "deletePersonUsingDELETE"
+    ],
+    "Operations invalid": []
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 62.3,
+   "value_failure": 26.1,
+   "value_invalid": 0.0,
+   "explanation": "Total number of test suite operations is 69 and successfully covered is 43",
+   "details": {
+    "Operations successful": [
+     "averageAgeUsingGET",
+     "postPersonUsingPOST",
+     "putPersonUsingPUT",
+     "getCountUsingGET",
+     "getPersonsUsingGET"
+    ],
+    "Operations failed": [
+     "getPersonsUsingGET_1",
+     "postPersonsUsingPOST",
+     "deletePersonsUsingDELETE",
+     "getPersonUsingGET",
+     "deletePersonsUsingDELETE_1",
+     "deletePersonUsingDELETE"
+    ],
+    "Operations invalid": []
+   }
+  },
+  {
+   "name": "Output status class coverage",
+   "description": "Percentage of status code classes (2xx, 3xx, 4xx, 5xx) covered for all operations, as obtained in API responses",
+   "value": 22.9,
+   "explanation": "Total number of status code classes in API is 48 and classes covered is 11",
+   "details": {
+    "Missed response codes": {
+     "postPersonUsingPOST": [
+      "404",
+      "403",
+      "401"
+     ],
+     "putPersonUsingPUT": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "getPersonUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "deletePersonUsingDELETE": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "getPersonsUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "postPersonsUsingPOST": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "putPersonUsingPUT_1": [
+      "201",
+      "403",
+      "404",
+      "200",
+      "401"
+     ],
+     "deletePersonsUsingDELETE": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "averageAgeUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "getCountUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "getPersonsUsingGET_1": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "deletePersonsUsingDELETE_1": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 22.0,
+   "explanation": "Total number of status codes in API is 50 and codes covered is 11",
+   "details": {
+    "Missed response codes": {
+     "postPersonUsingPOST": [
+      "404",
+      "403",
+      "401"
+     ],
+     "putPersonUsingPUT": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "getPersonUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "deletePersonUsingDELETE": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "getPersonsUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "postPersonsUsingPOST": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "putPersonUsingPUT_1": [
+      "201",
+      "403",
+      "404",
+      "200",
+      "401"
+     ],
+     "deletePersonsUsingDELETE": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "averageAgeUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "getCountUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "getPersonsUsingGET_1": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "deletePersonsUsingDELETE_1": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of executed parameters in the API that are successfully covered",
+   "value_success": 28.6,
+   "value_failure": 71.4,
+   "value_invalid": 0.0,
+   "explanation": "Total number of parameters used in runs is 7 and covered parameters is {'postPersonUsingPOST': ['person'], 'putPersonUsingPUT': ['person']}",
+   "details": {
+    "Parameters covered": {
+     "postPersonUsingPOST": [
+      "person"
+     ],
+     "putPersonUsingPUT": [
+      "person"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "Number of Test Executions": 46,
+ "Number of 2xx": 43,
+ "Number of 4xx": 0,
+ "Number of 5xx": 18,
+ "Number of Sequences": 46,
+ "Successful Sequences": 28
+}

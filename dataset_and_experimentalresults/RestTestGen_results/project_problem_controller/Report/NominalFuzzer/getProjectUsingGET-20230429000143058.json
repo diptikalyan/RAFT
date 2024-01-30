@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getProjectUsingGET-20230429000143058",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:50112/api/project/bv3G3zRauuFXVnwi672b17yHr8rH5k4aK18pEEJ6Fq_d21hZs5eiU4SeM2mKcBKA27JNs20XygD_3Aa0npvX6On3kF1USHlfdieJuOoLA4je9-0mFbG5d5XNWOp2RBX04ZM\u003d",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:01:43 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Fri, 28 Apr 2023 18:31:42 GMT\n",
+      "responseBody": "{\"timeStamp\":\"2023-04-28T18:31:43.151+0000\",\"message\":\"No Project with that code\",\"details\":\"uri\u003d/api/project/bv3G3zRauuFXVnwi672b17yHr8rH5k4aK18pEEJ6Fq_d21hZs5eiU4SeM2mKcBKA27JNs20XygD_3Aa0npvX6On3kF1USHlfdieJuOoLA4je9-0mFbG5d5XNWOp2RBX04ZM\u003d\"}",
+      "responseReceivedAt": "Apr 29, 2023, 12:01:43 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:01:43 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

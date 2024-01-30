@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "deleteUser-20230428225434562",
+  "testInteractions": [
+    {
+      "requestMethod": "DELETE",
+      "requestURL": "https://petstore.swagger.io/v2/user/21:04:19",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 28, 2023, 10:54:34 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "date: Fri, 28 Apr 2023 17:24:37 GMT\ncontent-length: 0\naccess-control-allow-origin: *\naccess-control-allow-methods: GET, POST, DELETE, PUT\naccess-control-allow-headers: Content-Type, api_key, Authorization\nserver: Jetty(9.2.9.v20150224)\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 28, 2023, 10:54:34 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 28, 2023, 10:54:34 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

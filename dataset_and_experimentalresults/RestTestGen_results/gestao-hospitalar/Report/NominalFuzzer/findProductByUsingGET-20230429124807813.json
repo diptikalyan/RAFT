@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "findProductByUsingGET-20230429124807813",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/v1/hospitais/20150926/estoque/Q5p9U2oe8-Rwuj0Pm8GeJlsMym_yJoBIpNXTSmPoqTAVD635zTYJ6QVZJNALquX7agI0Yyqm6iQzzt6Tho7R6JkhHhURLmxeiXfu_yU\u003d",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:48:07 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "Content-Length: 0\nDate: Sat, 29 Apr 2023 07:18:07 GMT\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:07 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:07 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

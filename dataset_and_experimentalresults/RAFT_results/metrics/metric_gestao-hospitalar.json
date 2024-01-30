@@ -1,0 +1,503 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 20 and covered is 20",
+   "details": {
+    "Operations covered": [
+     "verificaLeitosDisponiveisUsingGET",
+     "insertUsingPOST",
+     "findLocationNearHospitalByUsingGET",
+     "hospitalMaisProximoUsingGET",
+     "checkoutPacientUsingPOST",
+     "findByIdUsingGET",
+     "deleteUsingDELETE",
+     "findProductByUsingGET",
+     "findPatientsUsingGET",
+     "updateUsingPUT",
+     "findHospitalNearHospitalByUsingGET",
+     "insertUsingPOST_1",
+     "deleteByIdUsingDELETE",
+     "transferenciaProdutoUsingPOST",
+     "updateUsingPUT_1",
+     "checkinPacientUsingPOST",
+     "findAllProductByUsingGET",
+     "findAllUsingGET",
+     "findPatientByIdUsingGET",
+     "updatePatientUsingPUT"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 100.0,
+   "explanation": "Total number of parameters is 35 and covered parameters is 35",
+   "details": {
+    "Parameters covered": {
+     "insertUsingPOST": [
+      "objDTO"
+     ],
+     "hospitalMaisProximoUsingGET": [
+      "lon",
+      "raioMaximo",
+      "lat"
+     ],
+     "findByIdUsingGET": [
+      "hospital_id"
+     ],
+     "updateUsingPUT": [
+      "hospital_id",
+      "objDTO"
+     ],
+     "deleteByIdUsingDELETE": [
+      "hospital_id"
+     ],
+     "findAllProductByUsingGET": [
+      "hospital_id"
+     ],
+     "insertUsingPOST_1": [
+      "hospital_id",
+      "productDTO"
+     ],
+     "findProductByUsingGET": [
+      "hospital_id",
+      "produto_id"
+     ],
+     "updateUsingPUT_1": [
+      "produto_id",
+      "hospital_id",
+      "productDTO"
+     ],
+     "deleteUsingDELETE": [
+      "hospital_id",
+      "produto_id"
+     ],
+     "findHospitalNearHospitalByUsingGET": [
+      "hospital_id",
+      "raio"
+     ],
+     "findPatientsUsingGET": [
+      "hospital_id"
+     ],
+     "checkinPacientUsingPOST": [
+      "hospital_id",
+      "patient"
+     ],
+     "checkoutPacientUsingPOST": [
+      "hospital_id",
+      "idPatient"
+     ],
+     "findPatientByIdUsingGET": [
+      "hospital_id",
+      "patientId"
+     ],
+     "updatePatientUsingPUT": [
+      "patientId",
+      "hospital_id",
+      "patient"
+     ],
+     "findLocationNearHospitalByUsingGET": [
+      "hospital_id"
+     ],
+     "verificaLeitosDisponiveisUsingGET": [
+      "id"
+     ],
+     "transferenciaProdutoUsingPOST": [
+      "productId",
+      "id",
+      "quantidade"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 80.0,
+   "value_failure": 0.0,
+   "value_invalid": 20.0,
+   "explanation": "Total number of test suite operations is 20 and successfully covered is 16",
+   "details": {
+    "Operations successful": [
+     "deleteUsingDELETE",
+     "checkinPacientUsingPOST",
+     "findAllProductByUsingGET",
+     "findHospitalNearHospitalByUsingGET",
+     "verificaLeitosDisponiveisUsingGET",
+     "findProductByUsingGET",
+     "insertUsingPOST",
+     "insertUsingPOST_1",
+     "findLocationNearHospitalByUsingGET",
+     "findAllUsingGET",
+     "deleteByIdUsingDELETE",
+     "findPatientByIdUsingGET",
+     "findByIdUsingGET",
+     "updateUsingPUT_1",
+     "findPatientsUsingGET",
+     "updatePatientUsingPUT"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "updateUsingPUT",
+     "hospitalMaisProximoUsingGET",
+     "checkoutPacientUsingPOST",
+     "transferenciaProdutoUsingPOST"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 91.8,
+   "value_failure": 0.0,
+   "value_invalid": 7.6,
+   "explanation": "Total number of test suite operations is 158 and successfully covered is 145",
+   "details": {
+    "Operations successful": [
+     "deleteUsingDELETE",
+     "checkinPacientUsingPOST",
+     "findAllProductByUsingGET",
+     "findHospitalNearHospitalByUsingGET",
+     "verificaLeitosDisponiveisUsingGET",
+     "findProductByUsingGET",
+     "insertUsingPOST",
+     "insertUsingPOST_1",
+     "findLocationNearHospitalByUsingGET",
+     "findAllUsingGET",
+     "deleteByIdUsingDELETE",
+     "findPatientByIdUsingGET",
+     "findByIdUsingGET",
+     "updateUsingPUT_1",
+     "findPatientsUsingGET",
+     "updatePatientUsingPUT"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "updateUsingPUT",
+     "hospitalMaisProximoUsingGET",
+     "checkoutPacientUsingPOST",
+     "transferenciaProdutoUsingPOST"
+    ]
+   }
+  },
+  {
+   "name": "Output status class coverage",
+   "description": "Percentage of status code classes (2xx, 3xx, 4xx, 5xx) covered for all operations, as obtained in API responses",
+   "value": 25.0,
+   "explanation": "Total number of status code classes in API is 80 and classes covered is 20",
+   "details": {
+    "Missed response codes": {
+     "findAllUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "insertUsingPOST": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "hospitalMaisProximoUsingGET": [
+      "200",
+      "403",
+      "401"
+     ],
+     "findByIdUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "updateUsingPUT": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "deleteByIdUsingDELETE": [
+      "401",
+      "403",
+      "204"
+     ],
+     "findAllProductByUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "insertUsingPOST_1": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "findProductByUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "updateUsingPUT_1": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "deleteUsingDELETE": [
+      "401",
+      "403",
+      "204"
+     ],
+     "findHospitalNearHospitalByUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "findPatientsUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "checkinPacientUsingPOST": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "checkoutPacientUsingPOST": [
+      "201",
+      "200",
+      "403",
+      "401"
+     ],
+     "findPatientByIdUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "updatePatientUsingPUT": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "findLocationNearHospitalByUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "verificaLeitosDisponiveisUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "transferenciaProdutoUsingPOST": [
+      "201",
+      "200",
+      "403",
+      "401"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 22.7,
+   "explanation": "Total number of status codes in API is 88 and codes covered is 20",
+   "details": {
+    "Missed response codes": {
+     "findAllUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "insertUsingPOST": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "hospitalMaisProximoUsingGET": [
+      "200",
+      "403",
+      "401"
+     ],
+     "findByIdUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "updateUsingPUT": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "deleteByIdUsingDELETE": [
+      "401",
+      "403",
+      "204"
+     ],
+     "findAllProductByUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "insertUsingPOST_1": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "findProductByUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "updateUsingPUT_1": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "deleteUsingDELETE": [
+      "401",
+      "403",
+      "204"
+     ],
+     "findHospitalNearHospitalByUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "findPatientsUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "checkinPacientUsingPOST": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "checkoutPacientUsingPOST": [
+      "201",
+      "200",
+      "403",
+      "401"
+     ],
+     "findPatientByIdUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "updatePatientUsingPUT": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "findLocationNearHospitalByUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "verificaLeitosDisponiveisUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "transferenciaProdutoUsingPOST": [
+      "201",
+      "200",
+      "403",
+      "401"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of executed parameters in the API that are successfully covered",
+   "value_success": 71.4,
+   "value_failure": 0.0,
+   "value_invalid": 28.6,
+   "explanation": "Total number of parameters used in runs is 35 and covered parameters is {'insertUsingPOST': ['objDTO'], 'findByIdUsingGET': ['hospital_id'], 'deleteByIdUsingDELETE': ['hospital_id'], 'findAllProductByUsingGET': ['hospital_id'], 'insertUsingPOST_1': ['hospital_id', 'productDTO'], 'findProductByUsingGET': ['hospital_id', 'produto_id'], 'updateUsingPUT_1': ['produto_id', 'hospital_id', 'productDTO'], 'deleteUsingDELETE': ['hospital_id', 'produto_id'], 'findHospitalNearHospitalByUsingGET': ['hospital_id', 'raio'], 'findPatientsUsingGET': ['hospital_id'], 'checkinPacientUsingPOST': ['hospital_id', 'patient'], 'findPatientByIdUsingGET': ['hospital_id', 'patientId'], 'updatePatientUsingPUT': ['patientId', 'hospital_id', 'patient'], 'findLocationNearHospitalByUsingGET': ['hospital_id'], 'verificaLeitosDisponiveisUsingGET': ['id']}",
+   "details": {
+    "Parameters covered": {
+     "insertUsingPOST": [
+      "objDTO"
+     ],
+     "findByIdUsingGET": [
+      "hospital_id"
+     ],
+     "deleteByIdUsingDELETE": [
+      "hospital_id"
+     ],
+     "findAllProductByUsingGET": [
+      "hospital_id"
+     ],
+     "insertUsingPOST_1": [
+      "hospital_id",
+      "productDTO"
+     ],
+     "findProductByUsingGET": [
+      "hospital_id",
+      "produto_id"
+     ],
+     "updateUsingPUT_1": [
+      "produto_id",
+      "hospital_id",
+      "productDTO"
+     ],
+     "deleteUsingDELETE": [
+      "hospital_id",
+      "produto_id"
+     ],
+     "findHospitalNearHospitalByUsingGET": [
+      "hospital_id",
+      "raio"
+     ],
+     "findPatientsUsingGET": [
+      "hospital_id"
+     ],
+     "checkinPacientUsingPOST": [
+      "hospital_id",
+      "patient"
+     ],
+     "findPatientByIdUsingGET": [
+      "hospital_id",
+      "patientId"
+     ],
+     "updatePatientUsingPUT": [
+      "patientId",
+      "hospital_id",
+      "patient"
+     ],
+     "findLocationNearHospitalByUsingGET": [
+      "hospital_id"
+     ],
+     "verificaLeitosDisponiveisUsingGET": [
+      "id"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "Number of Test Executions": 67,
+ "Number of 2xx": 145,
+ "Number of 4xx": 12,
+ "Number of 5xx": 0,
+ "Number of Sequences": 67,
+ "Successful Sequences": 55
+}

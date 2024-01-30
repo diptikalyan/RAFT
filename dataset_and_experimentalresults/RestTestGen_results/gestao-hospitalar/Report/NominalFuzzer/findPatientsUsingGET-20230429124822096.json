@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "findPatientsUsingGET-20230429124822096",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/v1/hospitais/tithal/pacientes",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:48:22 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "Content-Length: 0\nDate: Sat, 29 Apr 2023 07:18:21 GMT\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:22 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:22 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "notyPevarUsingGET-20230429103158037",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/notypevar/-1098431492/%7Bs%7D",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:31:58 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nContent-Length: 1\nDate: Sat, 29 Apr 2023 05:01:57 GMT\n",
+      "responseBody": "2",
+      "responseReceivedAt": "Apr 29, 2023, 10:31:58 AM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:31:58 AM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "The erroneous test sequence was accepted as valid by the server."
+    }
+  },
+  "tags": []
+}

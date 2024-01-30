@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "v2Alphacodes-20230429105430593",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://irlverifai.sl.cloud9.ibm.com:6060/rest/v2/alpha?codes\u003dabc\u0026fields\u003dfalse",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:54:30 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 500
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dutf-8\nContent-Length: 48\nDate: Sat, 29 Apr 2023 05:24:30 GMT\nConnection: close\n",
+      "responseBody": "{\"status\":500,\"message\":\"Internal Server Error\"}",
+      "responseReceivedAt": "Apr 29, 2023, 10:54:30 AM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:54:30 AM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "v1Name-20230429105543296",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://irlverifai.sl.cloud9.ibm.com:6060/rest/v1/name/Malawi?fullText\u003dmetapsychology",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:55:43 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dutf-8\nContent-Length: 560\nDate: Sat, 29 Apr 2023 05:25:42 GMT\nKeep-Alive: timeout\u003d60\nConnection: keep-alive\n",
+      "responseBody": "[{\"name\":\"Malawi\",\"topLevelDomain\":[\".mw\"],\"alpha2Code\":\"MW\",\"alpha3Code\":\"MWI\",\"callingCodes\":[\"265\"],\"capital\":\"Lilongwe\",\"altSpellings\":[\"MW\",\"Republic of Malawi\"],\"region\":\"Africa\",\"subregion\":\"Eastern Africa\",\"population\":16310431,\"latlng\":[-13.5,34.0],\"demonym\":\"Malawian\",\"area\":118484.0,\"gini\":39.0,\"timezones\":[\"UTC+02:00\"],\"borders\":[\"MOZ\",\"TZA\",\"ZMB\"],\"nativeName\":\"Malawi\",\"numericCode\":\"454\",\"currencies\":[\"MWK\"],\"languages\":[\"en\",\"ny\"],\"translations\":{\"de\":\"Malawi\",\"es\":\"Malawi\",\"fr\":\"Malawi\",\"ja\":\"マラウイ\",\"it\":\"Malawi\"},\"relevance\":\"0\"}]",
+      "responseReceivedAt": "Apr 29, 2023, 10:55:43 AM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:55:43 AM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "The erroneous test sequence was accepted as valid by the server."
+    }
+  },
+  "tags": []
+}

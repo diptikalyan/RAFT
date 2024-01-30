@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getUserPresentationListUsingGET-20230502142635579",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:50115/users",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "May 2, 2023, 2:26:35 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 500
+      },
+      "responseHeaders": "Content-Type: application/json\nTransfer-Encoding: chunked\nDate: Tue, 02 May 2023 08:56:35 GMT\nConnection: close\n",
+      "responseBody": "{\"timestamp\":\"2023-05-02T08:56:35.658+0000\",\"status\":500,\"error\":\"Internal Server Error\",\"message\":\"Type definition error: [simple type, class com.giassi.microservice.demo2.rest.users.dtos.ContactDTO]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.giassi.microservice.demo2.rest.users.dtos.ContactDTO and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.giassi.microservice.demo2.rest.users.dtos.UserListDTO[\\\"userList\\\"]-\u003ejava.util.ArrayList[0]-\u003ecom.giassi.microservice.demo2.rest.users.dtos.UserDTO[\\\"contactDTO\\\"])\",\"path\":\"/users\"}",
+      "responseReceivedAt": "May 2, 2023, 2:26:35 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "May 2, 2023, 2:26:35 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

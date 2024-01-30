@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "expintUsingGET-20230429104953152",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/expint/-1091682756/112.76597847596464",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:49:53 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Length: 0\nDate: Sat, 29 Apr 2023 05:19:52 GMT\nConnection: close\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 29, 2023, 10:49:53 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:49:53 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

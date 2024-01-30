@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "v2Alphacode-20230429105228318",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://irlverifai.sl.cloud9.ibm.com:6060/rest/v2/alpha/Sankattan%20Siha%20Na%20Islas%20Mari%C3%A5nas",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:52:29 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dutf-8\nContent-Length: 38\nDate: Sat, 29 Apr 2023 05:22:29 GMT\nConnection: close\n",
+      "responseBody": "{\"status\":400,\"message\":\"Bad Request\"}",
+      "responseReceivedAt": "Apr 29, 2023, 10:52:29 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:52:28 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

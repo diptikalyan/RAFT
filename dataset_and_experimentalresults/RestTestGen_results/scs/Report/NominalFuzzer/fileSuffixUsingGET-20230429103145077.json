@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "fileSuffixUsingGET-20230429103145077",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/filesuffix/2dc06af1-359f-48a0-bf5d-0132a92acc49/doBKiU-zyZp82B62Ly7sVNX7KcVZb2nPTNTMObc_1xw3Mxb9gm1AYqarFRPPYqdFpir5vgK8460v2x6bjR6xIq3_riHiF1VUS4HxWYjFaNhjlRrIq8ILLcITLWqqJNsJ",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:31:45 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nContent-Length: 1\nDate: Sat, 29 Apr 2023 05:01:44 GMT\n",
+      "responseBody": "0",
+      "responseReceivedAt": "Apr 29, 2023, 10:31:45 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:31:45 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

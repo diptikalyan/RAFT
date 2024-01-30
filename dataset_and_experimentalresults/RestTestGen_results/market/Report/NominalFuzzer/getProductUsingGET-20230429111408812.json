@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getProductUsingGET-20230429111408812",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:50117/products/22",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 11:14:08 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 500
+      },
+      "responseHeaders": "X-Content-Type-Options: nosniff\nX-XSS-Protection: 1; mode\u003dblock\nCache-Control: no-cache, no-store, max-age\u003d0, must-revalidate\nPragma: no-cache\nExpires: 0\nContent-Type: application/json\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 05:44:08 GMT\nConnection: close\n",
+      "responseBody": "{\"message\":\"could not prepare statement; SQL [select product0_.id as id1_7_0_, product0_.age as age2_7_0_, product0_.alcohol as alcohol3_7_0_, product0_.available as availabl4_7_0_, product0_.description as descript5_7_0_, product0_.distillery_id as distille9_7_0_, product0_.name as name6_7_0_, product0_.price as price7_7_0_, product0_.volume as volume8_7_0_, distillery1_.id as id1_5_1_, distillery1_.description as descript2_5_1_, distillery1_.region_id as region_i4_5_1_, distillery1_.title as title3_5_1_, region2_.id as id1_8_2_, region2_.color as color2_8_2_, region2_.description as descript3_8_2_, region2_.name as name4_8_2_, region2_.subtitle as subtitle5_8_2_ from product product0_ inner join distillery distillery1_ on product0_.distillery_id\u003ddistillery1_.id inner join region region2_ on distillery1_.region_id\u003dregion2_.id where product0_.id\u003d?]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement\",\"description\":\"uri\u003d/products/22\",\"entityName\":null,\"fieldErrors\":[]}",
+      "responseReceivedAt": "Apr 29, 2023, 11:14:08 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 11:14:08 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

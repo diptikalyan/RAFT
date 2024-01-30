@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "patUsingGET-20230429103144431",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/pat/404/20121228",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:31:44 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nContent-Length: 1\nDate: Sat, 29 Apr 2023 05:01:44 GMT\n",
+      "responseBody": "0",
+      "responseReceivedAt": "Apr 29, 2023, 10:31:44 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:31:44 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

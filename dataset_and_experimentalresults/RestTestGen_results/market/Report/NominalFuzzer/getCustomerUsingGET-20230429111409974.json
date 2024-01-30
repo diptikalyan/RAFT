@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getCustomerUsingGET-20230429111409974",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:50117/customer",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 11:14:09 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 401
+      },
+      "responseHeaders": "WWW-Authenticate: Basic realm\u003d\"Realm\"\nX-Content-Type-Options: nosniff\nX-XSS-Protection: 1; mode\u003dblock\nCache-Control: no-cache, no-store, max-age\u003d0, must-revalidate\nPragma: no-cache\nExpires: 0\nContent-Type: application/json\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 05:44:09 GMT\nKeep-Alive: timeout\u003d60\nConnection: keep-alive\n",
+      "responseBody": "{\"timestamp\":\"2023-04-29T05:44:09.989+00:00\",\"status\":401,\"error\":\"Unauthorized\",\"message\":\"Unauthorized\",\"path\":\"/customer\"}",
+      "responseReceivedAt": "Apr 29, 2023, 11:14:09 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 11:14:09 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getRolePresentationListUsingGET-20230502142605891",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:50115/users/rbac/roles",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "May 2, 2023, 2:26:05 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json\nTransfer-Encoding: chunked\nDate: Tue, 02 May 2023 08:56:05 GMT\nKeep-Alive: timeout\u003d60\nConnection: keep-alive\n",
+      "responseBody": "[{\"id\":2,\"role\":\"ADMINISTRATOR\",\"permissions\":[{\"id\":3,\"permission\":\"ADMIN_USER_DATA\"},{\"id\":1,\"permission\":\"LOGIN\"},{\"id\":2,\"permission\":\"VIEW_PROFILE\"}]},{\"id\":1,\"role\":\"USER\",\"permissions\":[{\"id\":1,\"permission\":\"LOGIN\"},{\"id\":2,\"permission\":\"VIEW_PROFILE\"}]}]",
+      "responseReceivedAt": "May 2, 2023, 2:26:05 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "May 2, 2023, 2:26:05 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

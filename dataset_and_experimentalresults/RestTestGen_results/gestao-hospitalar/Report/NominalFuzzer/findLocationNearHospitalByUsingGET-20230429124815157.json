@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "findLocationNearHospitalByUsingGET-20230429124815157",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/v1/hospitais/b7e4e7e3d54c7/proximidades",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:48:15 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Length: 0\nDate: Sat, 29 Apr 2023 07:18:14 GMT\nConnection: close\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:15 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:15 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "fisherUsingGET-20230429104953373",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/fisher/111/91/71.15889556379501",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:49:53 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Disposition: inline;filename\u003df.txt\nContent-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 05:19:52 GMT\n",
+      "responseBody": "{\"resultAsInt\":null,\"resultAsDouble\":1.0}",
+      "responseReceivedAt": "Apr 29, 2023, 10:49:53 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:49:53 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,97 @@
+{
+  "documented": {
+    "GET /pet/findByTags": [],
+    "PUT /user/{username}": [],
+    "POST /store/order": [],
+    "POST /pet/{petId}": [],
+    "DELETE /user/{username}": [],
+    "POST /pet": [],
+    "DELETE /store/order/{orderId}": [],
+    "POST /user/createWithArray": [],
+    "GET /user/logout": [],
+    "POST /pet/{petId}/uploadImage": [],
+    "GET /pet/findByStatus": [],
+    "GET /pet/{petId}": [],
+    "GET /store/order/{orderId}": [],
+    "PUT /pet": [],
+    "DELETE /pet/{petId}": [],
+    "POST /user/createWithList": [],
+    "POST /user": [],
+    "GET /user/login": [],
+    "GET /user/{username}": [],
+    "GET /store/inventory": []
+  },
+  "documentedTested": {},
+  "notDocumentedTested": {
+    "GET /pet/findByTags": [
+      "200"
+    ],
+    "PUT /user/{username}": [
+      "405",
+      "415"
+    ],
+    "POST /store/order": [
+      "415"
+    ],
+    "POST /pet/{petId}": [
+      "404",
+      "200"
+    ],
+    "DELETE /user/{username}": [
+      "404",
+      "405",
+      "200"
+    ],
+    "POST /pet": [
+      "415"
+    ],
+    "GET /user/logout": [
+      "200"
+    ],
+    "POST /user/createWithArray": [
+      "415"
+    ],
+    "DELETE /store/order/{orderId}": [
+      "404",
+      "200"
+    ],
+    "GET /pet/findByStatus": [
+      "200"
+    ],
+    "POST /pet/{petId}/uploadImage": [
+      "415"
+    ],
+    "GET /pet/{petId}": [
+      "404",
+      "200"
+    ],
+    "GET /store/order/{orderId}": [
+      "404",
+      "200"
+    ],
+    "POST /user/createWithList": [
+      "415"
+    ],
+    "PUT /pet": [
+      "415"
+    ],
+    "DELETE /pet/{petId}": [
+      "404",
+      "200"
+    ],
+    "POST /user": [
+      "415"
+    ],
+    "GET /user/login": [
+      "200"
+    ],
+    "GET /user/{username}": [
+      "404",
+      "405"
+    ],
+    "GET /store/inventory": [
+      "200"
+    ]
+  },
+  "notTested": {}
+}

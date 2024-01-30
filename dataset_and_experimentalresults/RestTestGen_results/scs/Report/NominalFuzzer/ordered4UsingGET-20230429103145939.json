@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "ordered4UsingGET-20230429103145939",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/ordered4/189479964/11a6:69b1:f90c:b1f8:20e4:2eca:4ecb:482b/06:23:48/h\u0027s%20puntal%20Q",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:31:46 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nContent-Length: 9\nDate: Sat, 29 Apr 2023 05:01:45 GMT\n",
+      "responseBody": "unordered",
+      "responseReceivedAt": "Apr 29, 2023, 10:31:46 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:31:45 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "findLocationNearHospitalByUsingGET-20230429124811673",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/v1/hospitais/H4su_RNmfoVIJogXU6KYJWT0a47CjDB_URKMU7SzC9s5XohPjV6tISqkh4AY96sgpYuE6UmG4vaXuD41smqI9mYc54w1zNfI9afT/proximidades",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:48:11 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Length: 0\nDate: Sat, 29 Apr 2023 07:18:11 GMT\nConnection: close\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:11 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:11 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

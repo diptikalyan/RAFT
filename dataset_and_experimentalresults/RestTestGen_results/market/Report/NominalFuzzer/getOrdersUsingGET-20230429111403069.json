@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getOrdersUsingGET-20230429111403069",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:50117/customer/orders",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 11:14:03 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 401
+      },
+      "responseHeaders": "X-Content-Type-Options: nosniff\nX-XSS-Protection: 1; mode\u003dblock\nCache-Control: no-cache, no-store, max-age\u003d0, must-revalidate\nPragma: no-cache\nExpires: 0\nContent-Type: application/json\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 05:44:02 GMT\nKeep-Alive: timeout\u003d60\nConnection: keep-alive\n",
+      "responseBody": "{\"message\":\"Access is denied\",\"description\":\"uri\u003d/customer/orders\",\"entityName\":null,\"fieldErrors\":[]}",
+      "responseReceivedAt": "Apr 29, 2023, 11:14:03 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 11:14:03 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

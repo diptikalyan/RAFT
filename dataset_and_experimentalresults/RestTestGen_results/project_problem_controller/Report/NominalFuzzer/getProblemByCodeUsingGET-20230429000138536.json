@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getProblemByCodeUsingGET-20230429000138536",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:50112/api/problem/od-u7d9DsdgUP1WCWYiUdMOi4EEn1w0Pe9bezEb1lfRo-KLVDj5b47MCVN822cV8dpm_IUbNmezqB7i-YWNVS_fVwKJJklklgqdLEwpqGN5AOWUPsI6fic3a5N8\u003d",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:01:38 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 501
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Fri, 28 Apr 2023 18:31:38 GMT\nConnection: close\n",
+      "responseBody": "{\"timeStamp\":\"2023-04-28T18:31:38.632+0000\",\"message\":\"No data with this code\",\"details\":\"uri\u003d/api/problem/od-u7d9DsdgUP1WCWYiUdMOi4EEn1w0Pe9bezEb1lfRo-KLVDj5b47MCVN822cV8dpm_IUbNmezqB7i-YWNVS_fVwKJJklklgqdLEwpqGN5AOWUPsI6fic3a5N8\u003d\"}",
+      "responseReceivedAt": "Apr 29, 2023, 12:01:38 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:01:38 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

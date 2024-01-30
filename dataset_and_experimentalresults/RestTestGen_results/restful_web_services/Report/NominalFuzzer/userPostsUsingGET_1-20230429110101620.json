@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "userPostsUsingGET_1-20230429110101620",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/rest/users/-1932028070/posts/UIC",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 11:01:01 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "Vary: Origin\nVary: Access-Control-Request-Method\nVary: Access-Control-Request-Headers\nContent-Type: application/json\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 05:31:01 GMT\nKeep-Alive: timeout\u003d60\nConnection: keep-alive\n",
+      "responseBody": "{\"timestamp\":\"2023-04-29T05:31:01.666+00:00\",\"status\":404,\"error\":\"Not Found\",\"message\":\"No message available\",\"path\":\"/rest/users/-1932028070/posts/UIC\"}",
+      "responseReceivedAt": "Apr 29, 2023, 11:01:01 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 11:01:01 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

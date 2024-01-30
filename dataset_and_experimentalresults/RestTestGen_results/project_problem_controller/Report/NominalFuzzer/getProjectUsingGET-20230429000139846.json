@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getProjectUsingGET-20230429000139846",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:50112/api/project/X",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:01:39 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Fri, 28 Apr 2023 18:31:39 GMT\nConnection: close\n",
+      "responseBody": "{\"timeStamp\":\"2023-04-28T18:31:39.971+0000\",\"message\":\"Please Check your code\",\"details\":\"uri\u003d/api/project/X\"}",
+      "responseReceivedAt": "Apr 29, 2023, 12:01:39 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:01:39 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

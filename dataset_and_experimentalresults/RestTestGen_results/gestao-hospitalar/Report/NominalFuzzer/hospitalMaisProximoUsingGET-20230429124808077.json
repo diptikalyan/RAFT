@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "hospitalMaisProximoUsingGET-20230429124808077",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/v1/hospitais/maisProximo?raioMaximo\u003d9223372036854775807\u0026lon\u003d-9223372036854775808\u0026lat\u003d65.68601438116579",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:48:08 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 500
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 07:18:07 GMT\nConnection: close\n",
+      "responseBody": "{\"timestamp\":\"2023-04-29T07:18:08.148+0000\",\"status\":500,\"error\":\"Internal Server Error\",\"message\":\"Query failed with error code 2 and error message \u0027Legacy point is out of bounds for spherical query\u0027 on server localhost:27017; nested exception is com.mongodb.MongoQueryException: Query failed with error code 2 and error message \u0027Legacy point is out of bounds for spherical query\u0027 on server localhost:27017\",\"path\":\"/v1/hospitais/maisProximo\"}",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:08 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:08 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

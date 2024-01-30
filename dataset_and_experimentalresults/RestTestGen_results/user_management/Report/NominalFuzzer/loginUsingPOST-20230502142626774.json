@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "loginUsingPOST-20230502142626774",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "http://localhost:50115/login",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "{}",
+      "requestSentAt": "May 2, 2023, 2:26:26 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 500
+      },
+      "responseHeaders": "Content-Type: application/json\nTransfer-Encoding: chunked\nDate: Tue, 02 May 2023 08:56:26 GMT\nConnection: close\n",
+      "responseBody": "{\"timestamp\":\"2023-05-02T08:56:26.916+0000\",\"status\":500,\"error\":\"Internal Server Error\",\"message\":\"Username or Password cannot be null or empty\",\"path\":\"/login\"}",
+      "responseReceivedAt": "May 2, 2023, 2:26:26 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "May 2, 2023, 2:26:26 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

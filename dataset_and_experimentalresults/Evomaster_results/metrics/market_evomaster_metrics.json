@@ -1,0 +1,252 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 13 and covered is 13",
+   "details": {
+    "Operations covered": [
+     "getCustomerUsingGET",
+     "getOrderUsingGET",
+     "getCartUsingGET",
+     "getProductUsingGET",
+     "updateContactsUsingPUT",
+     "createCustomerUsingPOST",
+     "getContactsUsingGET",
+     "addItemUsingPUT",
+     "setDeliveryUsingPUT",
+     "payByCardUsingPOST",
+     "getProductsUsingGET",
+     "clearCartUsingDELETE",
+     "getOrdersUsingGET"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 52.9,
+   "explanation": "Total number of parameters is 17 and covered parameters is 9",
+   "details": {
+    "Parameters covered": {
+     "getCustomerUsingGET": [
+      "getCustomerUsingGET.query.name"
+     ],
+     "getCartUsingGET": [
+      "getCartUsingGET.query.name"
+     ],
+     "addItemUsingPUT": [
+      "addItemUsingPUT.query.name"
+     ],
+     "clearCartUsingDELETE": [
+      "clearCartUsingDELETE.query.name"
+     ],
+     "setDeliveryUsingPUT": [
+      "setDeliveryUsingPUT.query.included"
+     ],
+     "payByCardUsingPOST": [
+      "payByCardUsingPOST.query.name"
+     ],
+     "getOrderUsingGET": [
+      "getOrderUsingGET.query.name",
+      "getOrderUsingGET.path.orderId"
+     ],
+     "getProductUsingGET": [
+      "getProductUsingGET.path.productId"
+     ]
+    },
+    "Parameters missed": {
+     "addItemUsingPUT": [
+      "addItemUsingPUT.request-body.item"
+     ],
+     "setDeliveryUsingPUT": [
+      "setDeliveryUsingPUT.query.name"
+     ],
+     "payByCardUsingPOST": [
+      "payByCardUsingPOST.request-body.card"
+     ],
+     "getContactsUsingGET": [
+      "getContactsUsingGET.query.name"
+     ],
+     "updateContactsUsingPUT": [
+      "updateContactsUsingPUT.request-body.contactsDto",
+      "updateContactsUsingPUT.query.name"
+     ],
+     "getOrdersUsingGET": [
+      "getOrdersUsingGET.query.name"
+     ],
+     "createCustomerUsingPOST": [
+      "createCustomerUsingPOST.request-body.user"
+     ]
+    }
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 0.0,
+   "value_failure": 38.5,
+   "value_invalid": 84.6,
+   "explanation": "Total number of test suite operations is 13 and successfully covered is 0",
+   "details": {
+    "Operations successful": [],
+    "Operations failed": [
+     "getProductUsingGET",
+     "updateContactsUsingPUT",
+     "createCustomerUsingPOST",
+     "addItemUsingPUT",
+     "getProductsUsingGET"
+    ],
+    "Operations invalid": [
+     "getCustomerUsingGET",
+     "getOrderUsingGET",
+     "getCartUsingGET",
+     "createCustomerUsingPOST",
+     "updateContactsUsingPUT",
+     "getContactsUsingGET",
+     "addItemUsingPUT",
+     "setDeliveryUsingPUT",
+     "payByCardUsingPOST",
+     "clearCartUsingDELETE",
+     "getOrdersUsingGET"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 0.0,
+   "value_failure": 29.4,
+   "value_invalid": 70.6,
+   "explanation": "Total number of test suite operations is 17 and successfully covered is 0",
+   "details": {
+    "Operations successful": [],
+    "Operations failed": [
+     "getProductUsingGET",
+     "updateContactsUsingPUT",
+     "createCustomerUsingPOST",
+     "addItemUsingPUT",
+     "getProductsUsingGET"
+    ],
+    "Operations invalid": [
+     "getCustomerUsingGET",
+     "getOrderUsingGET",
+     "getCartUsingGET",
+     "createCustomerUsingPOST",
+     "updateContactsUsingPUT",
+     "getContactsUsingGET",
+     "addItemUsingPUT",
+     "setDeliveryUsingPUT",
+     "payByCardUsingPOST",
+     "clearCartUsingDELETE",
+     "getOrdersUsingGET"
+    ]
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 30.9,
+   "explanation": "Total number of status codes in API is 55 and codes covered is 17",
+   "details": {
+    "Missed response codes": {
+     "getCustomerUsingGET": [
+      "404",
+      "200",
+      "403"
+     ],
+     "getCartUsingGET": [
+      "404",
+      "200",
+      "403"
+     ],
+     "addItemUsingPUT": [
+      "201",
+      "404",
+      "200",
+      "403"
+     ],
+     "clearCartUsingDELETE": [
+      "200",
+      "403",
+      "204"
+     ],
+     "setDeliveryUsingPUT": [
+      "201",
+      "404",
+      "200",
+      "403"
+     ],
+     "payByCardUsingPOST": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "getContactsUsingGET": [
+      "404",
+      "200",
+      "403"
+     ],
+     "updateContactsUsingPUT": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "getOrdersUsingGET": [
+      "404",
+      "200",
+      "403"
+     ],
+     "getOrderUsingGET": [
+      "404",
+      "200",
+      "403"
+     ],
+     "getProductsUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "getProductUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "createCustomerUsingPOST": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of executed parameters in the API that are successfully covered",
+   "value_success": 0.0,
+   "value_failure": 22.2,
+   "value_invalid": 88.9,
+   "explanation": "Total number of parameters used in runs is 9 and covered successful parameters is {}",
+   "details": {
+    "Parameters covered": {},
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "Number of TestOp Executions": 17,
+ "Number of 2xx": 0,
+ "Number of 4xx": 12,
+ "Number of 5xx": 5,
+ "Number of Sequences": 17,
+ "Successful Sequences": 0
+}

@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "findHospitalNearHospitalByUsingGET-20230429124824098",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/v1/hospitais/VSS%20overabundances%20XN/hospitaisProximos?raio\u003d-9223372036854775808",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:48:24 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Length: 0\nDate: Sat, 29 Apr 2023 07:18:23 GMT\nConnection: close\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:24 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:24 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,1 @@
+{"documented":{"GET /info.0.json":[],"GET /{comicId}/info.0.json":["comicId (ComicId, PATH)"]},"documentedTested":{"GET /{comicId}/info.0.json":["comicId (ComicId, PATH)"]},"notDocumentedTested":{},"notTested":{}}

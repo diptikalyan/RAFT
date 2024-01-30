@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "fileSuffixUsingGET-20230429103145104",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/filesuffix/Mari%20outfish%20V%20Elco%20W/000000111110100101111000011100001011100000000111111000011000110010001011110111101100111101001010",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:31:45 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nContent-Length: 1\nDate: Sat, 29 Apr 2023 05:01:44 GMT\n",
+      "responseBody": "0",
+      "responseReceivedAt": "Apr 29, 2023, 10:31:45 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:31:45 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

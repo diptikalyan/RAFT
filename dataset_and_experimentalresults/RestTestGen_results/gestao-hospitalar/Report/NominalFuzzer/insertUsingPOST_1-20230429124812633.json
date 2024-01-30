@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "insertUsingPOST_1-20230429124812633",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "http://localhost:8080/v1/hospitais/Girgashite/estoque",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 29, 2023, 12:48:12 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 07:18:12 GMT\nConnection: close\n",
+      "responseBody": "{\"timestamp\":\"2023-04-29T07:18:12.706+0000\",\"status\":400,\"error\":\"Bad Request\",\"message\":\"Required request body is missing: public org.springframework.http.ResponseEntity\u003cbr.com.codenation.hospital.dto.ProductDTO\u003e br.com.codenation.hospital.resource.ProductResource.insert(java.lang.String,br.com.codenation.hospital.dto.ProductDTO)\",\"path\":\"/v1/hospitais/Girgashite/estoque\"}",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:12 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:12 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

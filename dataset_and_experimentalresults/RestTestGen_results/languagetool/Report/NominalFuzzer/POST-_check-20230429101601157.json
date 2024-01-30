@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "POST-/check-20230429101601157",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "http://irlverifai.sl.cloud9.ibm.com:8010/v2/check",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 29, 2023, 10:16:03 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Date: Sat, 29 Apr 2023 04:46:03 GMT\nAccess-control-allow-origin: *\nContent-length: 41\n",
+      "responseBody": "Error: Missing \u0027text\u0027 or \u0027data\u0027 parameter",
+      "responseReceivedAt": "Apr 29, 2023, 10:16:03 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:16:01 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

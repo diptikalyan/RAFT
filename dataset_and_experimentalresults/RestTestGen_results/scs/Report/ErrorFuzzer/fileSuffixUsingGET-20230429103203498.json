@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "fileSuffixUsingGET-20230429103203498",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/filesuffix/%7Bdirectory%7D/000100001111011001001010110100111111111010100001010111100001000111000111011111000001011011011001110101100001000010111001011100001100010100010011100001010111000000010011101110010000100100010100110111110001101101101000100010011?-1729350800",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:32:03 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nContent-Length: 1\nDate: Sat, 29 Apr 2023 05:02:02 GMT\n",
+      "responseBody": "0",
+      "responseReceivedAt": "Apr 29, 2023, 10:32:03 AM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:32:03 AM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "The erroneous test sequence was accepted as valid by the server."
+    }
+  },
+  "tags": []
+}

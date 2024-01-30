@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "findPetsByTags-20230428225958767",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://petstore.swagger.io/v2/pet/findByTags?tags\u003dDDS\u0026tags\u003dESMD\u0026tags\u003dimbibes\u0026tags\u003dmdXpyVNswj9APSQeZ0Z2xreBzAfywQhmbJtAwgo\u003d\u0026tags\u003d67Bm6C\u0026tags\u003dfilmable\u0026tags\u003d113.25398",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 28, 2023, 10:59:58 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "date: Fri, 28 Apr 2023 17:30:01 GMT\ncontent-type: application/json\naccess-control-allow-origin: *\naccess-control-allow-methods: GET, POST, DELETE, PUT\naccess-control-allow-headers: Content-Type, api_key, Authorization\nserver: Jetty(9.2.9.v20150224)\n",
+      "responseBody": "[]",
+      "responseReceivedAt": "Apr 28, 2023, 10:59:59 PM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 28, 2023, 10:59:58 PM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "The erroneous test sequence was accepted as valid by the server."
+    }
+  },
+  "tags": []
+}

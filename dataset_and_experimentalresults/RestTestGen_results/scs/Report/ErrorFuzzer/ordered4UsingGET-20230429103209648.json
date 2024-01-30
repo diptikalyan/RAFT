@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "ordered4UsingGET-20230429103209648",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/ordered4/05:16:10/5064525952/%7Bz%7D/MEX",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:32:09 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nContent-Length: 9\nDate: Sat, 29 Apr 2023 05:02:09 GMT\n",
+      "responseBody": "unordered",
+      "responseReceivedAt": "Apr 29, 2023, 10:32:09 AM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:32:09 AM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "The erroneous test sequence was accepted as valid by the server."
+    }
+  },
+  "tags": []
+}

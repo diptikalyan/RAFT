@@ -1,0 +1,294 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 13 and covered is 13",
+   "details": {
+    "Operations covered": [
+     "GET /customer/cart",
+     "POST /customer/cart/pay",
+     "GET /customer",
+     "GET /customer/contacts",
+     "PUT /customer/contacts",
+     "GET /customer/orders/{orderId}",
+     "GET /products/{productId}",
+     "GET /customer/orders",
+     "DELETE /customer/cart",
+     "PUT /customer/cart",
+     "GET /products",
+     "PUT /customer/cart/delivery",
+     "POST /register"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 76.5,
+   "explanation": "Total number of parameters is 17 and covered parameters is 13",
+   "details": {
+    "Parameters covered": {
+     "getCustomerUsingGET": [
+      "name"
+     ],
+     "getCartUsingGET": [
+      "name"
+     ],
+     "addItemUsingPUT": [
+      "name"
+     ],
+     "clearCartUsingDELETE": [
+      "name"
+     ],
+     "setDeliveryUsingPUT": [
+      "name",
+      "included"
+     ],
+     "payByCardUsingPOST": [
+      "name"
+     ],
+     "getContactsUsingGET": [
+      "name"
+     ],
+     "updateContactsUsingPUT": [
+      "name"
+     ],
+     "getOrdersUsingGET": [
+      "name"
+     ],
+     "getOrderUsingGET": [
+      "name",
+      "orderId"
+     ],
+     "getProductUsingGET": [
+      "productId"
+     ]
+    },
+    "Parameters missed": {
+     "addItemUsingPUT": [
+      "item"
+     ],
+     "payByCardUsingPOST": [
+      "card"
+     ],
+     "updateContactsUsingPUT": [
+      "contactsDto"
+     ],
+     "createCustomerUsingPOST": [
+      "user"
+     ]
+    }
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 0.0,
+   "value_failure": 46.2,
+   "value_invalid": 53.8,
+   "explanation": "Total number of test suite operations is 13 and successfully covered is 0",
+   "details": {
+    "Operations successful": [],
+    "Operations failed": [
+     "getProductUsingGET",
+     "createCustomerUsingPOST",
+     "updateContactsUsingPUT",
+     "addItemUsingPUT",
+     "payByCardUsingPOST",
+     "getProductsUsingGET"
+    ],
+    "Operations invalid": [
+     "getCustomerUsingGET",
+     "getOrderUsingGET",
+     "getCartUsingGET",
+     "getContactsUsingGET",
+     "setDeliveryUsingPUT",
+     "clearCartUsingDELETE",
+     "getOrdersUsingGET"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 0.0,
+   "value_failure": 42.9,
+   "value_invalid": 57.1,
+   "explanation": "Total number of test suite operations is 436 and successfully covered is 0",
+   "details": {
+    "Operations successful": [],
+    "Operations failed": [
+     "getProductUsingGET",
+     "createCustomerUsingPOST",
+     "updateContactsUsingPUT",
+     "addItemUsingPUT",
+     "payByCardUsingPOST",
+     "getProductsUsingGET"
+    ],
+    "Operations invalid": [
+     "getCustomerUsingGET",
+     "getOrderUsingGET",
+     "getCartUsingGET",
+     "getContactsUsingGET",
+     "setDeliveryUsingPUT",
+     "clearCartUsingDELETE",
+     "getOrdersUsingGET"
+    ]
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 76.5,
+   "explanation": "Total number of parameters is 17 and covered parameters is 13",
+   "details": {
+    "Parameters covered": {
+     "getCustomerUsingGET": [
+      "name"
+     ],
+     "getCartUsingGET": [
+      "name"
+     ],
+     "addItemUsingPUT": [
+      "name"
+     ],
+     "clearCartUsingDELETE": [
+      "name"
+     ],
+     "setDeliveryUsingPUT": [
+      "name",
+      "included"
+     ],
+     "payByCardUsingPOST": [
+      "name"
+     ],
+     "getContactsUsingGET": [
+      "name"
+     ],
+     "updateContactsUsingPUT": [
+      "name"
+     ],
+     "getOrdersUsingGET": [
+      "name"
+     ],
+     "getOrderUsingGET": [
+      "name",
+      "orderId"
+     ],
+     "getProductUsingGET": [
+      "productId"
+     ]
+    },
+    "Parameters missed": {
+     "addItemUsingPUT": [
+      "item"
+     ],
+     "payByCardUsingPOST": [
+      "card"
+     ],
+     "updateContactsUsingPUT": [
+      "contactsDto"
+     ],
+     "createCustomerUsingPOST": [
+      "user"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 23.6,
+   "explanation": "Total number of status codes in API is 55 and codes covered is 13",
+   "details": {
+    "Missed response codes": {
+     "getCustomerUsingGET": [
+      "404",
+      "200",
+      "403"
+     ],
+     "getCartUsingGET": [
+      "404",
+      "200",
+      "403"
+     ],
+     "addItemUsingPUT": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "clearCartUsingDELETE": [
+      "200",
+      "403",
+      "204"
+     ],
+     "setDeliveryUsingPUT": [
+      "201",
+      "404",
+      "200",
+      "403"
+     ],
+     "payByCardUsingPOST": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "getContactsUsingGET": [
+      "404",
+      "200",
+      "403"
+     ],
+     "updateContactsUsingPUT": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "getOrdersUsingGET": [
+      "404",
+      "200",
+      "403"
+     ],
+     "getOrderUsingGET": [
+      "404",
+      "200",
+      "403"
+     ],
+     "getProductsUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "getProductUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "createCustomerUsingPOST": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ]
+    }
+   }
+  }
+ ],
+ "Number of TestOp Executions": 436,
+ "Number of 2xx": 0,
+ "Number of 4xx": 249,
+ "Number of 5xx": 187,
+ "Number of Sequences": 436,
+ "Successful Sequences": 0
+}

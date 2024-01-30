@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "verificaLeitosDisponiveisUsingGET-20230429124807502",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/v1/hospitais/2/leitos",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:48:07 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 07:18:07 GMT\n",
+      "responseBody": "{\"leitos\":6}",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:07 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:07 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

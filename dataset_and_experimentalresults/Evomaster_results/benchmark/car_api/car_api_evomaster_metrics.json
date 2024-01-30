@@ -1,0 +1,312 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 42.9,
+   "explanation": "Total number of operations is 14 and covered is 6",
+   "details": {
+    "Operations covered": [
+     "account:requests:get",
+     "vindecoder:index:get",
+     "makemodeltrims:view:get",
+     "years:index:get",
+     "auth:api:post",
+     "vehicleattributes:display:get"
+    ],
+    "Operations missed": [
+     "makemodeltrimexteriorcolors:index:get",
+     "makemodeltrimmileages:index:get",
+     "makemodeltriminteriorcolors:index:get",
+     "makemodeltrimengines:index:get",
+     "makemodeltrims:index:get",
+     "makes:index:get",
+     "makemodels:index:get",
+     "makemodeltrimbodies:index:get"
+    ]
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 3.0,
+   "explanation": "Total number of parameters is 101 and covered parameters is 3",
+   "details": {
+    "Parameters covered": {
+     "makemodeltrims:view:get": [
+      "makemodeltrims:view:get.path.id"
+     ],
+     "vehicleattributes:display:get": [
+      "vehicleattributes:display:get.query.attribute"
+     ],
+     "vindecoder:index:get": [
+      "vindecoder:index:get.path.vin"
+     ]
+    },
+    "Parameters missed": {
+     "auth:api:post": [
+      "auth:api:post.request-body"
+     ],
+     "makemodeltrimbodies:index:get": [
+      "makemodeltrimbodies:index:get.query.type",
+      "makemodeltrimbodies:index:get.query.verbose",
+      "makemodeltrimbodies:index:get.query.model",
+      "makemodeltrimbodies:index:get.query.doors",
+      "makemodeltrimbodies:index:get.query.trim",
+      "makemodeltrimbodies:index:get.query.make",
+      "makemodeltrimbodies:index:get.query.make_model_trim_id",
+      "makemodeltrimbodies:index:get.query.year",
+      "makemodeltrimbodies:index:get.query.sort",
+      "makemodeltrimbodies:index:get.query.make_id",
+      "makemodeltrimbodies:index:get.query.json",
+      "makemodeltrimbodies:index:get.query.make_model_id"
+     ],
+     "makemodeltrimengines:index:get": [
+      "makemodeltrimengines:index:get.query.json",
+      "makemodeltrimengines:index:get.query.make_id",
+      "makemodeltrimengines:index:get.query.make_model_id",
+      "makemodeltrimengines:index:get.query.verbose",
+      "makemodeltrimengines:index:get.query.drive_type",
+      "makemodeltrimengines:index:get.query.valve_timing",
+      "makemodeltrimengines:index:get.query.sort",
+      "makemodeltrimengines:index:get.query.cam_type",
+      "makemodeltrimengines:index:get.query.engine_type",
+      "makemodeltrimengines:index:get.query.make_model_trim_id",
+      "makemodeltrimengines:index:get.query.make",
+      "makemodeltrimengines:index:get.query.valves",
+      "makemodeltrimengines:index:get.query.model",
+      "makemodeltrimengines:index:get.query.fuel_type",
+      "makemodeltrimengines:index:get.query.year",
+      "makemodeltrimengines:index:get.query.horsepower_hp",
+      "makemodeltrimengines:index:get.query.size",
+      "makemodeltrimengines:index:get.query.cylinders",
+      "makemodeltrimengines:index:get.query.transmission",
+      "makemodeltrimengines:index:get.query.trim"
+     ],
+     "makemodeltrimexteriorcolors:index:get": [
+      "makemodeltrimexteriorcolors:index:get.query.make",
+      "makemodeltrimexteriorcolors:index:get.query.make_model_trim_id",
+      "makemodeltrimexteriorcolors:index:get.query.make_id",
+      "makemodeltrimexteriorcolors:index:get.query.json",
+      "makemodeltrimexteriorcolors:index:get.query.sort",
+      "makemodeltrimexteriorcolors:index:get.query.name",
+      "makemodeltrimexteriorcolors:index:get.query.make_model_id",
+      "makemodeltrimexteriorcolors:index:get.query.trim",
+      "makemodeltrimexteriorcolors:index:get.query.rgb",
+      "makemodeltrimexteriorcolors:index:get.query.year",
+      "makemodeltrimexteriorcolors:index:get.query.model",
+      "makemodeltrimexteriorcolors:index:get.query.verbose"
+     ],
+     "makemodeltriminteriorcolors:index:get": [
+      "makemodeltriminteriorcolors:index:get.query.year",
+      "makemodeltriminteriorcolors:index:get.query.rgb",
+      "makemodeltriminteriorcolors:index:get.query.make",
+      "makemodeltriminteriorcolors:index:get.query.trim",
+      "makemodeltriminteriorcolors:index:get.query.make_model_trim_id",
+      "makemodeltriminteriorcolors:index:get.query.make_model_id",
+      "makemodeltriminteriorcolors:index:get.query.model",
+      "makemodeltriminteriorcolors:index:get.query.sort",
+      "makemodeltriminteriorcolors:index:get.query.name",
+      "makemodeltriminteriorcolors:index:get.query.make_id",
+      "makemodeltriminteriorcolors:index:get.query.verbose",
+      "makemodeltriminteriorcolors:index:get.query.json"
+     ],
+     "makes:index:get": [
+      "makes:index:get.query.make",
+      "makes:index:get.query.year",
+      "makes:index:get.query.sort"
+     ],
+     "makemodeltrimmileages:index:get": [
+      "makemodeltrimmileages:index:get.query.make_id",
+      "makemodeltrimmileages:index:get.query.json",
+      "makemodeltrimmileages:index:get.query.range_city",
+      "makemodeltrimmileages:index:get.query.combined_mpg",
+      "makemodeltrimmileages:index:get.query.make_model_trim_id",
+      "makemodeltrimmileages:index:get.query.make_model_id",
+      "makemodeltrimmileages:index:get.query.make",
+      "makemodeltrimmileages:index:get.query.trim",
+      "makemodeltrimmileages:index:get.query.year",
+      "makemodeltrimmileages:index:get.query.verbose",
+      "makemodeltrimmileages:index:get.query.sort",
+      "makemodeltrimmileages:index:get.query.epa_highway_mpg",
+      "makemodeltrimmileages:index:get.query.range_highway",
+      "makemodeltrimmileages:index:get.query.model",
+      "makemodeltrimmileages:index:get.query.epa_city_mpg"
+     ],
+     "makemodels:index:get": [
+      "makemodels:index:get.query.make",
+      "makemodels:index:get.query.verbose",
+      "makemodels:index:get.query.json",
+      "makemodels:index:get.query.make_id",
+      "makemodels:index:get.query.model",
+      "makemodels:index:get.query.year",
+      "makemodels:index:get.query.sort"
+     ],
+     "makemodeltrims:index:get": [
+      "makemodeltrims:index:get.query.make",
+      "makemodeltrims:index:get.query.sort",
+      "makemodeltrims:index:get.query.json",
+      "makemodeltrims:index:get.query.make_model_id",
+      "makemodeltrims:index:get.query.make_id",
+      "makemodeltrims:index:get.query.trim",
+      "makemodeltrims:index:get.query.year",
+      "makemodeltrims:index:get.query.model",
+      "makemodeltrims:index:get.query.verbose"
+     ],
+     "years:index:get": [
+      "years:index:get.query.trim",
+      "years:index:get.query.year",
+      "years:index:get.query.make",
+      "years:index:get.query.make_id",
+      "years:index:get.query.make_model_id",
+      "years:index:get.query.model",
+      "years:index:get.query.json"
+     ]
+    }
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 50.0,
+   "value_failure": 0.0,
+   "value_invalid": 100.0,
+   "explanation": "Total number of test suite operations is 6 and successfully covered is 3",
+   "details": {
+    "Operations successful": [
+     "years:index:get",
+     "vehicleattributes:display:get",
+     "makemodeltrims:view:get"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "account:requests:get",
+     "makemodeltrims:view:get",
+     "vehicleattributes:display:get",
+     "years:index:get",
+     "auth:api:post",
+     "vindecoder:index:get"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 13.6,
+   "value_failure": 0.0,
+   "value_invalid": 86.4,
+   "explanation": "Total number of test suite operations is 22 and successfully covered is 3",
+   "details": {
+    "Operations successful": [
+     "years:index:get",
+     "vehicleattributes:display:get",
+     "makemodeltrims:view:get"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "account:requests:get",
+     "makemodeltrims:view:get",
+     "vehicleattributes:display:get",
+     "years:index:get",
+     "auth:api:post",
+     "vindecoder:index:get"
+    ]
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 23.7,
+   "explanation": "Total number of status codes in API is 38 and codes covered is 9",
+   "details": {
+    "Missed response codes": {
+     "account:requests:get": [
+      "200"
+     ],
+     "auth:api:post": [
+      "200"
+     ],
+     "makemodeltrimbodies:index:get": [
+      "405",
+      "200",
+      "400"
+     ],
+     "makemodeltrimengines:index:get": [
+      "405",
+      "200",
+      "400"
+     ],
+     "makemodeltrimexteriorcolors:index:get": [
+      "405",
+      "200",
+      "400"
+     ],
+     "makemodeltriminteriorcolors:index:get": [
+      "405",
+      "200",
+      "400"
+     ],
+     "makes:index:get": [
+      "405",
+      "200"
+     ],
+     "makemodeltrimmileages:index:get": [
+      "405",
+      "200",
+      "400"
+     ],
+     "makemodels:index:get": [
+      "405",
+      "200"
+     ],
+     "makemodeltrims:index:get": [
+      "405",
+      "200",
+      "400"
+     ],
+     "makemodeltrims:view:get": [],
+     "vehicleattributes:display:get": [
+      "405"
+     ],
+     "vindecoder:index:get": [
+      "200",
+      "400",
+      "405",
+      "404",
+      "500"
+     ],
+     "years:index:get": [
+      "405"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of executed parameters in the API that are successfully covered",
+   "value_success": 66.7,
+   "value_failure": 0.0,
+   "value_invalid": 66.7,
+   "explanation": "Total number of parameters used in runs is 3 and covered successful parameters is {'makemodeltrims:view:get': ['makemodeltrims:view:get.path.id'], 'vehicleattributes:display:get': ['vehicleattributes:display:get.query.attribute']}",
+   "details": {
+    "Parameters covered": {
+     "makemodeltrims:view:get": [
+      "makemodeltrims:view:get.path.id"
+     ],
+     "vehicleattributes:display:get": [
+      "vehicleattributes:display:get.query.attribute"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "Number of TestOp Executions": 22,
+ "Number of 2xx": 3,
+ "Number of 4xx": 19,
+ "Number of 5xx": 0,
+ "Number of Sequences": 8,
+ "Successful Sequences": 2
+}

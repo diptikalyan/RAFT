@@ -1,0 +1,361 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 20 and covered is 20",
+   "details": {
+    "Operations covered": [
+     "GET /pet/findByTags",
+     "PUT /user/{username}",
+     "POST /store/order",
+     "POST /pet/{petId}",
+     "DELETE /user/{username}",
+     "POST /pet",
+     "DELETE /store/order/{orderId}",
+     "POST /user/createWithArray",
+     "GET /user/logout",
+     "POST /pet/{petId}/uploadImage",
+     "GET /pet/findByStatus",
+     "GET /pet/{petId}",
+     "GET /store/order/{orderId}",
+     "PUT /pet",
+     "DELETE /pet/{petId}",
+     "POST /user/createWithList",
+     "POST /user",
+     "GET /user/login",
+     "GET /user/{username}",
+     "GET /store/inventory"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 56.0,
+   "explanation": "Total number of parameters is 25 and covered parameters is 14",
+   "details": {
+    "Parameters covered": {
+     "uploadFile": [
+      "petId"
+     ],
+     "findPetsByStatus": [
+      "Statu"
+     ],
+     "findPetsByTags": [
+      "Tag"
+     ],
+     "getPetById": [
+      "petId"
+     ],
+     "updatePetWithForm": [
+      "petId"
+     ],
+     "deletePet": [
+      "petId",
+      "api_key"
+     ],
+     "getOrderById": [
+      "orderId"
+     ],
+     "deleteOrder": [
+      "orderId"
+     ],
+     "getUserByName": [
+      "username"
+     ],
+     "updateUser": [
+      "username"
+     ],
+     "deleteUser": [
+      "username"
+     ],
+     "loginUser": [
+      "password",
+      "username"
+     ]
+    },
+    "Parameters missed": {
+     "uploadFile": [
+      "file",
+      "additionalMetadata"
+     ],
+     "addPet": [
+      "body"
+     ],
+     "updatePet": [
+      "body"
+     ],
+     "findPetsByStatus": [
+      "status.array_item"
+     ],
+     "findPetsByTags": [
+      "tags.array_item"
+     ],
+     "updatePetWithForm": [
+      "name",
+      "status"
+     ],
+     "placeOrder": [
+      "body"
+     ],
+     "createUsersWithArrayInput": [
+      "body.array_item"
+     ],
+     "createUsersWithListInput": [
+      "body.array_item"
+     ],
+     "updateUser": [
+      "body"
+     ],
+     "createUser": [
+      "body"
+     ]
+    }
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 55.0,
+   "value_failure": 0.0,
+   "value_invalid": 75.0,
+   "explanation": "Total number of test suite operations is 20 and successfully covered is 11",
+   "details": {
+    "Operations successful": [
+     "deleteOrder",
+     "logoutUser",
+     "updatePetWithForm",
+     "getPetById",
+     "findPetsByTags",
+     "deletePet",
+     "getOrderById",
+     "findPetsByStatus",
+     "loginUser",
+     "deleteUser",
+     "getInventory"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "deleteOrder",
+     "updatePet",
+     "updatePetWithForm",
+     "createUsersWithArrayInput",
+     "getPetById",
+     "updateUser",
+     "placeOrder",
+     "deletePet",
+     "createUsersWithListInput",
+     "getOrderById",
+     "addPet",
+     "deleteUser",
+     "createUser",
+     "uploadFile",
+     "getUserByName"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 5.7,
+   "value_failure": 0.0,
+   "value_invalid": 94.3,
+   "explanation": "Total number of test suite operations is 2046 and successfully covered is 116",
+   "details": {
+    "Operations successful": [
+     "deleteOrder",
+     "logoutUser",
+     "updatePetWithForm",
+     "getPetById",
+     "findPetsByTags",
+     "deletePet",
+     "getOrderById",
+     "findPetsByStatus",
+     "loginUser",
+     "deleteUser",
+     "getInventory"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "deleteOrder",
+     "updatePet",
+     "updatePetWithForm",
+     "createUsersWithArrayInput",
+     "getPetById",
+     "updateUser",
+     "placeOrder",
+     "deletePet",
+     "createUsersWithListInput",
+     "getOrderById",
+     "addPet",
+     "deleteUser",
+     "createUser",
+     "uploadFile",
+     "getUserByName"
+    ]
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 56.0,
+   "explanation": "Total number of parameters is 25 and covered parameters is 14",
+   "details": {
+    "Parameters covered": {
+     "uploadFile": [
+      "petId"
+     ],
+     "findPetsByStatus": [
+      "Statu"
+     ],
+     "findPetsByTags": [
+      "Tag"
+     ],
+     "getPetById": [
+      "petId"
+     ],
+     "updatePetWithForm": [
+      "petId"
+     ],
+     "deletePet": [
+      "petId",
+      "api_key"
+     ],
+     "getOrderById": [
+      "orderId"
+     ],
+     "deleteOrder": [
+      "orderId"
+     ],
+     "getUserByName": [
+      "username"
+     ],
+     "updateUser": [
+      "username"
+     ],
+     "deleteUser": [
+      "username"
+     ],
+     "loginUser": [
+      "password",
+      "username"
+     ]
+    },
+    "Parameters missed": {
+     "uploadFile": [
+      "file",
+      "additionalMetadata"
+     ],
+     "addPet": [
+      "body"
+     ],
+     "updatePet": [
+      "body"
+     ],
+     "findPetsByStatus": [
+      "status.array_item"
+     ],
+     "findPetsByTags": [
+      "tags.array_item"
+     ],
+     "updatePetWithForm": [
+      "name",
+      "status"
+     ],
+     "placeOrder": [
+      "body"
+     ],
+     "createUsersWithArrayInput": [
+      "body.array_item"
+     ],
+     "createUsersWithListInput": [
+      "body.array_item"
+     ],
+     "updateUser": [
+      "body"
+     ],
+     "createUser": [
+      "body"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 87.9,
+   "explanation": "Total number of status codes in API is 33 and codes covered is 29",
+   "details": {
+    "Missed response codes": {
+     "uploadFile": [
+      "200"
+     ],
+     "addPet": [
+      "405",
+      "200"
+     ],
+     "updatePet": [
+      "404",
+      "405",
+      "400"
+     ],
+     "findPetsByStatus": [
+      "400"
+     ],
+     "findPetsByTags": [
+      "400"
+     ],
+     "getPetById": [
+      "400"
+     ],
+     "updatePetWithForm": [
+      "405"
+     ],
+     "deletePet": [
+      "400"
+     ],
+     "placeOrder": [
+      "200",
+      "400"
+     ],
+     "getOrderById": [
+      "400"
+     ],
+     "deleteOrder": [
+      "400"
+     ],
+     "getInventory": [],
+     "createUsersWithArrayInput": [],
+     "createUsersWithListInput": [],
+     "getUserByName": [
+      "200",
+      "400"
+     ],
+     "updateUser": [
+      "404",
+      "400"
+     ],
+     "deleteUser": [
+      "400"
+     ],
+     "loginUser": [
+      "400"
+     ],
+     "logoutUser": [],
+     "createUser": []
+    }
+   }
+  }
+ ],
+ "Number of TestOp Executions": 2046,
+ "Number of 2xx": 116,
+ "Number of 4xx": 1930,
+ "Number of 5xx": 0,
+ "Number of Sequences": 2046,
+ "Successful Sequences": 116
+}

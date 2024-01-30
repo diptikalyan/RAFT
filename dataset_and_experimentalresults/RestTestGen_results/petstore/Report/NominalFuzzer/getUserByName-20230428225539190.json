@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getUserByName-20230428225539190",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://petstore.swagger.io/v2/user/hyperplastic",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 28, 2023, 10:55:39 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "date: Fri, 28 Apr 2023 17:25:42 GMT\ncontent-type: application/json\naccess-control-allow-origin: *\naccess-control-allow-methods: GET, POST, DELETE, PUT\naccess-control-allow-headers: Content-Type, api_key, Authorization\nserver: Jetty(9.2.9.v20150224)\n",
+      "responseBody": "{\"code\":1,\"type\":\"error\",\"message\":\"User not found\"}",
+      "responseReceivedAt": "Apr 28, 2023, 10:55:39 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 28, 2023, 10:55:39 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

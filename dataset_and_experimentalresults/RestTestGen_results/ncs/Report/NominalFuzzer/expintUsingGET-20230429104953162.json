@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "expintUsingGET-20230429104953162",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/expint/64/100.10926817728782",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:49:53 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Disposition: inline;filename\u003df.txt\nContent-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 05:19:52 GMT\n",
+      "responseBody": "{\"resultAsInt\":null,\"resultAsDouble\":2.036994068809715E-46}",
+      "responseReceivedAt": "Apr 29, 2023, 10:49:53 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:49:53 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

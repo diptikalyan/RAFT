@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/{comicId}/info.0.json-20230429130503208",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://xkcd.com/67/info.0.json",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 1:05:04 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Connection: keep-alive\nServer: nginx\nContent-Type: application/json\nLast-Modified: Fri, 28 Apr 2023 21:53:55 GMT\nETag: W/\"644c4073-213\"\nExpires: Sat, 29 Apr 2023 02:57:54 GMT\nCache-Control: max-age\u003d300\nVia: 1.1 varnish, 1.1 varnish\nAccept-Ranges: bytes\nDate: Sat, 29 Apr 2023 07:35:04 GMT\nAge: 0\nX-Served-By: cache-dfw-kdfw8210049-DFW, cache-maa10250-MAA\nX-Cache: HIT, MISS\nX-Cache-Hits: 1, 0\nX-Timer: S1682753704.448379,VS0,VE332\nVary: Accept-Encoding\n",
+      "responseBody": "{\"month\": \"2\", \"num\": 67, \"link\": \"\", \"year\": \"2006\", \"news\": \"\", \"safe_title\": \"Nerd Girls\", \"transcript\": \"[[Girl with shoulder length brown hair and glasses, wearing a shirt which says \\\"Do not meddle in the affairs of dragons\\\"]]\\nGirl: At least, thanks to your constant fawning, we have an *excuse* for our social ineptness. What\u0027s *yours*?\\n{{Title Text: Nothing personal, high schoolers}}\", \"alt\": \"Nothing personal, high schoolers.\", \"img\": \"https://imgs.xkcd.com/comics/nerd_girls.jpg\", \"title\": \"Nerd Girls\", \"day\": \"22\"}",
+      "responseReceivedAt": "Apr 29, 2023, 1:05:04 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 1:05:03 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

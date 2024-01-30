@@ -1,0 +1,313 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 20 and covered is 20",
+   "details": {
+    "Operations covered": [
+     "updatePet",
+     "getPetById",
+     "findPetsByStatus",
+     "loginUser",
+     "updatePetWithForm",
+     "createUsersWithArrayInput",
+     "findPetsByTags",
+     "placeOrder",
+     "deletePet",
+     "uploadFile",
+     "getUserByName",
+     "updateUser",
+     "createUsersWithListInput",
+     "getOrderById",
+     "deleteUser",
+     "addPet",
+     "logoutUser",
+     "deleteOrder",
+     "createUser",
+     "getInventory"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 88.0,
+   "explanation": "Total number of parameters is 25 and covered parameters is 22",
+   "details": {
+    "Parameters covered": {
+     "uploadFile": [
+      "uploadFile.path.petId"
+     ],
+     "addPet": [
+      "addPet.request-body.body"
+     ],
+     "updatePet": [
+      "updatePet.request-body.body"
+     ],
+     "findPetsByStatus": [
+      "findPetsByStatus.query.status.array_item"
+     ],
+     "findPetsByTags": [
+      "findPetsByTags.query.tags.array_item"
+     ],
+     "getPetById": [
+      "getPetById.path.petId"
+     ],
+     "updatePetWithForm": [
+      "updatePetWithForm.path.petId",
+      "updatePetWithForm.formData.name"
+     ],
+     "deletePet": [
+      "deletePet.path.petId",
+      "deletePet.header.api_key"
+     ],
+     "placeOrder": [
+      "placeOrder.request-body.body"
+     ],
+     "getOrderById": [
+      "getOrderById.path.orderId"
+     ],
+     "deleteOrder": [
+      "deleteOrder.path.orderId"
+     ],
+     "createUsersWithArrayInput": [
+      "createUsersWithArrayInput.request-body.body.array_item"
+     ],
+     "createUsersWithListInput": [
+      "createUsersWithListInput.request-body.body.array_item"
+     ],
+     "getUserByName": [
+      "getUserByName.path.username"
+     ],
+     "updateUser": [
+      "updateUser.request-body.body",
+      "updateUser.path.username"
+     ],
+     "deleteUser": [
+      "deleteUser.path.username"
+     ],
+     "loginUser": [
+      "loginUser.query.password",
+      "loginUser.query.username"
+     ],
+     "createUser": [
+      "createUser.request-body.body"
+     ]
+    },
+    "Parameters missed": {
+     "uploadFile": [
+      "uploadFile.formData.file",
+      "uploadFile.formData.additionalMetadata"
+     ],
+     "updatePetWithForm": [
+      "updatePetWithForm.formData.status"
+     ]
+    }
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 65.0,
+   "value_failure": 5.0,
+   "value_invalid": 50.0,
+   "explanation": "Total number of test suite operations is 20 and successfully covered is 13",
+   "details": {
+    "Operations successful": [
+     "logoutUser",
+     "updatePet",
+     "updateUser",
+     "createUsersWithArrayInput",
+     "findPetsByTags",
+     "placeOrder",
+     "deletePet",
+     "createUsersWithListInput",
+     "findPetsByStatus",
+     "loginUser",
+     "addPet",
+     "createUser",
+     "getInventory"
+    ],
+    "Operations failed": [
+     "placeOrder"
+    ],
+    "Operations invalid": [
+     "deleteOrder",
+     "updatePet",
+     "updatePetWithForm",
+     "getPetById",
+     "deletePet",
+     "getOrderById",
+     "deleteUser",
+     "addPet",
+     "uploadFile",
+     "getUserByName"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 50.8,
+   "value_failure": 1.5,
+   "value_invalid": 47.7,
+   "explanation": "Total number of test suite operations is 65 and successfully covered is 33",
+   "details": {
+    "Operations successful": [
+     "logoutUser",
+     "updatePet",
+     "updateUser",
+     "createUsersWithArrayInput",
+     "findPetsByTags",
+     "placeOrder",
+     "deletePet",
+     "createUsersWithListInput",
+     "findPetsByStatus",
+     "loginUser",
+     "addPet",
+     "createUser",
+     "getInventory"
+    ],
+    "Operations failed": [
+     "placeOrder"
+    ],
+    "Operations invalid": [
+     "deleteOrder",
+     "updatePet",
+     "updatePetWithForm",
+     "getPetById",
+     "deletePet",
+     "getOrderById",
+     "deleteUser",
+     "addPet",
+     "uploadFile",
+     "getUserByName"
+    ]
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 72.7,
+   "explanation": "Total number of status codes in API is 33 and codes covered is 24",
+   "details": {
+    "Missed response codes": {
+     "uploadFile": [
+      "200"
+     ],
+     "addPet": [
+      "405"
+     ],
+     "updatePet": [
+      "404",
+      "405"
+     ],
+     "findPetsByStatus": [
+      "400"
+     ],
+     "findPetsByTags": [
+      "400"
+     ],
+     "getPetById": [
+      "200",
+      "400"
+     ],
+     "updatePetWithForm": [
+      "405"
+     ],
+     "deletePet": [
+      "400"
+     ],
+     "placeOrder": [
+      "400"
+     ],
+     "getOrderById": [
+      "200",
+      "400"
+     ],
+     "deleteOrder": [
+      "400"
+     ],
+     "getInventory": [],
+     "createUsersWithArrayInput": [],
+     "createUsersWithListInput": [],
+     "getUserByName": [
+      "200",
+      "400"
+     ],
+     "updateUser": [
+      "404",
+      "400"
+     ],
+     "deleteUser": [
+      "400"
+     ],
+     "loginUser": [
+      "400"
+     ],
+     "logoutUser": [],
+     "createUser": []
+    }
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of executed parameters in the API that are successfully covered",
+   "value_success": 59.1,
+   "value_failure": 4.5,
+   "value_invalid": 45.5,
+   "explanation": "Total number of parameters used in runs is 22 and covered successful parameters is {'addPet': ['addPet.request-body.body'], 'updatePet': ['updatePet.request-body.body'], 'findPetsByStatus': ['findPetsByStatus.query.status.array_item'], 'findPetsByTags': ['findPetsByTags.query.tags.array_item'], 'deletePet': ['deletePet.path.petId'], 'placeOrder': ['placeOrder.request-body.body'], 'createUsersWithArrayInput': ['createUsersWithArrayInput.request-body.body.array_item'], 'createUsersWithListInput': ['createUsersWithListInput.request-body.body.array_item'], 'updateUser': ['updateUser.request-body.body', 'updateUser.path.username'], 'loginUser': ['loginUser.query.password', 'loginUser.query.username'], 'createUser': ['createUser.request-body.body']}",
+   "details": {
+    "Parameters covered": {
+     "addPet": [
+      "addPet.request-body.body"
+     ],
+     "updatePet": [
+      "updatePet.request-body.body"
+     ],
+     "findPetsByStatus": [
+      "findPetsByStatus.query.status.array_item"
+     ],
+     "findPetsByTags": [
+      "findPetsByTags.query.tags.array_item"
+     ],
+     "deletePet": [
+      "deletePet.path.petId"
+     ],
+     "placeOrder": [
+      "placeOrder.request-body.body"
+     ],
+     "createUsersWithArrayInput": [
+      "createUsersWithArrayInput.request-body.body.array_item"
+     ],
+     "createUsersWithListInput": [
+      "createUsersWithListInput.request-body.body.array_item"
+     ],
+     "updateUser": [
+      "updateUser.request-body.body",
+      "updateUser.path.username"
+     ],
+     "loginUser": [
+      "loginUser.query.password",
+      "loginUser.query.username"
+     ],
+     "createUser": [
+      "createUser.request-body.body"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "Number of TestOp Executions": 65,
+ "Number of 2xx": 33,
+ "Number of 4xx": 31,
+ "Number of 5xx": 1,
+ "Number of Sequences": 20,
+ "Successful Sequences": 10
+}

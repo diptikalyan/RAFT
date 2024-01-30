@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>API Testing</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <!-- Custom styles for this template -->
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="../starter-template.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<style>
+
+    .my-custom-scrollbar {
+position: relative;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+    .select-editable {
+     position:relative;
+     background-color:white;
+     width:220px;
+     height:24px;
+     border:none;
+     float:right;
+ }
+ .select-editable select {
+     position:absolute;
+     top:0px;
+     left:0px;
+     font-size:20px;
+     border:none;
+     width:220px;
+     margin:0;
+ }
+ .select-editable input {
+     position:absolute;
+     top:0px;
+     left:0px;
+     width:200px;
+     padding:1px;
+     font-size:20px;
+ }
+ .select-editable select:focus, .select-editable input:focus {
+     outline:none;
+ }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .table-image th{
+        vertical-align: middle;
+
+      }
+      .table-image td{
+        vertical-align: middle;
+      }
+
+	.list-group.list-group-root {
+	    padding: 0;
+	    max-height: 150px;
+	    margin-bottom: 10px;
+	    overflow:scroll;
+	    -webkit-overflow-scrolling: touch;
+	}
+
+	.list-group.list-group-root .list-group {
+	    margin-bottom: 0;
+	}
+
+	.list-group.list-group-root .list-group-item {
+	    border-radius: 0;
+	    border-width: 1px 0 0 0;
+	}
+
+	.list-group.list-group-root > .list-group-item:first-child {
+	    border-top-width: 0;
+	}
+
+	.list-group.list-group-root > .list-group > .list-group-item {
+	    padding-left: 30px;
+	}
+
+	.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+	    padding-left: 45px;
+	}
+
+	.list-group-item {
+	    margin-right: 5px;
+	    padding: 0.25rem 1.25rem;
+	}
+    </style>
+
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		
+		
+
+
+
+  </nav>
+
+<main role="main" class="container">
+<br>
+  <label id="testsubj" class="small"></label>
+  <br/><br/>
+  <ul class="nav nav-tabs mb-3">
+    <li class="nav-item"><a class="nav-link active" onclick="tabclick(this)" href="dependencies.html">Dependencies</a></li>
+	
+  </ul>
+
+
+</main><!-- /.container -->
+
+
+<script>
+	var groups;
+	var pc;
+	var scenarios;
+	var pcseq;
+</script>
+<script>
+
+
+window.onload = function () {
+  var script = document.createElement("script");
+  script.src = "Prod_cons.js";
+
+  script.onload = function () {
+
+	
+var c = 0
+  f = function(a){
+	if (a.children)
+		c += a.children.length;
+	}
+  groups.children.forEach(f)
+
+		var width = 15000;
+		var height =c * 100;
+    var treewidth = 900;
+    var w = 300;
+
+		var canvas = d3.select("body")
+						.append("svg")
+						.attr("width",width)
+						.attr("height",height)
+						.append("g")
+						.attr("transform","translate(50,50)");
+
+
+		var tree = d3.layout.tree()
+					.size([height-100, treewidth])
+
+		var nodes = tree.nodes(groups);
+		var links = tree.links(nodes);
+
+
+		var  node = canvas.selectAll(".node")
+						  .data(nodes)
+						  .enter()
+						  .append("g")
+						  .attr("class","node")
+						  .attr("transform",function (d) {return "translate(" +  d.y + ", " + d.x + ")";});
+
+		node.append("circle")
+			.attr("r",5)
+			.attr("fill","orange");
+
+		node.append("text")
+			.text(function(d){return d.name.substr(d.name.indexOf(".")+1);})
+			.attr("font-size","1em")
+			.attr("font-weight","nornal")
+			.attr("transform",function(d){
+				return "translate(10,4)";});
+
+		var diagonal = d3.svg.diagonal()
+				.projection(function(d){ return [d.y, d.x];});
+
+		canvas.selectAll(".link")
+			   .data(links)
+			   .enter()
+			   .append("path")
+			   .attr("class","link")
+			   .attr("fill","none")
+			   .attr("stroke","lightgrey")
+			   .attr("d",diagonal);
+
+		var idToNode = {};
+		  nodes.forEach(function (n) {
+			idToNode[n.name] = n;
+		  });
+
+
+			canvas.selectAll('mylinks')
+			.data(pc)
+			.enter()
+			.append('path')
+			.attr('d', function (d) {
+		  start =  idToNode[d.source].x  // X position of start node on the X axis
+		  end =  idToNode[d.target].x    // X position of end node
+		  return ['M', treewidth + w, start,    // the arc starts at the coordinate x=start, y=height-30 (where the starting node is)
+			'A',                            // This means we're gonna build an elliptical arc
+			(start - end)/2, ',',    // Next 2 lines are the coordinates of the inflexion point. Height of this point is proportional with start - end distance
+			(start - end)/2, 0, 0, ',',
+			start < end ? 1 : 0, treewidth + w, ',', end] // We always want the arc on top. So if end is before start, putting 0 here turn the arc upside down.
+			.join(' ');
+		})
+		.style("fill", "none")
+		.attr("marker-end","url(#arrow)")
+		.attr("stroke", "black");
+
+
+  };
+
+  // append and execute script
+  document.documentElement.firstChild.appendChild(script);
+};
+
+function tabclick(a) {
+	a.href += "?app=" + getUrlVars()["app"];
+}
+function getUrlVars()
+{
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        if (hash[1].endsWith("#")){
+          hash[1] = hash[1].substring(0, hash[1].length-1);
+        }
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="../assets/dist/js/bootstrap.bundle.js"></script>
+<svg>
+	<defs>
+	  <marker
+		id="arrow"
+		markerUnits="strokeWidth"
+		markerWidth="12"
+		markerHeight="12"
+		viewBox="0 0 12 12"
+		refX="6"
+		refY="6"
+		orient="auto">
+		<path d="M2,2 L10,6 L2,10 L6,6 L2,2" style="fill: #f00;"></path>
+	  </marker>
+	</defs>
+	</svg>
+  
+    </body>
+</html>
+
+

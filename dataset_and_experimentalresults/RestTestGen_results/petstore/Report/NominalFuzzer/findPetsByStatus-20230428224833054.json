@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "findPetsByStatus-20230428224833054",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://petstore.swagger.io/v2/pet/findByStatus",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 28, 2023, 10:48:40 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "date: Fri, 28 Apr 2023 17:18:43 GMT\ncontent-type: application/json\naccess-control-allow-origin: *\naccess-control-allow-methods: GET, POST, DELETE, PUT\naccess-control-allow-headers: Content-Type, api_key, Authorization\nserver: Jetty(9.2.9.v20150224)\n",
+      "responseBody": "[]",
+      "responseReceivedAt": "Apr 28, 2023, 10:48:41 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 28, 2023, 10:48:33 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "deleteByIdUsingDELETE-20230429124823159",
+  "testInteractions": [
+    {
+      "requestMethod": "DELETE",
+      "requestURL": "http://localhost:8080/v1/hospitais/Joela",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 29, 2023, 12:48:23 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Length: 0\nDate: Sat, 29 Apr 2023 07:18:22 GMT\nConnection: close\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:23 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:23 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "deleteProjectUsingDELETE-20230429000135756",
+  "testInteractions": [
+    {
+      "requestMethod": "DELETE",
+      "requestURL": "http://localhost:50112/api/project/joRyRXXBMSUgwEd",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 29, 2023, 12:01:36 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Length: 0\nDate: Fri, 28 Apr 2023 18:31:35 GMT\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 29, 2023, 12:01:36 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:01:35 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

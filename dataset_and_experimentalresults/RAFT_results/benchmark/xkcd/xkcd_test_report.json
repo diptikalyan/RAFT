@@ -1,0 +1,723 @@
+{
+    "DataDomain": {
+        "infoUsingGET": [
+            {
+                "datarows": [],
+                "scenario_desc": []
+            }
+        ],
+        "infobyidUsingGET": [
+            {
+                "datarows": [
+                    {
+                        "infobyidUsingGET.path.comicId": [
+                            3
+                        ]
+                    }
+                ],
+                "scenario_desc": [
+                    {
+                        "field": "infobyidUsingGET.path.comicId",
+                        "type": "DataScenarioType.RANDOM",
+                        "value": "3"
+                    }
+                ]
+            }
+        ]
+    },
+    "ParamDomain": {
+        "infoUsingGET": [
+            {
+                "other_parameters": null,
+                "params": [],
+                "target_optional_parameter": null,
+                "type": 1
+            },
+            {
+                "other_parameters": null,
+                "params": [],
+                "target_optional_parameter": null,
+                "type": 3
+            }
+        ],
+        "infobyidUsingGET": [
+            {
+                "other_parameters": null,
+                "params": [
+                    "infobyidUsingGET.path.comicId"
+                ],
+                "target_optional_parameter": null,
+                "type": 1
+            },
+            {
+                "other_parameters": null,
+                "params": [
+                    "infobyidUsingGET.path.comicId"
+                ],
+                "target_optional_parameter": null,
+                "type": 3
+            }
+        ]
+    },
+    "metrics": {
+        "Number of 2xx": 5,
+        "Number of 4xx": 0,
+        "Number of 5xx": 0,
+        "Number of Sequences": 5,
+        "Number of Test Executions": 5,
+        "Successful Sequences": 5,
+        "runtime": [
+            {
+                "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+                "details": {
+                    "Operations failed": [],
+                    "Operations invalid": [],
+                    "Operations successful": [
+                        "infobyidUsingGET",
+                        "infoUsingGET"
+                    ]
+                },
+                "explanation": "Total number of test suite operations is 2 and successfully covered is 2",
+                "name": "Operation Coverage (Runtime Unique)",
+                "value_failure": 0.0,
+                "value_invalid": 0.0,
+                "value_success": 100.0
+            },
+            {
+                "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+                "details": {
+                    "Operations failed": [],
+                    "Operations invalid": [],
+                    "Operations successful": [
+                        "infobyidUsingGET",
+                        "infoUsingGET"
+                    ]
+                },
+                "explanation": "Total number of test suite operations is 5 and successfully covered is 5",
+                "name": "Operation Coverage (Runtime Instance-wise)",
+                "value_failure": 0.0,
+                "value_invalid": 0.0,
+                "value_success": 100.0
+            },
+            {
+                "description": "Percentage of status code classes (2xx, 3xx, 4xx, 5xx) covered for all operations, as obtained in API responses",
+                "details": {
+                    "Missed response codes": {
+                        "infoUsingGET": [],
+                        "infobyidUsingGET": []
+                    }
+                },
+                "explanation": "Total number of status code classes in API is 8 and classes covered is 2",
+                "name": "Output status class coverage",
+                "value": 25.0
+            },
+            {
+                "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+                "details": {
+                    "Missed response codes": {
+                        "infoUsingGET": [],
+                        "infobyidUsingGET": []
+                    }
+                },
+                "explanation": "Total number of status codes in API is 2 and codes covered is 2",
+                "name": "Output status code coverage",
+                "value": 100.0
+            },
+            {
+                "description": "Percentage of executed parameters in the API that are successfully covered",
+                "details": {
+                    "Parameters covered": {
+                        "infobyidUsingGET": [
+                            "comicId"
+                        ]
+                    },
+                    "Parameters missed": {}
+                },
+                "explanation": "Total number of parameters used in runs is 1 and covered parameters is {'infobyidUsingGET': ['comicId']}",
+                "name": "Parameter coverage",
+                "value_failure": 0.0,
+                "value_invalid": 0.0,
+                "value_success": 100.0
+            }
+        ],
+        "testsuite": [
+            {
+                "description": "Percentage of API operations covered by all the test cases",
+                "details": {
+                    "Operations covered": [
+                        "infobyidUsingGET",
+                        "infoUsingGET"
+                    ],
+                    "Operations missed": []
+                },
+                "explanation": "Total number of operations is 2 and covered is 2",
+                "name": "Operation Coverage (Suite)",
+                "value": 100.0
+            },
+            {
+                "description": "Percentage of parameters in the API that are covered",
+                "details": {
+                    "Parameters covered": {
+                        "infobyidUsingGET": [
+                            "comicId"
+                        ]
+                    },
+                    "Parameters missed": {}
+                },
+                "explanation": "Total number of parameters is 1 and covered parameters is 1",
+                "name": "Parameter coverage",
+                "value": 100.0
+            }
+        ]
+    },
+    "runs": {
+        "12": {
+            "exec_id": "12",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://xkcd.com/info.0.json"
+                    },
+                    "response": "{\"month\": \"5\", \"num\": 2771, \"link\": \"\", \"year\": \"2023\", \"news\": \"\", \"safe_title\": \"College Knowledge\", \"transcript\": \"\", \"alt\": \"'Your chitin armor is no match for our iron-tipped stingers! Better go hide in your jars!' --common playground taunt\", \"img\": \"https://imgs.xkcd.com/comics/college_knowledge.png\", \"title\": \"College Knowledge\", \"day\": \"3\"}",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "3"
+                }
+            ],
+            "seqtest_id": "TC_1"
+        },
+        "13": {
+            "exec_id": "13",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://xkcd.com/info.0.json"
+                    },
+                    "response": "{\"month\": \"5\", \"num\": 2771, \"link\": \"\", \"year\": \"2023\", \"news\": \"\", \"safe_title\": \"College Knowledge\", \"transcript\": \"\", \"alt\": \"'Your chitin armor is no match for our iron-tipped stingers! Better go hide in your jars!' --common playground taunt\", \"img\": \"https://imgs.xkcd.com/comics/college_knowledge.png\", \"title\": \"College Knowledge\", \"day\": \"3\"}",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "5"
+                }
+            ],
+            "seqtest_id": "TC_2"
+        },
+        "14": {
+            "exec_id": "14",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://xkcd.com/3/info.0.json"
+                    },
+                    "response": "{\"month\": \"1\", \"num\": 3, \"link\": \"\", \"year\": \"2006\", \"news\": \"\", \"safe_title\": \"Island (sketch)\", \"transcript\": \"[[A sketch of an Island]]\\n{{Alt:Hello, island}}\", \"alt\": \"Hello, island\", \"img\": \"https://imgs.xkcd.com/comics/island_color.jpg\", \"title\": \"Island (sketch)\", \"day\": \"1\"}",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "7"
+                }
+            ],
+            "seqtest_id": "TC_3"
+        },
+        "15": {
+            "exec_id": "15",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://xkcd.com/3/info.0.json"
+                    },
+                    "response": "{\"month\": \"1\", \"num\": 3, \"link\": \"\", \"year\": \"2006\", \"news\": \"\", \"safe_title\": \"Island (sketch)\", \"transcript\": \"[[A sketch of an Island]]\\n{{Alt:Hello, island}}\", \"alt\": \"Hello, island\", \"img\": \"https://imgs.xkcd.com/comics/island_color.jpg\", \"title\": \"Island (sketch)\", \"day\": \"1\"}",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "9"
+                }
+            ],
+            "seqtest_id": "TC_4"
+        },
+        "16": {
+            "exec_id": "16",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://xkcd.com/3/info.0.json"
+                    },
+                    "response": "{\"month\": \"1\", \"num\": 3, \"link\": \"\", \"year\": \"2006\", \"news\": \"\", \"safe_title\": \"Island (sketch)\", \"transcript\": \"[[A sketch of an Island]]\\n{{Alt:Hello, island}}\", \"alt\": \"Hello, island\", \"img\": \"https://imgs.xkcd.com/comics/island_color.jpg\", \"title\": \"Island (sketch)\", \"day\": \"1\"}",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "11"
+                }
+            ],
+            "seqtest_id": "TC_5"
+        }
+    },
+    "statistics": {
+        "Number of 2xx": 10,
+        "Number of 4xx": 0,
+        "Number of 5xx": 0,
+        "Number of Sequences": 5,
+        "Number of Test Executions": 5,
+        "Successful Sequences": 5
+    },
+    "testcases": [
+        {
+            "optests": [
+                {
+                    "api": "infoUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {},
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://xkcd.com/info.0.json"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        "empty"
+                    ],
+                    "test_id": "3"
+                }
+            ],
+            "seqtest_id": "TC_1",
+            "sequence_list": [
+                "infoUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "2"
+        },
+        {
+            "optests": [
+                {
+                    "api": "infoUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {},
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://xkcd.com/info.0.json"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [],
+                        "target_optional_parameter": null,
+                        "type": 3
+                    },
+                    "scenario_desc": [
+                        "empty"
+                    ],
+                    "test_id": "5"
+                }
+            ],
+            "seqtest_id": "TC_2",
+            "sequence_list": [
+                "infoUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "4"
+        },
+        {
+            "optests": [
+                {
+                    "api": "infobyidUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "infobyidUsingGET.path.comicId": [
+                            3
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://xkcd.com/3/info.0.json"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "infobyidUsingGET.path.comicId"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "infobyidUsingGET.path.comicId",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "3"
+                        }
+                    ],
+                    "test_id": "7"
+                }
+            ],
+            "seqtest_id": "TC_3",
+            "sequence_list": [
+                "infobyidUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "6"
+        },
+        {
+            "optests": [
+                {
+                    "api": "infobyidUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "infobyidUsingGET.path.comicId": [
+                            3
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://xkcd.com/3/info.0.json"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "infobyidUsingGET.path.comicId"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 3
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "infobyidUsingGET.path.comicId",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "3"
+                        }
+                    ],
+                    "test_id": "9"
+                }
+            ],
+            "seqtest_id": "TC_4",
+            "sequence_list": [
+                "infobyidUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "8"
+        },
+        {
+            "optests": [
+                {
+                    "api": "infobyidUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "infobyidUsingGET.path.comicId": [
+                            3
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://xkcd.com/3/info.0.json"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "infobyidUsingGET.path.comicId"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "infobyidUsingGET.path.comicId",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "3"
+                        }
+                    ],
+                    "test_id": "11"
+                }
+            ],
+            "seqtest_id": "TC_5",
+            "sequence_list": [
+                "infobyidUsingGET"
+            ],
+            "testscenario_id": "10"
+        }
+    ],
+    "testscenarios": {
+        "10": {
+            "ops": [
+                "infobyidUsingGET"
+            ],
+            "scenario": "Testing info.0.json having sequence: infobyidUsingGET",
+            "scenario_type": 2,
+            "target_op_testcase": null,
+            "test_scenario_id": "10"
+        },
+        "2": {
+            "ops": [],
+            "scenario": "Testing infoUsingGET with MANDATORY parameters:  with data 'empty' ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "infoUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [],
+                    "target_optional_parameter": null,
+                    "type": 1
+                },
+                null,
+                [
+                    {}
+                ]
+            ],
+            "test_scenario_id": "2"
+        },
+        "4": {
+            "ops": [],
+            "scenario": "Testing infoUsingGET with ALL parameters:  with data 'empty' ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "infoUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [],
+                    "target_optional_parameter": null,
+                    "type": 3
+                },
+                null,
+                [
+                    {}
+                ]
+            ],
+            "test_scenario_id": "4"
+        },
+        "6": {
+            "ops": [],
+            "scenario": "Testing infobyidUsingGET with MANDATORY parameters: comicId with data comicId(RANDOM, 3) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "infobyidUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "infobyidUsingGET.path.comicId"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 1
+                },
+                null,
+                [
+                    {
+                        "infobyidUsingGET.path.comicId": [
+                            3
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "6"
+        },
+        "8": {
+            "ops": [],
+            "scenario": "Testing infobyidUsingGET with ALL parameters: comicId with data comicId(RANDOM, 3) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "infobyidUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "infobyidUsingGET.path.comicId"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 3
+                },
+                null,
+                [
+                    {
+                        "infobyidUsingGET.path.comicId": [
+                            3
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "8"
+        }
+    }
+}

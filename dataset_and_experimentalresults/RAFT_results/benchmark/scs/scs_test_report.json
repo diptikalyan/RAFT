@@ -1,0 +1,5280 @@
+{
+    "DataDomain": {
+        "calcUsingGET": [
+            {
+                "datarows": [
+                    {
+                        "calcUsingGET.path.arg1": [
+                            5.1
+                        ],
+                        "calcUsingGET.path.arg2": [
+                            2.8
+                        ],
+                        "calcUsingGET.path.op": [
+                            "IQOV"
+                        ]
+                    }
+                ],
+                "scenario_desc": [
+                    {
+                        "field": "calcUsingGET.path.op",
+                        "type": "DataScenarioType.RANDOM",
+                        "value": "IQOV"
+                    },
+                    {
+                        "field": "calcUsingGET.path.arg2",
+                        "type": "DataScenarioType.RANDOM",
+                        "value": "2.8"
+                    },
+                    {
+                        "field": "calcUsingGET.path.arg1",
+                        "type": "DataScenarioType.RANDOM",
+                        "value": "5.1"
+                    }
+                ]
+            }
+        ],
+        "cookieUsingGET": [
+            {
+                "datarows": [
+                    {
+                        "cookieUsingGET.path.name": [
+                            "0"
+                        ],
+                        "cookieUsingGET.path.site": [
+                            "0"
+                        ],
+                        "cookieUsingGET.path.val": [
+                            "22"
+                        ]
+                    }
+                ],
+                "scenario_desc": [
+                    {
+                        "field": "cookieUsingGET.path.name",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "0"
+                    },
+                    {
+                        "field": "cookieUsingGET.path.val",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "22"
+                    },
+                    {
+                        "field": "cookieUsingGET.path.site",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "0"
+                    }
+                ]
+            }
+        ],
+        "costfunsUsingGET": [
+            {
+                "datarows": [
+                    {
+                        "costfunsUsingGET.path.i": [
+                            9
+                        ],
+                        "costfunsUsingGET.path.s": [
+                            "16"
+                        ]
+                    }
+                ],
+                "scenario_desc": [
+                    {
+                        "field": "costfunsUsingGET.path.s",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "16"
+                    },
+                    {
+                        "field": "costfunsUsingGET.path.i",
+                        "type": "DataScenarioType.RANDOM",
+                        "value": "9"
+                    }
+                ]
+            }
+        ],
+        "dateParseUsingGET": [
+            {
+                "datarows": [
+                    {
+                        "dateParseUsingGET.path.dayname": [
+                            "yF23"
+                        ],
+                        "dateParseUsingGET.path.monthname": [
+                            "Apr-21"
+                        ]
+                    }
+                ],
+                "scenario_desc": [
+                    {
+                        "field": "dateParseUsingGET.path.dayname",
+                        "type": "DataScenarioType.RANDOM",
+                        "value": "yF23"
+                    },
+                    {
+                        "field": "dateParseUsingGET.path.monthname",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "Apr-21"
+                    }
+                ]
+            }
+        ],
+        "fileSuffixUsingGET": [
+            {
+                "datarows": [
+                    {
+                        "fileSuffixUsingGET.path.directory": [
+                            "etCK"
+                        ],
+                        "fileSuffixUsingGET.path.file": [
+                            "Sachsen"
+                        ]
+                    }
+                ],
+                "scenario_desc": [
+                    {
+                        "field": "fileSuffixUsingGET.path.directory",
+                        "type": "DataScenarioType.RANDOM",
+                        "value": "etCK"
+                    },
+                    {
+                        "field": "fileSuffixUsingGET.path.file",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "Sachsen"
+                    }
+                ]
+            }
+        ],
+        "notyPevarUsingGET": [
+            {
+                "datarows": [
+                    {
+                        "notyPevarUsingGET.path.i": [
+                            5
+                        ],
+                        "notyPevarUsingGET.path.s": [
+                            "155"
+                        ]
+                    }
+                ],
+                "scenario_desc": [
+                    {
+                        "field": "notyPevarUsingGET.path.s",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "155"
+                    },
+                    {
+                        "field": "notyPevarUsingGET.path.i",
+                        "type": "DataScenarioType.RANDOM",
+                        "value": "5"
+                    }
+                ]
+            }
+        ],
+        "ordered4UsingGET": [
+            {
+                "datarows": [
+                    {
+                        "ordered4UsingGET.path.w": [
+                            "1"
+                        ],
+                        "ordered4UsingGET.path.x": [
+                            "2"
+                        ],
+                        "ordered4UsingGET.path.y": [
+                            "4"
+                        ],
+                        "ordered4UsingGET.path.z": [
+                            "0"
+                        ]
+                    }
+                ],
+                "scenario_desc": [
+                    {
+                        "field": "ordered4UsingGET.path.y",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "4"
+                    },
+                    {
+                        "field": "ordered4UsingGET.path.z",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "0"
+                    },
+                    {
+                        "field": "ordered4UsingGET.path.x",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "2"
+                    },
+                    {
+                        "field": "ordered4UsingGET.path.w",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "1"
+                    }
+                ]
+            }
+        ],
+        "patUsingGET": [
+            {
+                "datarows": [
+                    {
+                        "patUsingGET.path.pat": [
+                            "28"
+                        ],
+                        "patUsingGET.path.txt": [
+                            "26"
+                        ]
+                    }
+                ],
+                "scenario_desc": [
+                    {
+                        "field": "patUsingGET.path.txt",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "26"
+                    },
+                    {
+                        "field": "patUsingGET.path.pat",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "28"
+                    }
+                ]
+            }
+        ],
+        "regexUsingGET": [
+            {
+                "datarows": [
+                    {
+                        "regexUsingGET.path.txt": [
+                            "90"
+                        ]
+                    }
+                ],
+                "scenario_desc": [
+                    {
+                        "field": "regexUsingGET.path.txt",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "90"
+                    }
+                ]
+            }
+        ],
+        "text2txtUsingGET": [
+            {
+                "datarows": [
+                    {
+                        "text2txtUsingGET.path.word1": [
+                            "0"
+                        ],
+                        "text2txtUsingGET.path.word2": [
+                            "5TkZ"
+                        ],
+                        "text2txtUsingGET.path.word3": [
+                            "gAq0"
+                        ]
+                    }
+                ],
+                "scenario_desc": [
+                    {
+                        "field": "text2txtUsingGET.path.word2",
+                        "type": "DataScenarioType.RANDOM",
+                        "value": "5TkZ"
+                    },
+                    {
+                        "field": "text2txtUsingGET.path.word3",
+                        "type": "DataScenarioType.RANDOM",
+                        "value": "gAq0"
+                    },
+                    {
+                        "field": "text2txtUsingGET.path.word1",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "0"
+                    }
+                ]
+            }
+        ],
+        "titleUsingGET": [
+            {
+                "datarows": [
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    }
+                ],
+                "scenario_desc": [
+                    {
+                        "field": "titleUsingGET.path.sex",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "0"
+                    },
+                    {
+                        "field": "titleUsingGET.path.title",
+                        "type": "DataScenarioType.REALISTIC",
+                        "value": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    "ParamDomain": {
+        "calcUsingGET": [
+            {
+                "other_parameters": null,
+                "params": [
+                    "calcUsingGET.path.arg1",
+                    "calcUsingGET.path.arg2",
+                    "calcUsingGET.path.op"
+                ],
+                "target_optional_parameter": null,
+                "type": 1
+            },
+            {
+                "other_parameters": null,
+                "params": [
+                    "calcUsingGET.path.arg1",
+                    "calcUsingGET.path.arg2",
+                    "calcUsingGET.path.op"
+                ],
+                "target_optional_parameter": null,
+                "type": 3
+            }
+        ],
+        "cookieUsingGET": [
+            {
+                "other_parameters": null,
+                "params": [
+                    "cookieUsingGET.path.name",
+                    "cookieUsingGET.path.site",
+                    "cookieUsingGET.path.val"
+                ],
+                "target_optional_parameter": null,
+                "type": 1
+            },
+            {
+                "other_parameters": null,
+                "params": [
+                    "cookieUsingGET.path.name",
+                    "cookieUsingGET.path.site",
+                    "cookieUsingGET.path.val"
+                ],
+                "target_optional_parameter": null,
+                "type": 3
+            }
+        ],
+        "costfunsUsingGET": [
+            {
+                "other_parameters": null,
+                "params": [
+                    "costfunsUsingGET.path.i",
+                    "costfunsUsingGET.path.s"
+                ],
+                "target_optional_parameter": null,
+                "type": 1
+            },
+            {
+                "other_parameters": null,
+                "params": [
+                    "costfunsUsingGET.path.i",
+                    "costfunsUsingGET.path.s"
+                ],
+                "target_optional_parameter": null,
+                "type": 3
+            }
+        ],
+        "dateParseUsingGET": [
+            {
+                "other_parameters": null,
+                "params": [
+                    "dateParseUsingGET.path.dayname",
+                    "dateParseUsingGET.path.monthname"
+                ],
+                "target_optional_parameter": null,
+                "type": 1
+            },
+            {
+                "other_parameters": null,
+                "params": [
+                    "dateParseUsingGET.path.dayname",
+                    "dateParseUsingGET.path.monthname"
+                ],
+                "target_optional_parameter": null,
+                "type": 3
+            }
+        ],
+        "fileSuffixUsingGET": [
+            {
+                "other_parameters": null,
+                "params": [
+                    "fileSuffixUsingGET.path.directory",
+                    "fileSuffixUsingGET.path.file"
+                ],
+                "target_optional_parameter": null,
+                "type": 1
+            },
+            {
+                "other_parameters": null,
+                "params": [
+                    "fileSuffixUsingGET.path.directory",
+                    "fileSuffixUsingGET.path.file"
+                ],
+                "target_optional_parameter": null,
+                "type": 3
+            }
+        ],
+        "notyPevarUsingGET": [
+            {
+                "other_parameters": null,
+                "params": [
+                    "notyPevarUsingGET.path.i",
+                    "notyPevarUsingGET.path.s"
+                ],
+                "target_optional_parameter": null,
+                "type": 1
+            },
+            {
+                "other_parameters": null,
+                "params": [
+                    "notyPevarUsingGET.path.i",
+                    "notyPevarUsingGET.path.s"
+                ],
+                "target_optional_parameter": null,
+                "type": 3
+            }
+        ],
+        "ordered4UsingGET": [
+            {
+                "other_parameters": null,
+                "params": [
+                    "ordered4UsingGET.path.w",
+                    "ordered4UsingGET.path.x",
+                    "ordered4UsingGET.path.y",
+                    "ordered4UsingGET.path.z"
+                ],
+                "target_optional_parameter": null,
+                "type": 1
+            },
+            {
+                "other_parameters": null,
+                "params": [
+                    "ordered4UsingGET.path.w",
+                    "ordered4UsingGET.path.x",
+                    "ordered4UsingGET.path.y",
+                    "ordered4UsingGET.path.z"
+                ],
+                "target_optional_parameter": null,
+                "type": 3
+            }
+        ],
+        "patUsingGET": [
+            {
+                "other_parameters": null,
+                "params": [
+                    "patUsingGET.path.pat",
+                    "patUsingGET.path.txt"
+                ],
+                "target_optional_parameter": null,
+                "type": 1
+            },
+            {
+                "other_parameters": null,
+                "params": [
+                    "patUsingGET.path.pat",
+                    "patUsingGET.path.txt"
+                ],
+                "target_optional_parameter": null,
+                "type": 3
+            }
+        ],
+        "regexUsingGET": [
+            {
+                "other_parameters": null,
+                "params": [
+                    "regexUsingGET.path.txt"
+                ],
+                "target_optional_parameter": null,
+                "type": 1
+            },
+            {
+                "other_parameters": null,
+                "params": [
+                    "regexUsingGET.path.txt"
+                ],
+                "target_optional_parameter": null,
+                "type": 3
+            }
+        ],
+        "text2txtUsingGET": [
+            {
+                "other_parameters": null,
+                "params": [
+                    "text2txtUsingGET.path.word1",
+                    "text2txtUsingGET.path.word2",
+                    "text2txtUsingGET.path.word3"
+                ],
+                "target_optional_parameter": null,
+                "type": 1
+            },
+            {
+                "other_parameters": null,
+                "params": [
+                    "text2txtUsingGET.path.word1",
+                    "text2txtUsingGET.path.word2",
+                    "text2txtUsingGET.path.word3"
+                ],
+                "target_optional_parameter": null,
+                "type": 3
+            }
+        ],
+        "titleUsingGET": [
+            {
+                "other_parameters": null,
+                "params": [
+                    "titleUsingGET.path.sex",
+                    "titleUsingGET.path.title"
+                ],
+                "target_optional_parameter": null,
+                "type": 1
+            },
+            {
+                "other_parameters": null,
+                "params": [
+                    "titleUsingGET.path.sex",
+                    "titleUsingGET.path.title"
+                ],
+                "target_optional_parameter": null,
+                "type": 3
+            }
+        ]
+    },
+    "metrics": {
+        "runtime": [
+            {
+                "description": "Percentage of test suite API paths successfully covered (2xx/5xx) at runtime",
+                "details": {
+                    "Paths failed": [],
+                    "Paths successful": [
+                        "/api/ordered4/{w}/{x}/{z}/{y}",
+                        "/api/pat/{txt}",
+                        "/api/costfuns/{i}/{s}",
+                        "/api/pat/{txt}/{pat}",
+                        "/api/cookie/{name}/{val}/{site}",
+                        "/api/notypevar/{i}/{s}",
+                        "/api/text2txt/{word1}/{word2}/{word3}",
+                        "/api/title/{sex}/{title}",
+                        "/api/filesuffix/{directory}/{file}",
+                        "/api/calc/{op}/{arg1}/{arg2}",
+                        "/api/dateparse/{dayname}/{monthname}"
+                    ]
+                },
+                "explanation": "Total number of test suite paths is 11 and successfully covered is 11",
+                "name": "Path Coverage (Runtime)",
+                "value": 100.0
+            },
+            {
+                "description": "Percentage of test suite operations successfully covered (2xx/5xx) at runtime",
+                "details": {
+                    "Operations failed": [],
+                    "Operations successful": [
+                        "fileSuffixUsingGET",
+                        "cookieUsingGET",
+                        "calcUsingGET",
+                        "regexUsingGET",
+                        "titleUsingGET",
+                        "dateParseUsingGET",
+                        "costfunsUsingGET",
+                        "notyPevarUsingGET",
+                        "text2txtUsingGET",
+                        "patUsingGET",
+                        "ordered4UsingGET"
+                    ]
+                },
+                "explanation": "Total number of test suite operations is 11 and successfully covered is 11",
+                "name": "Operation Coverage (Runtime)",
+                "value": 100.0
+            },
+            {
+                "description": "Percentage of sequences executed successfully",
+                "details": {
+                    "Failed Sequence Execution Ids": []
+                },
+                "explanation": "Total number of sequences is 33 and successfully covered is 33",
+                "name": "Operation flow coverage",
+                "value": 100.0
+            },
+            {
+                "description": "Percentage of status code classes (2xx, 3xx, 4xx, 5xx) covered for all operations, as obtained in API responses",
+                "details": {
+                    "Missed response codes": {
+                        "calcUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "cookieUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "costfunsUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "dateParseUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "fileSuffixUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "notyPevarUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "ordered4UsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "patUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "regexUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "text2txtUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "titleUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ]
+                    }
+                },
+                "explanation": "Total number of status code classes in API is 44 and classes covered is 11",
+                "name": "Output status class coverage",
+                "value": 25.0
+            },
+            {
+                "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+                "details": {
+                    "Missed response codes": {
+                        "calcUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "cookieUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "costfunsUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "dateParseUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "fileSuffixUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "notyPevarUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "ordered4UsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "patUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "regexUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "text2txtUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ],
+                        "titleUsingGET": [
+                            "403",
+                            "404",
+                            "401"
+                        ]
+                    }
+                },
+                "explanation": "Total number of status codes in API is 44 and codes covered is 11",
+                "name": "Output status code coverage",
+                "value": 25.0
+            },
+            {
+                "description": "Percentage of parameters in the API that are covered",
+                "details": {
+                    "Parameters covered": {
+                        "calcUsingGET": [
+                            "arg2",
+                            "op",
+                            "arg1"
+                        ],
+                        "cookieUsingGET": [
+                            "name",
+                            "val",
+                            "site"
+                        ],
+                        "costfunsUsingGET": [
+                            "i",
+                            "s"
+                        ],
+                        "dateParseUsingGET": [
+                            "monthname",
+                            "dayname"
+                        ],
+                        "fileSuffixUsingGET": [
+                            "file",
+                            "directory"
+                        ],
+                        "notyPevarUsingGET": [
+                            "i",
+                            "s"
+                        ],
+                        "ordered4UsingGET": [
+                            "y",
+                            "x",
+                            "w",
+                            "z"
+                        ],
+                        "patUsingGET": [
+                            "pat",
+                            "txt"
+                        ],
+                        "regexUsingGET": [
+                            "txt"
+                        ],
+                        "text2txtUsingGET": [
+                            "word2",
+                            "word3",
+                            "word1"
+                        ],
+                        "titleUsingGET": [
+                            "sex",
+                            "title"
+                        ]
+                    },
+                    "Parameters missed": {}
+                },
+                "explanation": "Total number of parameters is 26 and covered parameters is 26",
+                "name": "Parameter coverage",
+                "value": 100.0
+            },
+            {
+                "description": "Percentage of distinct values covered that boolean or enum parameters can take",
+                "details": {
+                    "Parameter values covered": {},
+                    "Parameter values missed": {}
+                },
+                "explanation": "Total number of parameter values is -1 and covered parameter values is 0",
+                "name": "Parameter value coverage",
+                "value": -0.0
+            },
+            {
+                "description": "Percentage of response properties covered for all operation occurrences, as obtained in API responses",
+                "details": {
+                    "Properties at run": {
+                        "calcUsingGET": [],
+                        "cookieUsingGET": [],
+                        "costfunsUsingGET": [],
+                        "dateParseUsingGET": [],
+                        "fileSuffixUsingGET": [],
+                        "notyPevarUsingGET": [],
+                        "ordered4UsingGET": [],
+                        "patUsingGET": [],
+                        "regexUsingGET": [],
+                        "text2txtUsingGET": [],
+                        "titleUsingGET": []
+                    },
+                    "Properties in spec.": {
+                        "calcUsingGET": [],
+                        "cookieUsingGET": [],
+                        "costfunsUsingGET": [],
+                        "dateParseUsingGET": [],
+                        "fileSuffixUsingGET": [],
+                        "notyPevarUsingGET": [],
+                        "ordered4UsingGET": [],
+                        "patUsingGET": [],
+                        "regexUsingGET": [],
+                        "text2txtUsingGET": [],
+                        "titleUsingGET": []
+                    }
+                },
+                "explanation": "Total number of response properties in API is 24 and properties covered is 24",
+                "name": "Response body properties coverage",
+                "value": 100.0
+            }
+        ],
+        "testsuite": [
+            {
+                "description": "Percentage of API paths/endpoint covered by all the test cases",
+                "details": {
+                    "Paths covered": [
+                        "/api/ordered4/{w}/{x}/{z}/{y}",
+                        "/api/pat/{txt}",
+                        "/api/costfuns/{i}/{s}",
+                        "/api/pat/{txt}/{pat}",
+                        "/api/cookie/{name}/{val}/{site}",
+                        "/api/notypevar/{i}/{s}",
+                        "/api/text2txt/{word1}/{word2}/{word3}",
+                        "/api/title/{sex}/{title}",
+                        "/api/filesuffix/{directory}/{file}",
+                        "/api/calc/{op}/{arg1}/{arg2}",
+                        "/api/dateparse/{dayname}/{monthname}"
+                    ],
+                    "Paths missed": []
+                },
+                "explanation": "Total number of paths is 11 and covered is 11",
+                "name": "Path Coverage (Suite)",
+                "value": 100.0
+            },
+            {
+                "description": "Percentage of API operations covered by all the test cases",
+                "details": {
+                    "Operations covered": [
+                        "fileSuffixUsingGET",
+                        "cookieUsingGET",
+                        "calcUsingGET",
+                        "regexUsingGET",
+                        "titleUsingGET",
+                        "dateParseUsingGET",
+                        "costfunsUsingGET",
+                        "notyPevarUsingGET",
+                        "text2txtUsingGET",
+                        "patUsingGET",
+                        "ordered4UsingGET"
+                    ],
+                    "Operations missed": []
+                },
+                "explanation": "Total number of operations is 11 and covered is 11",
+                "name": "Operation Coverage (Suite)",
+                "value": 100.0
+            },
+            {
+                "description": "Percentage of parameters in the API that are covered",
+                "details": {
+                    "Parameters covered": {
+                        "calcUsingGET": [
+                            "arg2",
+                            "op",
+                            "arg1"
+                        ],
+                        "cookieUsingGET": [
+                            "name",
+                            "val",
+                            "site"
+                        ],
+                        "costfunsUsingGET": [
+                            "i",
+                            "s"
+                        ],
+                        "dateParseUsingGET": [
+                            "monthname",
+                            "dayname"
+                        ],
+                        "fileSuffixUsingGET": [
+                            "file",
+                            "directory"
+                        ],
+                        "notyPevarUsingGET": [
+                            "i",
+                            "s"
+                        ],
+                        "ordered4UsingGET": [
+                            "y",
+                            "x",
+                            "w",
+                            "z"
+                        ],
+                        "patUsingGET": [
+                            "pat",
+                            "txt"
+                        ],
+                        "regexUsingGET": [
+                            "txt"
+                        ],
+                        "text2txtUsingGET": [
+                            "word2",
+                            "word3",
+                            "word1"
+                        ],
+                        "titleUsingGET": [
+                            "sex",
+                            "title"
+                        ]
+                    },
+                    "Parameters missed": {}
+                },
+                "explanation": "Total number of parameters is 26 and covered parameters is 26",
+                "name": "Parameter coverage",
+                "value": 100.0
+            },
+            {
+                "description": "Percentage of distinct values covered that boolean or enum parameters can take",
+                "details": {
+                    "Parameter values covered": {},
+                    "Parameter values missed": {}
+                },
+                "explanation": "Total number of parameter values is -1 and covered parameter values is 0",
+                "name": "Parameter value coverage",
+                "value": -0.0
+            }
+        ]
+    },
+    "runs": {
+        "686": {
+            "exec_id": "686",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/calc/IQOV/5.1/2.8"
+                    },
+                    "response": "0.0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=calcUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "621"
+                }
+            ],
+            "seqtest_id": "TC_207"
+        },
+        "687": {
+            "exec_id": "687",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/calc/IQOV/5.1/2.8"
+                    },
+                    "response": "0.0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=calcUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "623"
+                }
+            ],
+            "seqtest_id": "TC_208"
+        },
+        "688": {
+            "exec_id": "688",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/cookie/0/22/0"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=cookieUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "625"
+                }
+            ],
+            "seqtest_id": "TC_209"
+        },
+        "689": {
+            "exec_id": "689",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/cookie/0/22/0"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=cookieUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "627"
+                }
+            ],
+            "seqtest_id": "TC_210"
+        },
+        "690": {
+            "exec_id": "690",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/costfuns/9/16"
+                    },
+                    "response": "10",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=costfunsUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "629"
+                }
+            ],
+            "seqtest_id": "TC_211"
+        },
+        "691": {
+            "exec_id": "691",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/costfuns/9/16"
+                    },
+                    "response": "10",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=costfunsUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "631"
+                }
+            ],
+            "seqtest_id": "TC_212"
+        },
+        "692": {
+            "exec_id": "692",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/dateparse/yF23/Apr-21"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=dateParseUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "633"
+                }
+            ],
+            "seqtest_id": "TC_213"
+        },
+        "693": {
+            "exec_id": "693",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/dateparse/yF23/Apr-21"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=dateParseUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "635"
+                }
+            ],
+            "seqtest_id": "TC_214"
+        },
+        "694": {
+            "exec_id": "694",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/filesuffix/etCK/Sachsen"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=fileSuffixUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "637"
+                }
+            ],
+            "seqtest_id": "TC_215"
+        },
+        "695": {
+            "exec_id": "695",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/filesuffix/etCK/Sachsen"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=fileSuffixUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "639"
+                }
+            ],
+            "seqtest_id": "TC_216"
+        },
+        "696": {
+            "exec_id": "696",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/notypevar/5/155"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=notyPevarUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "641"
+                }
+            ],
+            "seqtest_id": "TC_217"
+        },
+        "697": {
+            "exec_id": "697",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/notypevar/5/155"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=notyPevarUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "643"
+                }
+            ],
+            "seqtest_id": "TC_218"
+        },
+        "698": {
+            "exec_id": "698",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/ordered4/1/2/0/4"
+                    },
+                    "response": "unordered",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "645"
+                }
+            ],
+            "seqtest_id": "TC_219"
+        },
+        "699": {
+            "exec_id": "699",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/ordered4/1/2/0/4"
+                    },
+                    "response": "unordered",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "647"
+                }
+            ],
+            "seqtest_id": "TC_220"
+        },
+        "700": {
+            "exec_id": "700",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/pat/26/28"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=patUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "649"
+                }
+            ],
+            "seqtest_id": "TC_221"
+        },
+        "701": {
+            "exec_id": "701",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/pat/26/28"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=patUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "651"
+                }
+            ],
+            "seqtest_id": "TC_222"
+        },
+        "702": {
+            "exec_id": "702",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/pat/90"
+                    },
+                    "response": "none",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "653"
+                }
+            ],
+            "seqtest_id": "TC_223"
+        },
+        "703": {
+            "exec_id": "703",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/pat/90"
+                    },
+                    "response": "none",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "655"
+                }
+            ],
+            "seqtest_id": "TC_224"
+        },
+        "704": {
+            "exec_id": "704",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/text2txt/0/5TkZ/gAq0"
+                    },
+                    "response": "",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "657"
+                }
+            ],
+            "seqtest_id": "TC_225"
+        },
+        "705": {
+            "exec_id": "705",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/text2txt/0/5TkZ/gAq0"
+                    },
+                    "response": "",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "659"
+                }
+            ],
+            "seqtest_id": "TC_226"
+        },
+        "706": {
+            "exec_id": "706",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/title/0/0"
+                    },
+                    "response": "-1",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=titleUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "661"
+                }
+            ],
+            "seqtest_id": "TC_227"
+        },
+        "707": {
+            "exec_id": "707",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/title/0/0"
+                    },
+                    "response": "-1",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=titleUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "663"
+                }
+            ],
+            "seqtest_id": "TC_228"
+        },
+        "708": {
+            "exec_id": "708",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/text2txt/0/5TkZ/gAq0"
+                    },
+                    "response": "",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "665"
+                }
+            ],
+            "seqtest_id": "TC_229"
+        },
+        "709": {
+            "exec_id": "709",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/ordered4/1/2/0/4"
+                    },
+                    "response": "unordered",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "667"
+                }
+            ],
+            "seqtest_id": "TC_230"
+        },
+        "710": {
+            "exec_id": "710",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/calc/IQOV/5.1/2.8"
+                    },
+                    "response": "0.0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=calcUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "669"
+                }
+            ],
+            "seqtest_id": "TC_231"
+        },
+        "711": {
+            "exec_id": "711",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/cookie/0/22/0"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=cookieUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "671"
+                }
+            ],
+            "seqtest_id": "TC_232"
+        },
+        "712": {
+            "exec_id": "712",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/costfuns/9/16"
+                    },
+                    "response": "10",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=costfunsUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "673"
+                }
+            ],
+            "seqtest_id": "TC_233"
+        },
+        "713": {
+            "exec_id": "713",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/dateparse/yF23/Apr-21"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=dateParseUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "675"
+                }
+            ],
+            "seqtest_id": "TC_234"
+        },
+        "714": {
+            "exec_id": "714",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/filesuffix/etCK/Sachsen"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=fileSuffixUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "677"
+                }
+            ],
+            "seqtest_id": "TC_235"
+        },
+        "715": {
+            "exec_id": "715",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/notypevar/5/155"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=notyPevarUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "679"
+                }
+            ],
+            "seqtest_id": "TC_236"
+        },
+        "716": {
+            "exec_id": "716",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/pat/26/28"
+                    },
+                    "response": "0",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=patUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "681"
+                }
+            ],
+            "seqtest_id": "TC_237"
+        },
+        "717": {
+            "exec_id": "717",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/pat/90"
+                    },
+                    "response": "none",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": true
+                        }
+                    ],
+                    "testCaseop_id": "683"
+                }
+            ],
+            "seqtest_id": "TC_238"
+        },
+        "718": {
+            "exec_id": "718",
+            "execution": [
+                {
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/title/0/0"
+                    },
+                    "response": "-1",
+                    "response_code": "200",
+                    "status": [
+                        {
+                            "desc": "response code 200",
+                            "oracle_name": "responseCodevalid",
+                            "status": true
+                        },
+                        {
+                            "desc": "type and schema mismatch in spec object for op=titleUsingGET",
+                            "oracle_name": "schemaconformitycheck",
+                            "status": false
+                        }
+                    ],
+                    "testCaseop_id": "685"
+                }
+            ],
+            "seqtest_id": "TC_239"
+        }
+    },
+    "statistics": {
+        "Number of 2xx": 33,
+        "Number of 4xx": 0,
+        "Number of 5xx": 0,
+        "Number of Test Executions": 33
+    },
+    "testcases": [
+        {
+            "optests": [
+                {
+                    "api": "calcUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "calcUsingGET.path.arg1": [
+                            5.1
+                        ],
+                        "calcUsingGET.path.arg2": [
+                            2.8
+                        ],
+                        "calcUsingGET.path.op": [
+                            "IQOV"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/calc/IQOV/5.1/2.8"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "calcUsingGET.path.arg1",
+                            "calcUsingGET.path.arg2",
+                            "calcUsingGET.path.op"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "calcUsingGET.path.op",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "IQOV"
+                        },
+                        {
+                            "field": "calcUsingGET.path.arg2",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "2.8"
+                        },
+                        {
+                            "field": "calcUsingGET.path.arg1",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "5.1"
+                        }
+                    ],
+                    "test_id": "621"
+                }
+            ],
+            "seqtest_id": "TC_207",
+            "sequence_list": [
+                "calcUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "620"
+        },
+        {
+            "optests": [
+                {
+                    "api": "calcUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "calcUsingGET.path.arg1": [
+                            5.1
+                        ],
+                        "calcUsingGET.path.arg2": [
+                            2.8
+                        ],
+                        "calcUsingGET.path.op": [
+                            "IQOV"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/calc/IQOV/5.1/2.8"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "calcUsingGET.path.arg1",
+                            "calcUsingGET.path.arg2",
+                            "calcUsingGET.path.op"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 3
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "calcUsingGET.path.op",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "IQOV"
+                        },
+                        {
+                            "field": "calcUsingGET.path.arg2",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "2.8"
+                        },
+                        {
+                            "field": "calcUsingGET.path.arg1",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "5.1"
+                        }
+                    ],
+                    "test_id": "623"
+                }
+            ],
+            "seqtest_id": "TC_208",
+            "sequence_list": [
+                "calcUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "622"
+        },
+        {
+            "optests": [
+                {
+                    "api": "cookieUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "cookieUsingGET.path.name": [
+                            "0"
+                        ],
+                        "cookieUsingGET.path.site": [
+                            "0"
+                        ],
+                        "cookieUsingGET.path.val": [
+                            "22"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/cookie/0/22/0"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "cookieUsingGET.path.name",
+                            "cookieUsingGET.path.site",
+                            "cookieUsingGET.path.val"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "cookieUsingGET.path.name",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        },
+                        {
+                            "field": "cookieUsingGET.path.val",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "22"
+                        },
+                        {
+                            "field": "cookieUsingGET.path.site",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        }
+                    ],
+                    "test_id": "625"
+                }
+            ],
+            "seqtest_id": "TC_209",
+            "sequence_list": [
+                "cookieUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "624"
+        },
+        {
+            "optests": [
+                {
+                    "api": "cookieUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "cookieUsingGET.path.name": [
+                            "0"
+                        ],
+                        "cookieUsingGET.path.site": [
+                            "0"
+                        ],
+                        "cookieUsingGET.path.val": [
+                            "22"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/cookie/0/22/0"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "cookieUsingGET.path.name",
+                            "cookieUsingGET.path.site",
+                            "cookieUsingGET.path.val"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 3
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "cookieUsingGET.path.name",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        },
+                        {
+                            "field": "cookieUsingGET.path.val",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "22"
+                        },
+                        {
+                            "field": "cookieUsingGET.path.site",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        }
+                    ],
+                    "test_id": "627"
+                }
+            ],
+            "seqtest_id": "TC_210",
+            "sequence_list": [
+                "cookieUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "626"
+        },
+        {
+            "optests": [
+                {
+                    "api": "costfunsUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "costfunsUsingGET.path.i": [
+                            9
+                        ],
+                        "costfunsUsingGET.path.s": [
+                            "16"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/costfuns/9/16"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "costfunsUsingGET.path.i",
+                            "costfunsUsingGET.path.s"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "costfunsUsingGET.path.s",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "16"
+                        },
+                        {
+                            "field": "costfunsUsingGET.path.i",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "9"
+                        }
+                    ],
+                    "test_id": "629"
+                }
+            ],
+            "seqtest_id": "TC_211",
+            "sequence_list": [
+                "costfunsUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "628"
+        },
+        {
+            "optests": [
+                {
+                    "api": "costfunsUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "costfunsUsingGET.path.i": [
+                            9
+                        ],
+                        "costfunsUsingGET.path.s": [
+                            "16"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/costfuns/9/16"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "costfunsUsingGET.path.i",
+                            "costfunsUsingGET.path.s"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 3
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "costfunsUsingGET.path.s",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "16"
+                        },
+                        {
+                            "field": "costfunsUsingGET.path.i",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "9"
+                        }
+                    ],
+                    "test_id": "631"
+                }
+            ],
+            "seqtest_id": "TC_212",
+            "sequence_list": [
+                "costfunsUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "630"
+        },
+        {
+            "optests": [
+                {
+                    "api": "dateParseUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "dateParseUsingGET.path.dayname": [
+                            "yF23"
+                        ],
+                        "dateParseUsingGET.path.monthname": [
+                            "Apr-21"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/dateparse/yF23/Apr-21"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "dateParseUsingGET.path.dayname",
+                            "dateParseUsingGET.path.monthname"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "dateParseUsingGET.path.dayname",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "yF23"
+                        },
+                        {
+                            "field": "dateParseUsingGET.path.monthname",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "Apr-21"
+                        }
+                    ],
+                    "test_id": "633"
+                }
+            ],
+            "seqtest_id": "TC_213",
+            "sequence_list": [
+                "dateParseUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "632"
+        },
+        {
+            "optests": [
+                {
+                    "api": "dateParseUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "dateParseUsingGET.path.dayname": [
+                            "yF23"
+                        ],
+                        "dateParseUsingGET.path.monthname": [
+                            "Apr-21"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/dateparse/yF23/Apr-21"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "dateParseUsingGET.path.dayname",
+                            "dateParseUsingGET.path.monthname"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 3
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "dateParseUsingGET.path.dayname",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "yF23"
+                        },
+                        {
+                            "field": "dateParseUsingGET.path.monthname",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "Apr-21"
+                        }
+                    ],
+                    "test_id": "635"
+                }
+            ],
+            "seqtest_id": "TC_214",
+            "sequence_list": [
+                "dateParseUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "634"
+        },
+        {
+            "optests": [
+                {
+                    "api": "fileSuffixUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "fileSuffixUsingGET.path.directory": [
+                            "etCK"
+                        ],
+                        "fileSuffixUsingGET.path.file": [
+                            "Sachsen"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/filesuffix/etCK/Sachsen"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "fileSuffixUsingGET.path.directory",
+                            "fileSuffixUsingGET.path.file"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "fileSuffixUsingGET.path.directory",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "etCK"
+                        },
+                        {
+                            "field": "fileSuffixUsingGET.path.file",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "Sachsen"
+                        }
+                    ],
+                    "test_id": "637"
+                }
+            ],
+            "seqtest_id": "TC_215",
+            "sequence_list": [
+                "fileSuffixUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "636"
+        },
+        {
+            "optests": [
+                {
+                    "api": "fileSuffixUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "fileSuffixUsingGET.path.directory": [
+                            "etCK"
+                        ],
+                        "fileSuffixUsingGET.path.file": [
+                            "Sachsen"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/filesuffix/etCK/Sachsen"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "fileSuffixUsingGET.path.directory",
+                            "fileSuffixUsingGET.path.file"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 3
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "fileSuffixUsingGET.path.directory",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "etCK"
+                        },
+                        {
+                            "field": "fileSuffixUsingGET.path.file",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "Sachsen"
+                        }
+                    ],
+                    "test_id": "639"
+                }
+            ],
+            "seqtest_id": "TC_216",
+            "sequence_list": [
+                "fileSuffixUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "638"
+        },
+        {
+            "optests": [
+                {
+                    "api": "notyPevarUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "notyPevarUsingGET.path.i": [
+                            5
+                        ],
+                        "notyPevarUsingGET.path.s": [
+                            "155"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/notypevar/5/155"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "notyPevarUsingGET.path.i",
+                            "notyPevarUsingGET.path.s"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "notyPevarUsingGET.path.s",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "155"
+                        },
+                        {
+                            "field": "notyPevarUsingGET.path.i",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "5"
+                        }
+                    ],
+                    "test_id": "641"
+                }
+            ],
+            "seqtest_id": "TC_217",
+            "sequence_list": [
+                "notyPevarUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "640"
+        },
+        {
+            "optests": [
+                {
+                    "api": "notyPevarUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "notyPevarUsingGET.path.i": [
+                            5
+                        ],
+                        "notyPevarUsingGET.path.s": [
+                            "155"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/notypevar/5/155"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "notyPevarUsingGET.path.i",
+                            "notyPevarUsingGET.path.s"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 3
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "notyPevarUsingGET.path.s",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "155"
+                        },
+                        {
+                            "field": "notyPevarUsingGET.path.i",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "5"
+                        }
+                    ],
+                    "test_id": "643"
+                }
+            ],
+            "seqtest_id": "TC_218",
+            "sequence_list": [
+                "notyPevarUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "642"
+        },
+        {
+            "optests": [
+                {
+                    "api": "ordered4UsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "ordered4UsingGET.path.w": [
+                            "1"
+                        ],
+                        "ordered4UsingGET.path.x": [
+                            "2"
+                        ],
+                        "ordered4UsingGET.path.y": [
+                            "4"
+                        ],
+                        "ordered4UsingGET.path.z": [
+                            "0"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/ordered4/1/2/0/4"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "ordered4UsingGET.path.w",
+                            "ordered4UsingGET.path.x",
+                            "ordered4UsingGET.path.y",
+                            "ordered4UsingGET.path.z"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "ordered4UsingGET.path.y",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "4"
+                        },
+                        {
+                            "field": "ordered4UsingGET.path.z",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        },
+                        {
+                            "field": "ordered4UsingGET.path.x",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "2"
+                        },
+                        {
+                            "field": "ordered4UsingGET.path.w",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "1"
+                        }
+                    ],
+                    "test_id": "645"
+                }
+            ],
+            "seqtest_id": "TC_219",
+            "sequence_list": [
+                "ordered4UsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "644"
+        },
+        {
+            "optests": [
+                {
+                    "api": "ordered4UsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "ordered4UsingGET.path.w": [
+                            "1"
+                        ],
+                        "ordered4UsingGET.path.x": [
+                            "2"
+                        ],
+                        "ordered4UsingGET.path.y": [
+                            "4"
+                        ],
+                        "ordered4UsingGET.path.z": [
+                            "0"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/ordered4/1/2/0/4"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "ordered4UsingGET.path.w",
+                            "ordered4UsingGET.path.x",
+                            "ordered4UsingGET.path.y",
+                            "ordered4UsingGET.path.z"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 3
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "ordered4UsingGET.path.y",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "4"
+                        },
+                        {
+                            "field": "ordered4UsingGET.path.z",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        },
+                        {
+                            "field": "ordered4UsingGET.path.x",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "2"
+                        },
+                        {
+                            "field": "ordered4UsingGET.path.w",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "1"
+                        }
+                    ],
+                    "test_id": "647"
+                }
+            ],
+            "seqtest_id": "TC_220",
+            "sequence_list": [
+                "ordered4UsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "646"
+        },
+        {
+            "optests": [
+                {
+                    "api": "patUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "patUsingGET.path.pat": [
+                            "28"
+                        ],
+                        "patUsingGET.path.txt": [
+                            "26"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/pat/26/28"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "patUsingGET.path.pat",
+                            "patUsingGET.path.txt"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "patUsingGET.path.txt",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "26"
+                        },
+                        {
+                            "field": "patUsingGET.path.pat",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "28"
+                        }
+                    ],
+                    "test_id": "649"
+                }
+            ],
+            "seqtest_id": "TC_221",
+            "sequence_list": [
+                "patUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "648"
+        },
+        {
+            "optests": [
+                {
+                    "api": "patUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "patUsingGET.path.pat": [
+                            "28"
+                        ],
+                        "patUsingGET.path.txt": [
+                            "26"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/pat/26/28"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "patUsingGET.path.pat",
+                            "patUsingGET.path.txt"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 3
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "patUsingGET.path.txt",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "26"
+                        },
+                        {
+                            "field": "patUsingGET.path.pat",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "28"
+                        }
+                    ],
+                    "test_id": "651"
+                }
+            ],
+            "seqtest_id": "TC_222",
+            "sequence_list": [
+                "patUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "650"
+        },
+        {
+            "optests": [
+                {
+                    "api": "regexUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "regexUsingGET.path.txt": [
+                            "90"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/pat/90"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "regexUsingGET.path.txt"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "regexUsingGET.path.txt",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "90"
+                        }
+                    ],
+                    "test_id": "653"
+                }
+            ],
+            "seqtest_id": "TC_223",
+            "sequence_list": [
+                "regexUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "652"
+        },
+        {
+            "optests": [
+                {
+                    "api": "regexUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "regexUsingGET.path.txt": [
+                            "90"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/pat/90"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "regexUsingGET.path.txt"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 3
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "regexUsingGET.path.txt",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "90"
+                        }
+                    ],
+                    "test_id": "655"
+                }
+            ],
+            "seqtest_id": "TC_224",
+            "sequence_list": [
+                "regexUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "654"
+        },
+        {
+            "optests": [
+                {
+                    "api": "text2txtUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "text2txtUsingGET.path.word1": [
+                            "0"
+                        ],
+                        "text2txtUsingGET.path.word2": [
+                            "5TkZ"
+                        ],
+                        "text2txtUsingGET.path.word3": [
+                            "gAq0"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/text2txt/0/5TkZ/gAq0"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "text2txtUsingGET.path.word1",
+                            "text2txtUsingGET.path.word2",
+                            "text2txtUsingGET.path.word3"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "text2txtUsingGET.path.word2",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "5TkZ"
+                        },
+                        {
+                            "field": "text2txtUsingGET.path.word3",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "gAq0"
+                        },
+                        {
+                            "field": "text2txtUsingGET.path.word1",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        }
+                    ],
+                    "test_id": "657"
+                }
+            ],
+            "seqtest_id": "TC_225",
+            "sequence_list": [
+                "text2txtUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "656"
+        },
+        {
+            "optests": [
+                {
+                    "api": "text2txtUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "text2txtUsingGET.path.word1": [
+                            "0"
+                        ],
+                        "text2txtUsingGET.path.word2": [
+                            "5TkZ"
+                        ],
+                        "text2txtUsingGET.path.word3": [
+                            "gAq0"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/text2txt/0/5TkZ/gAq0"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "text2txtUsingGET.path.word1",
+                            "text2txtUsingGET.path.word2",
+                            "text2txtUsingGET.path.word3"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 3
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "text2txtUsingGET.path.word2",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "5TkZ"
+                        },
+                        {
+                            "field": "text2txtUsingGET.path.word3",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "gAq0"
+                        },
+                        {
+                            "field": "text2txtUsingGET.path.word1",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        }
+                    ],
+                    "test_id": "659"
+                }
+            ],
+            "seqtest_id": "TC_226",
+            "sequence_list": [
+                "text2txtUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "658"
+        },
+        {
+            "optests": [
+                {
+                    "api": "titleUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/title/0/0"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "titleUsingGET.path.sex",
+                            "titleUsingGET.path.title"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "titleUsingGET.path.sex",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        },
+                        {
+                            "field": "titleUsingGET.path.title",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        }
+                    ],
+                    "test_id": "661"
+                }
+            ],
+            "seqtest_id": "TC_227",
+            "sequence_list": [
+                "titleUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "660"
+        },
+        {
+            "optests": [
+                {
+                    "api": "titleUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/title/0/0"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "titleUsingGET.path.sex",
+                            "titleUsingGET.path.title"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 3
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "titleUsingGET.path.sex",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        },
+                        {
+                            "field": "titleUsingGET.path.title",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        }
+                    ],
+                    "test_id": "663"
+                }
+            ],
+            "seqtest_id": "TC_228",
+            "sequence_list": [
+                "titleUsingGET"
+            ],
+            "testcases": [],
+            "testscenario_id": "662"
+        },
+        {
+            "optests": [
+                {
+                    "api": "text2txtUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "text2txtUsingGET.path.word1": [
+                            "0"
+                        ],
+                        "text2txtUsingGET.path.word2": [
+                            "5TkZ"
+                        ],
+                        "text2txtUsingGET.path.word3": [
+                            "gAq0"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/text2txt/0/5TkZ/gAq0"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "text2txtUsingGET.path.word1",
+                            "text2txtUsingGET.path.word2",
+                            "text2txtUsingGET.path.word3"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "text2txtUsingGET.path.word2",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "5TkZ"
+                        },
+                        {
+                            "field": "text2txtUsingGET.path.word3",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "gAq0"
+                        },
+                        {
+                            "field": "text2txtUsingGET.path.word1",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        }
+                    ],
+                    "test_id": "665"
+                }
+            ],
+            "seqtest_id": "TC_229",
+            "sequence_list": [
+                "text2txtUsingGET"
+            ],
+            "testscenario_id": "664"
+        },
+        {
+            "optests": [
+                {
+                    "api": "ordered4UsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "ordered4UsingGET.path.w": [
+                            "1"
+                        ],
+                        "ordered4UsingGET.path.x": [
+                            "2"
+                        ],
+                        "ordered4UsingGET.path.y": [
+                            "4"
+                        ],
+                        "ordered4UsingGET.path.z": [
+                            "0"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/ordered4/1/2/0/4"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "ordered4UsingGET.path.w",
+                            "ordered4UsingGET.path.x",
+                            "ordered4UsingGET.path.y",
+                            "ordered4UsingGET.path.z"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "ordered4UsingGET.path.y",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "4"
+                        },
+                        {
+                            "field": "ordered4UsingGET.path.z",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        },
+                        {
+                            "field": "ordered4UsingGET.path.x",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "2"
+                        },
+                        {
+                            "field": "ordered4UsingGET.path.w",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "1"
+                        }
+                    ],
+                    "test_id": "667"
+                }
+            ],
+            "seqtest_id": "TC_230",
+            "sequence_list": [
+                "ordered4UsingGET"
+            ],
+            "testscenario_id": "666"
+        },
+        {
+            "optests": [
+                {
+                    "api": "calcUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "calcUsingGET.path.arg1": [
+                            5.1
+                        ],
+                        "calcUsingGET.path.arg2": [
+                            2.8
+                        ],
+                        "calcUsingGET.path.op": [
+                            "IQOV"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/calc/IQOV/5.1/2.8"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "calcUsingGET.path.arg1",
+                            "calcUsingGET.path.arg2",
+                            "calcUsingGET.path.op"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "calcUsingGET.path.op",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "IQOV"
+                        },
+                        {
+                            "field": "calcUsingGET.path.arg2",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "2.8"
+                        },
+                        {
+                            "field": "calcUsingGET.path.arg1",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "5.1"
+                        }
+                    ],
+                    "test_id": "669"
+                }
+            ],
+            "seqtest_id": "TC_231",
+            "sequence_list": [
+                "calcUsingGET"
+            ],
+            "testscenario_id": "668"
+        },
+        {
+            "optests": [
+                {
+                    "api": "cookieUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "cookieUsingGET.path.name": [
+                            "0"
+                        ],
+                        "cookieUsingGET.path.site": [
+                            "0"
+                        ],
+                        "cookieUsingGET.path.val": [
+                            "22"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/cookie/0/22/0"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "cookieUsingGET.path.name",
+                            "cookieUsingGET.path.site",
+                            "cookieUsingGET.path.val"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "cookieUsingGET.path.name",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        },
+                        {
+                            "field": "cookieUsingGET.path.val",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "22"
+                        },
+                        {
+                            "field": "cookieUsingGET.path.site",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        }
+                    ],
+                    "test_id": "671"
+                }
+            ],
+            "seqtest_id": "TC_232",
+            "sequence_list": [
+                "cookieUsingGET"
+            ],
+            "testscenario_id": "670"
+        },
+        {
+            "optests": [
+                {
+                    "api": "costfunsUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "costfunsUsingGET.path.i": [
+                            9
+                        ],
+                        "costfunsUsingGET.path.s": [
+                            "16"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/costfuns/9/16"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "costfunsUsingGET.path.i",
+                            "costfunsUsingGET.path.s"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "costfunsUsingGET.path.s",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "16"
+                        },
+                        {
+                            "field": "costfunsUsingGET.path.i",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "9"
+                        }
+                    ],
+                    "test_id": "673"
+                }
+            ],
+            "seqtest_id": "TC_233",
+            "sequence_list": [
+                "costfunsUsingGET"
+            ],
+            "testscenario_id": "672"
+        },
+        {
+            "optests": [
+                {
+                    "api": "dateParseUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "dateParseUsingGET.path.dayname": [
+                            "yF23"
+                        ],
+                        "dateParseUsingGET.path.monthname": [
+                            "Apr-21"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/dateparse/yF23/Apr-21"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "dateParseUsingGET.path.dayname",
+                            "dateParseUsingGET.path.monthname"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "dateParseUsingGET.path.dayname",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "yF23"
+                        },
+                        {
+                            "field": "dateParseUsingGET.path.monthname",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "Apr-21"
+                        }
+                    ],
+                    "test_id": "675"
+                }
+            ],
+            "seqtest_id": "TC_234",
+            "sequence_list": [
+                "dateParseUsingGET"
+            ],
+            "testscenario_id": "674"
+        },
+        {
+            "optests": [
+                {
+                    "api": "fileSuffixUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "fileSuffixUsingGET.path.directory": [
+                            "etCK"
+                        ],
+                        "fileSuffixUsingGET.path.file": [
+                            "Sachsen"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/filesuffix/etCK/Sachsen"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "fileSuffixUsingGET.path.directory",
+                            "fileSuffixUsingGET.path.file"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "fileSuffixUsingGET.path.directory",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "etCK"
+                        },
+                        {
+                            "field": "fileSuffixUsingGET.path.file",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "Sachsen"
+                        }
+                    ],
+                    "test_id": "677"
+                }
+            ],
+            "seqtest_id": "TC_235",
+            "sequence_list": [
+                "fileSuffixUsingGET"
+            ],
+            "testscenario_id": "676"
+        },
+        {
+            "optests": [
+                {
+                    "api": "notyPevarUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "notyPevarUsingGET.path.i": [
+                            5
+                        ],
+                        "notyPevarUsingGET.path.s": [
+                            "155"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/notypevar/5/155"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "notyPevarUsingGET.path.i",
+                            "notyPevarUsingGET.path.s"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "notyPevarUsingGET.path.s",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "155"
+                        },
+                        {
+                            "field": "notyPevarUsingGET.path.i",
+                            "type": "DataScenarioType.RANDOM",
+                            "value": "5"
+                        }
+                    ],
+                    "test_id": "679"
+                }
+            ],
+            "seqtest_id": "TC_236",
+            "sequence_list": [
+                "notyPevarUsingGET"
+            ],
+            "testscenario_id": "678"
+        },
+        {
+            "optests": [
+                {
+                    "api": "patUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "patUsingGET.path.pat": [
+                            "28"
+                        ],
+                        "patUsingGET.path.txt": [
+                            "26"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/pat/26/28"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "patUsingGET.path.pat",
+                            "patUsingGET.path.txt"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "patUsingGET.path.txt",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "26"
+                        },
+                        {
+                            "field": "patUsingGET.path.pat",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "28"
+                        }
+                    ],
+                    "test_id": "681"
+                }
+            ],
+            "seqtest_id": "TC_237",
+            "sequence_list": [
+                "patUsingGET"
+            ],
+            "testscenario_id": "680"
+        },
+        {
+            "optests": [
+                {
+                    "api": "regexUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "regexUsingGET.path.txt": [
+                            "90"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/pat/90"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "regexUsingGET.path.txt"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "regexUsingGET.path.txt",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "90"
+                        }
+                    ],
+                    "test_id": "683"
+                }
+            ],
+            "seqtest_id": "TC_238",
+            "sequence_list": [
+                "regexUsingGET"
+            ],
+            "testscenario_id": "682"
+        },
+        {
+            "optests": [
+                {
+                    "api": "titleUsingGET",
+                    "check": [
+                        {
+                            "function": "",
+                            "id": "responseCodevalid",
+                            "operator": "<",
+                            "path": "responseCode",
+                            "value": "400"
+                        },
+                        {
+                            "function": "getschema",
+                            "id": "schemaconformitycheck",
+                            "operator": "==",
+                            "path": "response",
+                            "value": "responseSpecSchema"
+                        }
+                    ],
+                    "datarow": {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    },
+                    "execute": {
+                        "body": {},
+                        "files": [],
+                        "formdata": {},
+                        "header": {},
+                        "method": "get",
+                        "queryparam": {},
+                        "url": "http://localhost:8080/api/title/0/0"
+                    },
+                    "extract": [],
+                    "param_scenario": {
+                        "other_parameters": null,
+                        "params": [
+                            "titleUsingGET.path.sex",
+                            "titleUsingGET.path.title"
+                        ],
+                        "target_optional_parameter": null,
+                        "type": 1
+                    },
+                    "scenario_desc": [
+                        {
+                            "field": "titleUsingGET.path.sex",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        },
+                        {
+                            "field": "titleUsingGET.path.title",
+                            "type": "DataScenarioType.REALISTIC",
+                            "value": "0"
+                        }
+                    ],
+                    "test_id": "685"
+                }
+            ],
+            "seqtest_id": "TC_239",
+            "sequence_list": [
+                "titleUsingGET"
+            ],
+            "testscenario_id": "684"
+        }
+    ],
+    "testscenarios": {
+        "620": {
+            "ops": [],
+            "scenario": "Testing calcUsingGET with MANDATORY parameters: arg1, arg2, op with data op(RANDOM, IQOV) arg2(RANDOM, 2.8) arg1(RANDOM, 5.1) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "calcUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "calcUsingGET.path.arg1",
+                        "calcUsingGET.path.arg2",
+                        "calcUsingGET.path.op"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 1
+                },
+                null,
+                [
+                    {
+                        "calcUsingGET.path.arg1": [
+                            5.1
+                        ],
+                        "calcUsingGET.path.arg2": [
+                            2.8
+                        ],
+                        "calcUsingGET.path.op": [
+                            "IQOV"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "620"
+        },
+        "622": {
+            "ops": [],
+            "scenario": "Testing calcUsingGET with ALL parameters: arg1, arg2, op with data op(RANDOM, IQOV) arg2(RANDOM, 2.8) arg1(RANDOM, 5.1) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "calcUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "calcUsingGET.path.arg1",
+                        "calcUsingGET.path.arg2",
+                        "calcUsingGET.path.op"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 3
+                },
+                null,
+                [
+                    {
+                        "calcUsingGET.path.arg1": [
+                            5.1
+                        ],
+                        "calcUsingGET.path.arg2": [
+                            2.8
+                        ],
+                        "calcUsingGET.path.op": [
+                            "IQOV"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "622"
+        },
+        "624": {
+            "ops": [],
+            "scenario": "Testing cookieUsingGET with MANDATORY parameters: name, site, val with data name(REALISTIC, 0) val(REALISTIC, 22) site(REALISTIC, 0) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "cookieUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "cookieUsingGET.path.name",
+                        "cookieUsingGET.path.site",
+                        "cookieUsingGET.path.val"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 1
+                },
+                null,
+                [
+                    {
+                        "cookieUsingGET.path.name": [
+                            "0"
+                        ],
+                        "cookieUsingGET.path.site": [
+                            "0"
+                        ],
+                        "cookieUsingGET.path.val": [
+                            "22"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "624"
+        },
+        "626": {
+            "ops": [],
+            "scenario": "Testing cookieUsingGET with ALL parameters: name, site, val with data name(REALISTIC, 0) val(REALISTIC, 22) site(REALISTIC, 0) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "cookieUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "cookieUsingGET.path.name",
+                        "cookieUsingGET.path.site",
+                        "cookieUsingGET.path.val"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 3
+                },
+                null,
+                [
+                    {
+                        "cookieUsingGET.path.name": [
+                            "0"
+                        ],
+                        "cookieUsingGET.path.site": [
+                            "0"
+                        ],
+                        "cookieUsingGET.path.val": [
+                            "22"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "626"
+        },
+        "628": {
+            "ops": [],
+            "scenario": "Testing costfunsUsingGET with MANDATORY parameters: i, s with data s(REALISTIC, 16) i(RANDOM, 9) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "costfunsUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "costfunsUsingGET.path.i",
+                        "costfunsUsingGET.path.s"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 1
+                },
+                null,
+                [
+                    {
+                        "costfunsUsingGET.path.i": [
+                            9
+                        ],
+                        "costfunsUsingGET.path.s": [
+                            "16"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "628"
+        },
+        "630": {
+            "ops": [],
+            "scenario": "Testing costfunsUsingGET with ALL parameters: i, s with data s(REALISTIC, 16) i(RANDOM, 9) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "costfunsUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "costfunsUsingGET.path.i",
+                        "costfunsUsingGET.path.s"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 3
+                },
+                null,
+                [
+                    {
+                        "costfunsUsingGET.path.i": [
+                            9
+                        ],
+                        "costfunsUsingGET.path.s": [
+                            "16"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "630"
+        },
+        "632": {
+            "ops": [],
+            "scenario": "Testing dateParseUsingGET with MANDATORY parameters: dayname, monthname with data dayname(RANDOM, yF23) monthname(REALISTIC, Apr-21) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "dateParseUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "dateParseUsingGET.path.dayname",
+                        "dateParseUsingGET.path.monthname"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 1
+                },
+                null,
+                [
+                    {
+                        "dateParseUsingGET.path.dayname": [
+                            "yF23"
+                        ],
+                        "dateParseUsingGET.path.monthname": [
+                            "Apr-21"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "632"
+        },
+        "634": {
+            "ops": [],
+            "scenario": "Testing dateParseUsingGET with ALL parameters: dayname, monthname with data dayname(RANDOM, yF23) monthname(REALISTIC, Apr-21) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "dateParseUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "dateParseUsingGET.path.dayname",
+                        "dateParseUsingGET.path.monthname"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 3
+                },
+                null,
+                [
+                    {
+                        "dateParseUsingGET.path.dayname": [
+                            "yF23"
+                        ],
+                        "dateParseUsingGET.path.monthname": [
+                            "Apr-21"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "634"
+        },
+        "636": {
+            "ops": [],
+            "scenario": "Testing fileSuffixUsingGET with MANDATORY parameters: directory, file with data directory(RANDOM, etCK) file(REALISTIC, Sachsen) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "fileSuffixUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "fileSuffixUsingGET.path.directory",
+                        "fileSuffixUsingGET.path.file"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 1
+                },
+                null,
+                [
+                    {
+                        "fileSuffixUsingGET.path.directory": [
+                            "etCK"
+                        ],
+                        "fileSuffixUsingGET.path.file": [
+                            "Sachsen"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "636"
+        },
+        "638": {
+            "ops": [],
+            "scenario": "Testing fileSuffixUsingGET with ALL parameters: directory, file with data directory(RANDOM, etCK) file(REALISTIC, Sachsen) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "fileSuffixUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "fileSuffixUsingGET.path.directory",
+                        "fileSuffixUsingGET.path.file"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 3
+                },
+                null,
+                [
+                    {
+                        "fileSuffixUsingGET.path.directory": [
+                            "etCK"
+                        ],
+                        "fileSuffixUsingGET.path.file": [
+                            "Sachsen"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "638"
+        },
+        "640": {
+            "ops": [],
+            "scenario": "Testing notyPevarUsingGET with MANDATORY parameters: i, s with data s(REALISTIC, 155) i(RANDOM, 5) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "notyPevarUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "notyPevarUsingGET.path.i",
+                        "notyPevarUsingGET.path.s"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 1
+                },
+                null,
+                [
+                    {
+                        "notyPevarUsingGET.path.i": [
+                            5
+                        ],
+                        "notyPevarUsingGET.path.s": [
+                            "155"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "640"
+        },
+        "642": {
+            "ops": [],
+            "scenario": "Testing notyPevarUsingGET with ALL parameters: i, s with data s(REALISTIC, 155) i(RANDOM, 5) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "notyPevarUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "notyPevarUsingGET.path.i",
+                        "notyPevarUsingGET.path.s"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 3
+                },
+                null,
+                [
+                    {
+                        "notyPevarUsingGET.path.i": [
+                            5
+                        ],
+                        "notyPevarUsingGET.path.s": [
+                            "155"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "642"
+        },
+        "644": {
+            "ops": [],
+            "scenario": "Testing ordered4UsingGET with MANDATORY parameters: w, x, y, z with data y(REALISTIC, 4) z(REALISTIC, 0) x(REALISTIC, 2) w(REALISTIC, 1) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "ordered4UsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "ordered4UsingGET.path.w",
+                        "ordered4UsingGET.path.x",
+                        "ordered4UsingGET.path.y",
+                        "ordered4UsingGET.path.z"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 1
+                },
+                null,
+                [
+                    {
+                        "ordered4UsingGET.path.w": [
+                            "1"
+                        ],
+                        "ordered4UsingGET.path.x": [
+                            "2"
+                        ],
+                        "ordered4UsingGET.path.y": [
+                            "4"
+                        ],
+                        "ordered4UsingGET.path.z": [
+                            "0"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "644"
+        },
+        "646": {
+            "ops": [],
+            "scenario": "Testing ordered4UsingGET with ALL parameters: w, x, y, z with data y(REALISTIC, 4) z(REALISTIC, 0) x(REALISTIC, 2) w(REALISTIC, 1) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "ordered4UsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "ordered4UsingGET.path.w",
+                        "ordered4UsingGET.path.x",
+                        "ordered4UsingGET.path.y",
+                        "ordered4UsingGET.path.z"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 3
+                },
+                null,
+                [
+                    {
+                        "ordered4UsingGET.path.w": [
+                            "1"
+                        ],
+                        "ordered4UsingGET.path.x": [
+                            "2"
+                        ],
+                        "ordered4UsingGET.path.y": [
+                            "4"
+                        ],
+                        "ordered4UsingGET.path.z": [
+                            "0"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "646"
+        },
+        "648": {
+            "ops": [],
+            "scenario": "Testing patUsingGET with MANDATORY parameters: pat, txt with data txt(REALISTIC, 26) pat(REALISTIC, 28) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "patUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "patUsingGET.path.pat",
+                        "patUsingGET.path.txt"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 1
+                },
+                null,
+                [
+                    {
+                        "patUsingGET.path.pat": [
+                            "28"
+                        ],
+                        "patUsingGET.path.txt": [
+                            "26"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "648"
+        },
+        "650": {
+            "ops": [],
+            "scenario": "Testing patUsingGET with ALL parameters: pat, txt with data txt(REALISTIC, 26) pat(REALISTIC, 28) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "patUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "patUsingGET.path.pat",
+                        "patUsingGET.path.txt"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 3
+                },
+                null,
+                [
+                    {
+                        "patUsingGET.path.pat": [
+                            "28"
+                        ],
+                        "patUsingGET.path.txt": [
+                            "26"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "650"
+        },
+        "652": {
+            "ops": [],
+            "scenario": "Testing regexUsingGET with MANDATORY parameters: txt with data txt(REALISTIC, 90) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "regexUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "regexUsingGET.path.txt"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 1
+                },
+                null,
+                [
+                    {
+                        "regexUsingGET.path.txt": [
+                            "90"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "652"
+        },
+        "654": {
+            "ops": [],
+            "scenario": "Testing regexUsingGET with ALL parameters: txt with data txt(REALISTIC, 90) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "regexUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "regexUsingGET.path.txt"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 3
+                },
+                null,
+                [
+                    {
+                        "regexUsingGET.path.txt": [
+                            "90"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "654"
+        },
+        "656": {
+            "ops": [],
+            "scenario": "Testing text2txtUsingGET with MANDATORY parameters: word1, word2, word3 with data word2(RANDOM, 5TkZ) word3(RANDOM, gAq0) word1(REALISTIC, 0) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "text2txtUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "text2txtUsingGET.path.word1",
+                        "text2txtUsingGET.path.word2",
+                        "text2txtUsingGET.path.word3"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 1
+                },
+                null,
+                [
+                    {
+                        "text2txtUsingGET.path.word1": [
+                            "0"
+                        ],
+                        "text2txtUsingGET.path.word2": [
+                            "5TkZ"
+                        ],
+                        "text2txtUsingGET.path.word3": [
+                            "gAq0"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "656"
+        },
+        "658": {
+            "ops": [],
+            "scenario": "Testing text2txtUsingGET with ALL parameters: word1, word2, word3 with data word2(RANDOM, 5TkZ) word3(RANDOM, gAq0) word1(REALISTIC, 0) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "text2txtUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "text2txtUsingGET.path.word1",
+                        "text2txtUsingGET.path.word2",
+                        "text2txtUsingGET.path.word3"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 3
+                },
+                null,
+                [
+                    {
+                        "text2txtUsingGET.path.word1": [
+                            "0"
+                        ],
+                        "text2txtUsingGET.path.word2": [
+                            "5TkZ"
+                        ],
+                        "text2txtUsingGET.path.word3": [
+                            "gAq0"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "658"
+        },
+        "660": {
+            "ops": [],
+            "scenario": "Testing titleUsingGET with MANDATORY parameters: sex, title with data sex(REALISTIC, 0) title(REALISTIC, 0) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "titleUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "titleUsingGET.path.sex",
+                        "titleUsingGET.path.title"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 1
+                },
+                null,
+                [
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "660"
+        },
+        "662": {
+            "ops": [],
+            "scenario": "Testing titleUsingGET with ALL parameters: sex, title with data sex(REALISTIC, 0) title(REALISTIC, 0) ",
+            "scenario_type": 1,
+            "target_op_testcase": [
+                "titleUsingGET",
+                {
+                    "other_parameters": null,
+                    "params": [
+                        "titleUsingGET.path.sex",
+                        "titleUsingGET.path.title"
+                    ],
+                    "target_optional_parameter": null,
+                    "type": 3
+                },
+                null,
+                [
+                    {
+                        "titleUsingGET.path.sex": [
+                            "0"
+                        ],
+                        "titleUsingGET.path.title": [
+                            "0"
+                        ]
+                    }
+                ]
+            ],
+            "test_scenario_id": "662"
+        },
+        "664": {
+            "ops": [
+                "text2txtUsingGET"
+            ],
+            "scenario": "Testing api having sequence: text2txtUsingGET",
+            "scenario_type": 2,
+            "target_op_testcase": null,
+            "test_scenario_id": "664"
+        },
+        "666": {
+            "ops": [
+                "ordered4UsingGET"
+            ],
+            "scenario": "Testing api having sequence: ordered4UsingGET",
+            "scenario_type": 2,
+            "target_op_testcase": null,
+            "test_scenario_id": "666"
+        },
+        "668": {
+            "ops": [
+                "calcUsingGET"
+            ],
+            "scenario": "Testing api.calc having sequence: calcUsingGET",
+            "scenario_type": 2,
+            "target_op_testcase": null,
+            "test_scenario_id": "668"
+        },
+        "670": {
+            "ops": [
+                "cookieUsingGET"
+            ],
+            "scenario": "Testing api.cookie having sequence: cookieUsingGET",
+            "scenario_type": 2,
+            "target_op_testcase": null,
+            "test_scenario_id": "670"
+        },
+        "672": {
+            "ops": [
+                "costfunsUsingGET"
+            ],
+            "scenario": "Testing api.costfuns having sequence: costfunsUsingGET",
+            "scenario_type": 2,
+            "target_op_testcase": null,
+            "test_scenario_id": "672"
+        },
+        "674": {
+            "ops": [
+                "dateParseUsingGET"
+            ],
+            "scenario": "Testing api.dateparse having sequence: dateParseUsingGET",
+            "scenario_type": 2,
+            "target_op_testcase": null,
+            "test_scenario_id": "674"
+        },
+        "676": {
+            "ops": [
+                "fileSuffixUsingGET"
+            ],
+            "scenario": "Testing api.filesuffix having sequence: fileSuffixUsingGET",
+            "scenario_type": 2,
+            "target_op_testcase": null,
+            "test_scenario_id": "676"
+        },
+        "678": {
+            "ops": [
+                "notyPevarUsingGET"
+            ],
+            "scenario": "Testing api.notypevar having sequence: notyPevarUsingGET",
+            "scenario_type": 2,
+            "target_op_testcase": null,
+            "test_scenario_id": "678"
+        },
+        "680": {
+            "ops": [
+                "patUsingGET"
+            ],
+            "scenario": "Testing api.pat having sequence: patUsingGET",
+            "scenario_type": 2,
+            "target_op_testcase": null,
+            "test_scenario_id": "680"
+        },
+        "682": {
+            "ops": [
+                "regexUsingGET"
+            ],
+            "scenario": "Testing api.pat having sequence: regexUsingGET",
+            "scenario_type": 2,
+            "target_op_testcase": null,
+            "test_scenario_id": "682"
+        },
+        "684": {
+            "ops": [
+                "titleUsingGET"
+            ],
+            "scenario": "Testing api.title having sequence: titleUsingGET",
+            "scenario_type": 2,
+            "target_op_testcase": null,
+            "test_scenario_id": "684"
+        }
+    }
+}

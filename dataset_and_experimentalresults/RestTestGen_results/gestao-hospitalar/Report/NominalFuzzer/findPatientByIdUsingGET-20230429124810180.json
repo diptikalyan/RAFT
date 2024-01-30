@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "findPatientByIdUsingGET-20230429124810180",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/v1/hospitais/v1hospitaisdepr/pacientes/6",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:48:10 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 07:18:09 GMT\n",
+      "responseBody": "{\"id\":\"6\",\"name\":\"Gabriel\",\"cpf\":\"864789205\",\"birthDate\":\"2003-07-16T00:00:00.000+0000\",\"gender\":\"masculino\",\"entryDate\":\"2019-07-16T00:00:00.000+0000\",\"exitDate\":\"2019-07-16T00:00:00.000+0000\",\"active\":false,\"location\":{\"id\":\"644cc396e72153da26d532cd\",\"name\":\"Gabriel\",\"referenceId\":\"Av. Morumbi, 354 - Morumbi, São Paulo - SP, 05606-010\",\"locationCategory\":\"PATIENT\",\"position\":{\"x\":-46.706638,\"y\":-23.578307,\"type\":\"Point\",\"coordinates\":[-46.706638,-23.578307]},\"location\":{\"x\":-46.706638,\"y\":-23.578307,\"type\":\"Point\",\"coordinates\":[-46.706638,-23.578307]}}}",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:10 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:10 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "deleteByIdUsingDELETE-20230429124818568",
+  "testInteractions": [
+    {
+      "requestMethod": "DELETE",
+      "requestURL": "http://localhost:8080/v1/hospitais/",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 29, 2023, 12:48:18 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 405
+      },
+      "responseHeaders": "Allow: POST, GET\nContent-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 07:18:18 GMT\n",
+      "responseBody": "{\"timestamp\":\"2023-04-29T07:18:18.639+0000\",\"status\":405,\"error\":\"Method Not Allowed\",\"message\":\"Request method \u0027DELETE\u0027 not supported\",\"path\":\"/v1/hospitais/\"}",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:18 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:18 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "verificaLeitosDisponiveisUsingGET-20230429124826013",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/v1/hospitais/%7Bid%7D/leitos?85",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:48:26 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 07:18:25 GMT\nConnection: close\n",
+      "responseBody": "{\"timestamp\":\"2023-04-29T07:18:26.016+0000\",\"status\":400,\"error\":\"Bad Request\",\"message\":\"Hospital não encontrado! ID:{id}\",\"path\":\"/v1/hospitais/%7Bid%7D/leitos\"}",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:26 PM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:26 PM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "PASS",
+      "message": "The erroneous test sequence was rejected by the server."
+    }
+  },
+  "tags": []
+}

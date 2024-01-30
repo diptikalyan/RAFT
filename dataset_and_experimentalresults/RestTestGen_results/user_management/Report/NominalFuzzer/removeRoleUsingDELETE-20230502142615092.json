@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "removeRoleUsingDELETE-20230502142615092",
+  "testInteractions": [
+    {
+      "requestMethod": "DELETE",
+      "requestURL": "http://localhost:50115/users/123/roles/123",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "May 2, 2023, 2:26:15 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 500
+      },
+      "responseHeaders": "Content-Type: application/json\nTransfer-Encoding: chunked\nDate: Tue, 02 May 2023 08:56:14 GMT\nConnection: close\n",
+      "responseBody": "{\"timestamp\":\"2023-05-02T08:56:15.116+0000\",\"status\":500,\"error\":\"Internal Server Error\",\"message\":\"User not found with Id \u003d 123\",\"path\":\"/users/123/roles/123\"}",
+      "responseReceivedAt": "May 2, 2023, 2:26:15 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "May 2, 2023, 2:26:15 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

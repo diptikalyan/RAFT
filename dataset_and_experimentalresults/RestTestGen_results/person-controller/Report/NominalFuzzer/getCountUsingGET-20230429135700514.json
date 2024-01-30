@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getCountUsingGET-20230429135700514",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:50111/api/persons/count",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 1:57:00 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 08:27:00 GMT\nKeep-Alive: timeout\u003d60\nConnection: keep-alive\n",
+      "responseBody": "1",
+      "responseReceivedAt": "Apr 29, 2023, 1:57:00 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 1:57:00 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

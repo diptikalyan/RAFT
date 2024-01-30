@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "calcUsingGET-20230429103145467",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/calc/zombi/22.811894356569937/9223372036854775807",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:31:45 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nContent-Length: 3\nDate: Sat, 29 Apr 2023 05:01:45 GMT\n",
+      "responseBody": "0.0",
+      "responseReceivedAt": "Apr 29, 2023, 10:31:45 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:31:45 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

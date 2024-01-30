@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "v2Name-20230429105544643",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://irlverifai.sl.cloud9.ibm.com:6060/rest/v2/name/Paraguay?fullText\u003d1.7129101E38",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:55:44 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dutf-8\nContent-Length: 1220\nDate: Sat, 29 Apr 2023 05:25:44 GMT\nKeep-Alive: timeout\u003d60\nConnection: keep-alive\n",
+      "responseBody": "[{\"name\":\"Paraguay\",\"topLevelDomain\":[\".py\"],\"alpha2Code\":\"PY\",\"alpha3Code\":\"PRY\",\"callingCodes\":[\"595\"],\"capital\":\"Asunción\",\"altSpellings\":[\"PY\",\"Republic of Paraguay\",\"República del Paraguay\",\"Tetã Paraguái\"],\"region\":\"Americas\",\"subregion\":\"South America\",\"population\":6854536,\"latlng\":[-23.0,-58.0],\"demonym\":\"Paraguayan\",\"area\":406752.0,\"gini\":52.4,\"timezones\":[\"UTC-04:00\"],\"borders\":[\"ARG\",\"BOL\",\"BRA\"],\"nativeName\":\"Paraguay\",\"numericCode\":\"600\",\"currencies\":[{\"code\":\"PYG\",\"name\":\"Paraguayan guaraní\",\"symbol\":\"₲\"}],\"languages\":[{\"iso639_1\":\"es\",\"iso639_2\":\"spa\",\"name\":\"Spanish\",\"nativeName\":\"Español\"},{\"iso639_1\":\"gn\",\"iso639_2\":\"grn\",\"name\":\"Guaraní\",\"nativeName\":\"Avañe\u0027ẽ\"}],\"translations\":{\"de\":\"Paraguay\",\"es\":\"Paraguay\",\"fr\":\"Paraguay\",\"ja\":\"パラグアイ\",\"it\":\"Paraguay\",\"br\":\"Paraguai\",\"pt\":\"Paraguai\",\"nl\":\"Paraguay\",\"hr\":\"Paragvaj\",\"fa\":\"پاراگوئه\"},\"flag\":\"https://restcountries.eu/data/pry.svg\",\"regionalBlocs\":[{\"acronym\":\"USAN\",\"name\":\"Union of South American Nations\",\"otherAcronyms\":[\"UNASUR\",\"UNASUL\",\"UZAN\"],\"otherNames\":[\"Unión de Naciones Suramericanas\",\"União de Nações Sul-Americanas\",\"Unie van Zuid-Amerikaanse Naties\",\"South American Union\"]}],\"cioc\":\"PAR\"}]",
+      "responseReceivedAt": "Apr 29, 2023, 10:55:44 AM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:55:44 AM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "FAIL",
+      "message": "The erroneous test sequence was accepted as valid by the server."
+    }
+  },
+  "tags": []
+}

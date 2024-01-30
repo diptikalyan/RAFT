@@ -1,0 +1,240 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 8 and covered is 8",
+   "details": {
+    "Operations covered": [
+     "getProblemByCodeUsingGET",
+     "saveSubProblemUsingPOST",
+     "createProjectUsingPOST",
+     "updateProjectUsingPUT",
+     "saveProblemUsingPOST",
+     "deleteProjectUsingDELETE",
+     "deleteAllProblemUsingDELETE",
+     "getProjectUsingGET"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 100.0,
+   "explanation": "Total number of parameters is 10 and covered parameters is 10",
+   "details": {
+    "Parameters covered": {
+     "getProblemByCodeUsingGET": [
+      "code"
+     ],
+     "saveProblemUsingPOST": [
+      "problem",
+      "code"
+     ],
+     "deleteAllProblemUsingDELETE": [
+      "code"
+     ],
+     "createProjectUsingPOST": [
+      "project"
+     ],
+     "getProjectUsingGET": [
+      "code"
+     ],
+     "updateProjectUsingPUT": [
+      "project",
+      "code"
+     ],
+     "deleteProjectUsingDELETE": [
+      "code"
+     ],
+     "saveSubProblemUsingPOST": [
+      "problemBody"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 12.5,
+   "value_failure": 0.0,
+   "value_invalid": 25.0,
+   "explanation": "Total number of test suite operations is 8 and successfully covered is 1",
+   "details": {
+    "Operations successful": [
+     "createProjectUsingPOST"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "saveSubProblemUsingPOST",
+     "saveProblemUsingPOST"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 14.1,
+   "value_failure": 0.0,
+   "value_invalid": 39.4,
+   "explanation": "Total number of test suite operations is 71 and successfully covered is 10",
+   "details": {
+    "Operations successful": [
+     "createProjectUsingPOST"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "saveSubProblemUsingPOST",
+     "saveProblemUsingPOST"
+    ]
+   }
+  },
+  {
+   "name": "Output status class coverage",
+   "description": "Percentage of status code classes (2xx, 3xx, 4xx, 5xx) covered for all operations, as obtained in API responses",
+   "value": 9.4,
+   "explanation": "Total number of status code classes in API is 32 and classes covered is 3",
+   "details": {
+    "Missed response codes": {
+     "getProblemByCodeUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "saveProblemUsingPOST": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "deleteAllProblemUsingDELETE": [
+      "204",
+      "200",
+      "403",
+      "401"
+     ],
+     "createProjectUsingPOST": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "getProjectUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "updateProjectUsingPUT": [
+      "201",
+      "403",
+      "404",
+      "200",
+      "401"
+     ],
+     "deleteProjectUsingDELETE": [
+      "204",
+      "200",
+      "403",
+      "401"
+     ],
+     "saveSubProblemUsingPOST": [
+      "201",
+      "200",
+      "403",
+      "401"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 8.3,
+   "explanation": "Total number of status codes in API is 36 and codes covered is 3",
+   "details": {
+    "Missed response codes": {
+     "getProblemByCodeUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "saveProblemUsingPOST": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "deleteAllProblemUsingDELETE": [
+      "204",
+      "200",
+      "403",
+      "401"
+     ],
+     "createProjectUsingPOST": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "getProjectUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "updateProjectUsingPUT": [
+      "201",
+      "403",
+      "404",
+      "200",
+      "401"
+     ],
+     "deleteProjectUsingDELETE": [
+      "204",
+      "200",
+      "403",
+      "401"
+     ],
+     "saveSubProblemUsingPOST": [
+      "201",
+      "200",
+      "403",
+      "401"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of executed parameters in the API that are successfully covered",
+   "value_success": 25.0,
+   "value_failure": 0.0,
+   "value_invalid": 75.0,
+   "explanation": "Total number of parameters used in runs is 4 and covered parameters is {'createProjectUsingPOST': ['project']}",
+   "details": {
+    "Parameters covered": {
+     "createProjectUsingPOST": [
+      "project"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "Number of Test Executions": 28,
+ "Number of 2xx": 10,
+ "Number of 4xx": 28,
+ "Number of 5xx": 0,
+ "Number of Sequences": 28,
+ "Successful Sequences": 0
+}

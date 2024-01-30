@@ -1,0 +1,269 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 11 and covered is 11",
+   "details": {
+    "Operations covered": [
+     "text2txtUsingGET",
+     "patUsingGET",
+     "calcUsingGET",
+     "cookieUsingGET",
+     "costfunsUsingGET",
+     "ordered4UsingGET",
+     "notyPevarUsingGET",
+     "titleUsingGET",
+     "regexUsingGET",
+     "fileSuffixUsingGET",
+     "dateParseUsingGET"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 100.0,
+   "explanation": "Total number of parameters is 26 and covered parameters is 26",
+   "details": {
+    "Parameters covered": {
+     "calcUsingGET": [
+      "calcUsingGET.path.arg1",
+      "calcUsingGET.path.op",
+      "calcUsingGET.path.arg2"
+     ],
+     "cookieUsingGET": [
+      "cookieUsingGET.path.site",
+      "cookieUsingGET.path.name",
+      "cookieUsingGET.path.val"
+     ],
+     "costfunsUsingGET": [
+      "costfunsUsingGET.path.i",
+      "costfunsUsingGET.path.s"
+     ],
+     "dateParseUsingGET": [
+      "dateParseUsingGET.path.monthname",
+      "dateParseUsingGET.path.dayname"
+     ],
+     "fileSuffixUsingGET": [
+      "fileSuffixUsingGET.path.directory",
+      "fileSuffixUsingGET.path.file"
+     ],
+     "notyPevarUsingGET": [
+      "notyPevarUsingGET.path.s",
+      "notyPevarUsingGET.path.i"
+     ],
+     "ordered4UsingGET": [
+      "ordered4UsingGET.path.w",
+      "ordered4UsingGET.path.y",
+      "ordered4UsingGET.path.x",
+      "ordered4UsingGET.path.z"
+     ],
+     "regexUsingGET": [
+      "regexUsingGET.path.txt"
+     ],
+     "patUsingGET": [
+      "patUsingGET.path.pat",
+      "patUsingGET.path.txt"
+     ],
+     "text2txtUsingGET": [
+      "text2txtUsingGET.path.word1",
+      "text2txtUsingGET.path.word2",
+      "text2txtUsingGET.path.word3"
+     ],
+     "titleUsingGET": [
+      "titleUsingGET.path.title",
+      "titleUsingGET.path.sex"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 100.0,
+   "value_failure": 0.0,
+   "value_invalid": 0.0,
+   "explanation": "Total number of test suite operations is 11 and successfully covered is 11",
+   "details": {
+    "Operations successful": [
+     "text2txtUsingGET",
+     "patUsingGET",
+     "calcUsingGET",
+     "cookieUsingGET",
+     "costfunsUsingGET",
+     "ordered4UsingGET",
+     "notyPevarUsingGET",
+     "titleUsingGET",
+     "regexUsingGET",
+     "fileSuffixUsingGET",
+     "dateParseUsingGET"
+    ],
+    "Operations failed": [],
+    "Operations invalid": []
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 100.0,
+   "value_failure": 0.0,
+   "value_invalid": 0.0,
+   "explanation": "Total number of test suite operations is 11 and successfully covered is 11",
+   "details": {
+    "Operations successful": [
+     "text2txtUsingGET",
+     "patUsingGET",
+     "calcUsingGET",
+     "cookieUsingGET",
+     "costfunsUsingGET",
+     "ordered4UsingGET",
+     "notyPevarUsingGET",
+     "titleUsingGET",
+     "regexUsingGET",
+     "fileSuffixUsingGET",
+     "dateParseUsingGET"
+    ],
+    "Operations failed": [],
+    "Operations invalid": []
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 25.0,
+   "explanation": "Total number of status codes in API is 44 and codes covered is 11",
+   "details": {
+    "Missed response codes": {
+     "calcUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "cookieUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "costfunsUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "dateParseUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "fileSuffixUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "notyPevarUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "ordered4UsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "regexUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "patUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "text2txtUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "titleUsingGET": [
+      "404",
+      "403",
+      "401"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of executed parameters in the API that are successfully covered",
+   "value_success": 100.0,
+   "value_failure": 0.0,
+   "value_invalid": 0.0,
+   "explanation": "Total number of parameters used in runs is 26 and covered successful parameters is {'calcUsingGET': ['calcUsingGET.path.arg1', 'calcUsingGET.path.op', 'calcUsingGET.path.arg2'], 'cookieUsingGET': ['cookieUsingGET.path.site', 'cookieUsingGET.path.name', 'cookieUsingGET.path.val'], 'costfunsUsingGET': ['costfunsUsingGET.path.i', 'costfunsUsingGET.path.s'], 'dateParseUsingGET': ['dateParseUsingGET.path.monthname', 'dateParseUsingGET.path.dayname'], 'fileSuffixUsingGET': ['fileSuffixUsingGET.path.directory', 'fileSuffixUsingGET.path.file'], 'notyPevarUsingGET': ['notyPevarUsingGET.path.s', 'notyPevarUsingGET.path.i'], 'ordered4UsingGET': ['ordered4UsingGET.path.w', 'ordered4UsingGET.path.z', 'ordered4UsingGET.path.x', 'ordered4UsingGET.path.y'], 'regexUsingGET': ['regexUsingGET.path.txt'], 'patUsingGET': ['patUsingGET.path.pat', 'patUsingGET.path.txt'], 'text2txtUsingGET': ['text2txtUsingGET.path.word1', 'text2txtUsingGET.path.word2', 'text2txtUsingGET.path.word3'], 'titleUsingGET': ['titleUsingGET.path.title', 'titleUsingGET.path.sex']}",
+   "details": {
+    "Parameters covered": {
+     "calcUsingGET": [
+      "calcUsingGET.path.arg1",
+      "calcUsingGET.path.op",
+      "calcUsingGET.path.arg2"
+     ],
+     "cookieUsingGET": [
+      "cookieUsingGET.path.site",
+      "cookieUsingGET.path.name",
+      "cookieUsingGET.path.val"
+     ],
+     "costfunsUsingGET": [
+      "costfunsUsingGET.path.i",
+      "costfunsUsingGET.path.s"
+     ],
+     "dateParseUsingGET": [
+      "dateParseUsingGET.path.monthname",
+      "dateParseUsingGET.path.dayname"
+     ],
+     "fileSuffixUsingGET": [
+      "fileSuffixUsingGET.path.directory",
+      "fileSuffixUsingGET.path.file"
+     ],
+     "notyPevarUsingGET": [
+      "notyPevarUsingGET.path.s",
+      "notyPevarUsingGET.path.i"
+     ],
+     "ordered4UsingGET": [
+      "ordered4UsingGET.path.w",
+      "ordered4UsingGET.path.z",
+      "ordered4UsingGET.path.x",
+      "ordered4UsingGET.path.y"
+     ],
+     "regexUsingGET": [
+      "regexUsingGET.path.txt"
+     ],
+     "patUsingGET": [
+      "patUsingGET.path.pat",
+      "patUsingGET.path.txt"
+     ],
+     "text2txtUsingGET": [
+      "text2txtUsingGET.path.word1",
+      "text2txtUsingGET.path.word2",
+      "text2txtUsingGET.path.word3"
+     ],
+     "titleUsingGET": [
+      "titleUsingGET.path.title",
+      "titleUsingGET.path.sex"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "Number of TestOp Executions": 11,
+ "Number of 2xx": 11,
+ "Number of 4xx": 0,
+ "Number of 5xx": 0,
+ "Number of Sequences": 11,
+ "Successful Sequences": 11
+}

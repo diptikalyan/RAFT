@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "updateContactsUsingPUT-20230429111403458",
+  "testInteractions": [
+    {
+      "requestMethod": "PUT",
+      "requestURL": "http://localhost:50117/customer/contacts",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 29, 2023, 11:14:03 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 500
+      },
+      "responseHeaders": "X-Content-Type-Options: nosniff\nX-XSS-Protection: 1; mode\u003dblock\nCache-Control: no-cache, no-store, max-age\u003d0, must-revalidate\nPragma: no-cache\nExpires: 0\nContent-Type: application/json\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 05:44:03 GMT\nConnection: close\n",
+      "responseBody": "{\"message\":\"Required request body is missing: public market.dto.ContactsDTO market.rest.ContactsRestController.updateContacts(java.security.Principal,market.dto.ContactsDTO)\",\"description\":\"uri\u003d/customer/contacts\",\"entityName\":null,\"fieldErrors\":[]}",
+      "responseReceivedAt": "Apr 29, 2023, 11:14:03 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 11:14:03 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

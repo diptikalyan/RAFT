@@ -1,0 +1,92 @@
+{
+  "documented": {
+    "GET /pet/findByTags": [
+      "Tag (Tag, QUERY)"
+    ],
+    "PUT /user/{username}": [
+      "username (Usernam, PATH)"
+    ],
+    "POST /store/order": [],
+    "POST /pet/{petId}": [
+      "petId (PetId, PATH)"
+    ],
+    "DELETE /user/{username}": [
+      "username (Usernam, PATH)"
+    ],
+    "POST /pet": [],
+    "DELETE /store/order/{orderId}": [
+      "orderId (OrderId, PATH)"
+    ],
+    "POST /user/createWithArray": [],
+    "GET /user/logout": [],
+    "POST /pet/{petId}/uploadImage": [
+      "petId (PetId, PATH)"
+    ],
+    "GET /pet/findByStatus": [
+      "Statu (Statu, QUERY)"
+    ],
+    "GET /pet/{petId}": [
+      "petId (PetId, PATH)"
+    ],
+    "GET /store/order/{orderId}": [
+      "orderId (OrderId, PATH)"
+    ],
+    "PUT /pet": [],
+    "DELETE /pet/{petId}": [
+      "api_key (ApiKei, HEADER)",
+      "petId (PetId, PATH)"
+    ],
+    "POST /user/createWithList": [],
+    "POST /user": [],
+    "GET /user/login": [
+      "username (Usernam, QUERY)",
+      "password (Password, QUERY)"
+    ],
+    "GET /user/{username}": [
+      "username (Usernam, PATH)"
+    ],
+    "GET /store/inventory": []
+  },
+  "documentedTested": {
+    "GET /pet/{petId}": [
+      "petId (PetId, PATH)"
+    ],
+    "GET /pet/findByTags": [
+      "Tag (Tag, QUERY)"
+    ],
+    "GET /store/order/{orderId}": [
+      "orderId (OrderId, PATH)"
+    ],
+    "PUT /user/{username}": [
+      "username (Usernam, PATH)"
+    ],
+    "DELETE /pet/{petId}": [
+      "api_key (ApiKei, HEADER)",
+      "petId (PetId, PATH)"
+    ],
+    "POST /pet/{petId}": [
+      "petId (PetId, PATH)"
+    ],
+    "DELETE /user/{username}": [
+      "username (Usernam, PATH)"
+    ],
+    "GET /user/login": [
+      "username (Usernam, QUERY)",
+      "password (Password, QUERY)"
+    ],
+    "GET /user/{username}": [
+      "username (Usernam, PATH)"
+    ],
+    "DELETE /store/order/{orderId}": [
+      "orderId (OrderId, PATH)"
+    ],
+    "GET /pet/findByStatus": [
+      "Statu (Statu, QUERY)"
+    ],
+    "POST /pet/{petId}/uploadImage": [
+      "petId (PetId, PATH)"
+    ]
+  },
+  "notDocumentedTested": {},
+  "notTested": {}
+}

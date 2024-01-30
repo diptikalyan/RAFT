@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "saveProblemUsingPOST-20230429000137296",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "http://localhost:50112/api/problem/",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 29, 2023, 12:01:37 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Fri, 28 Apr 2023 18:31:37 GMT\n",
+      "responseBody": "{\"timestamp\":\"2023-04-28T18:31:37.438+0000\",\"status\":404,\"error\":\"Not Found\",\"message\":\"No message available\",\"path\":\"/api/problem/\"}",
+      "responseReceivedAt": "Apr 29, 2023, 12:01:37 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:01:37 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

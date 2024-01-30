@@ -1,0 +1,36 @@
+{
+  "documented": [
+    "/pet",
+    "/user/{username}",
+    "/pet/findByStatus",
+    "/user/createWithList",
+    "/pet/{petId}/uploadImage",
+    "/user/login",
+    "/store/inventory",
+    "/user",
+    "/user/createWithArray",
+    "/pet/findByTags",
+    "/store/order",
+    "/user/logout",
+    "/pet/{petId}",
+    "/store/order/{orderId}"
+  ],
+  "documentedTested": [
+    "/pet",
+    "/user/{username}",
+    "/pet/findByStatus",
+    "/user/createWithList",
+    "/pet/{petId}/uploadImage",
+    "/user/login",
+    "/store/inventory",
+    "/user",
+    "/user/createWithArray",
+    "/pet/findByTags",
+    "/store/order",
+    "/user/logout",
+    "/pet/{petId}",
+    "/store/order/{orderId}"
+  ],
+  "notDocumentedTested": [],
+  "notTested": []
+}

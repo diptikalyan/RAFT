@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "GET-/{comicId}/info.0.json-20230429130503220",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://xkcd.com/50/info.0.json",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 1:05:10 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Connection: keep-alive\nServer: nginx\nContent-Type: application/json\nLast-Modified: Fri, 28 Apr 2023 21:53:55 GMT\nETag: W/\"644c4073-228\"\nExpires: Sat, 29 Apr 2023 02:57:52 GMT\nCache-Control: max-age\u003d300\nVia: 1.1 varnish, 1.1 varnish\nAccept-Ranges: bytes\nDate: Sat, 29 Apr 2023 07:35:10 GMT\nAge: 0\nX-Served-By: cache-dfw-kdfw8210082-DFW, cache-maa10250-MAA\nX-Cache: HIT, MISS\nX-Cache-Hits: 1, 0\nX-Timer: S1682753710.294591,VS0,VE341\nVary: Accept-Encoding\n",
+      "responseBody": "{\"month\": \"1\", \"num\": 50, \"link\": \"\", \"year\": \"2006\", \"news\": \"\", \"safe_title\": \"Penny Arcade\", \"transcript\": \"Tycho: You know what? If you\u0027ve never played the 1995 SNES RPG \u0027Seiken Densetsu\u0027 don\u0027t even _bother_ reading today\u0027s strip. We don\u0027t _need_ your kind here.\\n{{title text: Of course, Penny Arcade has already mocked themselves for this. They don\u0027t care.}}\", \"alt\": \"Of course, Penny Arcade has already mocked themselves for this.  They don\u0027t care.\", \"img\": \"https://imgs.xkcd.com/comics/penny_arcade.jpg\", \"title\": \"Penny Arcade\", \"day\": \"17\"}",
+      "responseReceivedAt": "Apr 29, 2023, 1:05:10 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 1:05:03 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

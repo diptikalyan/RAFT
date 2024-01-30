@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "GET-/{comicId}/info.0.json-20230429130525965",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://xkcd.com/%7BcomicId%7D/info.0.json?false",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 1:05:25 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "Connection: keep-alive\nServer: nginx\nContent-Type: text/html; charset\u003dUTF-8\nVia: 1.1 varnish, 1.1 varnish\nAccept-Ranges: bytes\nDate: Sat, 29 Apr 2023 07:35:26 GMT\nAge: 14\nX-Served-By: cache-dfw-kdfw8210041-DFW, cache-maa10250-MAA\nX-Cache: MISS, HIT\nX-Cache-Hits: 0, 9\nX-Timer: S1682753726.120093,VS0,VE0\nVary: Accept-Encoding\n",
+      "responseBody": "\u003chtml\u003e\r\n\u003chead\u003e\u003ctitle\u003e404 Not Found\u003c/title\u003e\u003c/head\u003e\r\n\u003cbody bgcolor\u003d\"white\"\u003e\r\n\u003ccenter\u003e\u003ch1\u003e404 Not Found\u003c/h1\u003e\u003c/center\u003e\r\n\u003chr\u003e\u003ccenter\u003enginx\u003c/center\u003e\r\n\u003c/body\u003e\r\n\u003c/html\u003e\r\n",
+      "responseReceivedAt": "Apr 29, 2023, 1:05:26 PM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 1:05:25 PM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "PASS",
+      "message": "The erroneous test sequence was rejected by the server."
+    }
+  },
+  "tags": []
+}

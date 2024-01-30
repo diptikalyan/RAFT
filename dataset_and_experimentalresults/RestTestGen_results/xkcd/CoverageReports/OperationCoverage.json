@@ -1,0 +1,1 @@
+{"documented":["GET /info.0.json","GET /{comicId}/info.0.json"],"documentedTested":["GET /info.0.json","GET /{comicId}/info.0.json"],"notDocumentedTested":[],"notTested":[]}

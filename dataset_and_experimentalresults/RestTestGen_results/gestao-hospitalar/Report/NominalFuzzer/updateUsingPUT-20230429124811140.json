@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "updateUsingPUT-20230429124811140",
+  "testInteractions": [
+    {
+      "requestMethod": "PUT",
+      "requestURL": "http://localhost:8080/v1/hospitais/v1hospitaisG",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 29, 2023, 12:48:11 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 07:18:10 GMT\nConnection: close\n",
+      "responseBody": "{\"timestamp\":\"2023-04-29T07:18:11.207+0000\",\"status\":400,\"error\":\"Bad Request\",\"message\":\"Required request body is missing: public org.springframework.http.ResponseEntity\u003cbr.com.codenation.hospital.dto.HospitalDTO\u003e br.com.codenation.hospital.resource.HospitalResource.update(br.com.codenation.hospital.dto.HospitalDTO,java.lang.String)\",\"path\":\"/v1/hospitais/v1hospitaisG\"}",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:11 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:11 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

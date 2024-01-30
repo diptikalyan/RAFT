@@ -1,0 +1,1 @@
+{"documented":{"PUT /customer/cart/delivery":{"included (Includ, QUERY)":["false","true"]}},"documentedTested":{"PUT /customer/cart/delivery":{"included (Includ, QUERY)":["false","true"]}},"notDocumentedTested":{},"notTested":{}}

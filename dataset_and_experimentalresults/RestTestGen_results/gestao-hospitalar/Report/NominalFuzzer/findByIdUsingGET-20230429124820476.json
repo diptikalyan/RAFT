@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "findByIdUsingGET-20230429124820476",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/v1/hospitais/2",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:48:20 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 07:18:19 GMT\n",
+      "responseBody": "{\"id\":\"2\",\"name\":\"Hospital São Luiz Unidade Morumbi\",\"address\":\"Rua Engenheiro Oscar Americano, 840 - Jardim Guedala, São Paulo - SP, 05605-050\",\"beds\":11,\"availableBeds\":6,\"longitude\":\"-46.703459\",\"latitude\":\"-23.591093\"}",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:20 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:20 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

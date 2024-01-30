@@ -1,0 +1,327 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 95.5,
+   "explanation": "Total number of operations is 22 and covered is 21",
+   "details": {
+    "Operations covered": [
+     "v1Alphacodes",
+     "v2Region",
+     "v1Region",
+     "v2Alphacodes",
+     "v2Name",
+     "v1All",
+     "v2Demonym",
+     "v1Name",
+     "v1Subregion",
+     "v2Subregion",
+     "v2Lang",
+     "v2All",
+     "v1Lang",
+     "v1Alphacode",
+     "v1Callingcode",
+     "v1Currency",
+     "v2Capital",
+     "v1Capital",
+     "v2Callingcode",
+     "v2Currency",
+     "v2Alphacode"
+    ],
+    "Operations missed": [
+     "v2Regionalbloc"
+    ]
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 94.1,
+   "explanation": "Total number of parameters is 34 and covered parameters is 32",
+   "details": {
+    "Parameters covered": {
+     "v1Alphacode": [
+      "v1Alphacode.path.alphacode"
+     ],
+     "v1Alphacodes": [
+      "v1Alphacodes.query.codes"
+     ],
+     "v1Currency": [
+      "v1Currency.path.currency"
+     ],
+     "v1Name": [
+      "v1Name.path.name",
+      "v1Name.query.fullText"
+     ],
+     "v1Callingcode": [
+      "v1Callingcode.path.callingcode"
+     ],
+     "v1Capital": [
+      "v1Capital.path.capital"
+     ],
+     "v1Region": [
+      "v1Region.path.region"
+     ],
+     "v1Subregion": [
+      "v1Subregion.path.subregion"
+     ],
+     "v1Lang": [
+      "v1Lang.path.lang"
+     ],
+     "v2All": [
+      "v2All.query.fields"
+     ],
+     "v2Alphacode": [
+      "v2Alphacode.query.fields",
+      "v2Alphacode.path.alphacode"
+     ],
+     "v2Alphacodes": [
+      "v2Alphacodes.query.codes",
+      "v2Alphacodes.query.fields"
+     ],
+     "v2Currency": [
+      "v2Currency.query.fields",
+      "v2Currency.path.currency"
+     ],
+     "v2Name": [
+      "v2Name.path.name",
+      "v2Name.query.fields",
+      "v2Name.query.fullText"
+     ],
+     "v2Callingcode": [
+      "v2Callingcode.query.fields",
+      "v2Callingcode.path.callingcode"
+     ],
+     "v2Capital": [
+      "v2Capital.query.fields",
+      "v2Capital.path.capital"
+     ],
+     "v2Region": [
+      "v2Region.path.region",
+      "v2Region.query.fields"
+     ],
+     "v2Subregion": [
+      "v2Subregion.query.fields",
+      "v2Subregion.path.subregion"
+     ],
+     "v2Lang": [
+      "v2Lang.query.fields",
+      "v2Lang.path.lang"
+     ],
+     "v2Demonym": [
+      "v2Demonym.query.fields",
+      "v2Demonym.path.demonym"
+     ]
+    },
+    "Parameters missed": {
+     "v2Regionalbloc": [
+      "v2Regionalbloc.path.regionalbloc",
+      "v2Regionalbloc.query.fields"
+     ]
+    }
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 100.0,
+   "value_failure": 4.8,
+   "value_invalid": 0.0,
+   "explanation": "Total number of test suite operations is 21 and successfully covered is 21",
+   "details": {
+    "Operations successful": [
+     "v1Alphacodes",
+     "v2Region",
+     "v1Region",
+     "v2Alphacodes",
+     "v2Name",
+     "v1All",
+     "v2Demonym",
+     "v1Name",
+     "v1Subregion",
+     "v2Subregion",
+     "v2Lang",
+     "v2All",
+     "v1Lang",
+     "v1Alphacode",
+     "v1Callingcode",
+     "v1Currency",
+     "v2Capital",
+     "v1Capital",
+     "v2Callingcode",
+     "v2Currency",
+     "v2Alphacode"
+    ],
+    "Operations failed": [
+     "v2Alphacodes"
+    ],
+    "Operations invalid": []
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 73.3,
+   "value_failure": 26.7,
+   "value_invalid": 0.0,
+   "explanation": "Total number of test suite operations is 720 and successfully covered is 528",
+   "details": {
+    "Operations successful": [
+     "v1Alphacodes",
+     "v2Region",
+     "v1Region",
+     "v2Alphacodes",
+     "v2Name",
+     "v1All",
+     "v2Demonym",
+     "v1Name",
+     "v1Subregion",
+     "v2Subregion",
+     "v2Lang",
+     "v2All",
+     "v1Lang",
+     "v1Alphacode",
+     "v1Callingcode",
+     "v1Currency",
+     "v2Capital",
+     "v1Capital",
+     "v2Callingcode",
+     "v2Currency",
+     "v2Alphacode"
+    ],
+    "Operations failed": [
+     "v2Alphacodes"
+    ],
+    "Operations invalid": []
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 100.0,
+   "explanation": "Total number of status codes in API is 22 and codes covered is 22",
+   "details": {
+    "Missed response codes": {
+     "v1All": [],
+     "v1Alphacode": [],
+     "v1Alphacodes": [],
+     "v1Currency": [],
+     "v1Name": [],
+     "v1Callingcode": [],
+     "v1Capital": [],
+     "v1Region": [],
+     "v1Subregion": [],
+     "v1Lang": [],
+     "v2All": [],
+     "v2Alphacode": [],
+     "v2Alphacodes": [],
+     "v2Currency": [],
+     "v2Name": [],
+     "v2Callingcode": [],
+     "v2Capital": [],
+     "v2Region": [],
+     "v2Subregion": [],
+     "v2Lang": [],
+     "v2Demonym": [],
+     "v2Regionalbloc": [
+      "200"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of executed parameters in the API that are successfully covered",
+   "value_success": 100.0,
+   "value_failure": 6.2,
+   "value_invalid": 0.0,
+   "explanation": "Total number of parameters used in runs is 32 and covered successful parameters is {'v1Alphacode': ['v1Alphacode.path.alphacode'], 'v1Alphacodes': ['v1Alphacodes.query.codes'], 'v1Currency': ['v1Currency.path.currency'], 'v1Name': ['v1Name.path.name', 'v1Name.query.fullText'], 'v1Callingcode': ['v1Callingcode.path.callingcode'], 'v1Capital': ['v1Capital.path.capital'], 'v1Region': ['v1Region.path.region'], 'v1Subregion': ['v1Subregion.path.subregion'], 'v1Lang': ['v1Lang.path.lang'], 'v2All': ['v2All.query.fields'], 'v2Alphacode': ['v2Alphacode.query.fields', 'v2Alphacode.path.alphacode'], 'v2Alphacodes': ['v2Alphacodes.query.codes', 'v2Alphacodes.query.fields'], 'v2Currency': ['v2Currency.query.fields', 'v2Currency.path.currency'], 'v2Name': ['v2Name.query.fields', 'v2Name.query.fullText', 'v2Name.path.name'], 'v2Callingcode': ['v2Callingcode.query.fields', 'v2Callingcode.path.callingcode'], 'v2Capital': ['v2Capital.query.fields', 'v2Capital.path.capital'], 'v2Region': ['v2Region.path.region', 'v2Region.query.fields'], 'v2Subregion': ['v2Subregion.query.fields', 'v2Subregion.path.subregion'], 'v2Lang': ['v2Lang.query.fields', 'v2Lang.path.lang'], 'v2Demonym': ['v2Demonym.query.fields', 'v2Demonym.path.demonym']}",
+   "details": {
+    "Parameters covered": {
+     "v1Alphacode": [
+      "v1Alphacode.path.alphacode"
+     ],
+     "v1Alphacodes": [
+      "v1Alphacodes.query.codes"
+     ],
+     "v1Currency": [
+      "v1Currency.path.currency"
+     ],
+     "v1Name": [
+      "v1Name.path.name",
+      "v1Name.query.fullText"
+     ],
+     "v1Callingcode": [
+      "v1Callingcode.path.callingcode"
+     ],
+     "v1Capital": [
+      "v1Capital.path.capital"
+     ],
+     "v1Region": [
+      "v1Region.path.region"
+     ],
+     "v1Subregion": [
+      "v1Subregion.path.subregion"
+     ],
+     "v1Lang": [
+      "v1Lang.path.lang"
+     ],
+     "v2All": [
+      "v2All.query.fields"
+     ],
+     "v2Alphacode": [
+      "v2Alphacode.query.fields",
+      "v2Alphacode.path.alphacode"
+     ],
+     "v2Alphacodes": [
+      "v2Alphacodes.query.codes",
+      "v2Alphacodes.query.fields"
+     ],
+     "v2Currency": [
+      "v2Currency.query.fields",
+      "v2Currency.path.currency"
+     ],
+     "v2Name": [
+      "v2Name.query.fields",
+      "v2Name.query.fullText",
+      "v2Name.path.name"
+     ],
+     "v2Callingcode": [
+      "v2Callingcode.query.fields",
+      "v2Callingcode.path.callingcode"
+     ],
+     "v2Capital": [
+      "v2Capital.query.fields",
+      "v2Capital.path.capital"
+     ],
+     "v2Region": [
+      "v2Region.path.region",
+      "v2Region.query.fields"
+     ],
+     "v2Subregion": [
+      "v2Subregion.query.fields",
+      "v2Subregion.path.subregion"
+     ],
+     "v2Lang": [
+      "v2Lang.query.fields",
+      "v2Lang.path.lang"
+     ],
+     "v2Demonym": [
+      "v2Demonym.query.fields",
+      "v2Demonym.path.demonym"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "Number of TestOp Executions": 720,
+ "Number of 2xx": 528,
+ "Number of 4xx": 0,
+ "Number of 5xx": 192,
+ "Number of Sequences": 719,
+ "Successful Sequences": 527
+}

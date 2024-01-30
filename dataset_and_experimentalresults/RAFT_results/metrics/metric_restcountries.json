@@ -1,0 +1,362 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 22 and covered is 22",
+   "details": {
+    "Operations covered": [
+     "v1Alphacodes",
+     "v2Region",
+     "v1Region",
+     "v2Alphacodes",
+     "v2Name",
+     "v2Regionalbloc",
+     "v1All",
+     "v2Demonym",
+     "v1Name",
+     "v1Subregion",
+     "v2Subregion",
+     "v2Lang",
+     "v2All",
+     "v1Lang",
+     "v1Alphacode",
+     "v1Callingcode",
+     "v1Currency",
+     "v2Capital",
+     "v1Capital",
+     "v2Callingcode",
+     "v2Currency",
+     "v2Alphacode"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 100.0,
+   "explanation": "Total number of parameters is 34 and covered parameters is 34",
+   "details": {
+    "Parameters covered": {
+     "v1Alphacode": [
+      "alphacode"
+     ],
+     "v1Alphacodes": [
+      "codes"
+     ],
+     "v1Currency": [
+      "currency"
+     ],
+     "v1Name": [
+      "name",
+      "fullText"
+     ],
+     "v1Callingcode": [
+      "callingcode"
+     ],
+     "v1Capital": [
+      "capital"
+     ],
+     "v1Region": [
+      "region"
+     ],
+     "v1Subregion": [
+      "subregion"
+     ],
+     "v1Lang": [
+      "lang"
+     ],
+     "v2All": [
+      "fields"
+     ],
+     "v2Alphacode": [
+      "fields",
+      "alphacode"
+     ],
+     "v2Alphacodes": [
+      "fields",
+      "codes"
+     ],
+     "v2Currency": [
+      "currency",
+      "fields"
+     ],
+     "v2Name": [
+      "name",
+      "fields",
+      "fullText"
+     ],
+     "v2Callingcode": [
+      "callingcode",
+      "fields"
+     ],
+     "v2Capital": [
+      "capital",
+      "fields"
+     ],
+     "v2Region": [
+      "fields",
+      "region"
+     ],
+     "v2Subregion": [
+      "subregion",
+      "fields"
+     ],
+     "v2Lang": [
+      "lang",
+      "fields"
+     ],
+     "v2Demonym": [
+      "demonym",
+      "fields"
+     ],
+     "v2Regionalbloc": [
+      "fields",
+      "regionalbloc"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 40.9,
+   "value_failure": 0.0,
+   "value_invalid": 59.1,
+   "explanation": "Total number of test suite operations is 22 and successfully covered is 9",
+   "details": {
+    "Operations successful": [
+     "v1Currency",
+     "v2Subregion",
+     "v1Capital",
+     "v2All",
+     "v2Currency",
+     "v1Lang",
+     "v2Alphacode",
+     "v1Alphacode",
+     "v1All"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "v1Alphacodes",
+     "v1Name",
+     "v1Subregion",
+     "v1Callingcode",
+     "v2Name",
+     "v2Capital",
+     "v2Region",
+     "v2Lang",
+     "v2Callingcode",
+     "v1Region",
+     "v2Regionalbloc",
+     "v2Alphacodes",
+     "v2Demonym"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 38.8,
+   "value_failure": 0.0,
+   "value_invalid": 61.3,
+   "explanation": "Total number of test suite operations is 80 and successfully covered is 31",
+   "details": {
+    "Operations successful": [
+     "v1Currency",
+     "v2Subregion",
+     "v1Capital",
+     "v2All",
+     "v2Currency",
+     "v1Lang",
+     "v2Alphacode",
+     "v1Alphacode",
+     "v1All"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "v1Alphacodes",
+     "v1Name",
+     "v1Subregion",
+     "v1Callingcode",
+     "v2Name",
+     "v2Capital",
+     "v2Region",
+     "v2Lang",
+     "v2Callingcode",
+     "v1Region",
+     "v2Regionalbloc",
+     "v2Alphacodes",
+     "v2Demonym"
+    ]
+   }
+  },
+  {
+   "name": "Output status class coverage",
+   "description": "Percentage of status code classes (2xx, 3xx, 4xx, 5xx) covered for all operations, as obtained in API responses",
+   "value": 25.0,
+   "explanation": "Total number of status code classes in API is 88 and classes covered is 22",
+   "details": {
+    "Missed response codes": {
+     "v1All": [],
+     "v1Alphacode": [],
+     "v1Alphacodes": [
+      "200"
+     ],
+     "v1Currency": [],
+     "v1Name": [
+      "200"
+     ],
+     "v1Callingcode": [
+      "200"
+     ],
+     "v1Capital": [],
+     "v1Region": [
+      "200"
+     ],
+     "v1Subregion": [
+      "200"
+     ],
+     "v1Lang": [],
+     "v2All": [],
+     "v2Alphacode": [],
+     "v2Alphacodes": [
+      "200"
+     ],
+     "v2Currency": [],
+     "v2Name": [
+      "200"
+     ],
+     "v2Callingcode": [
+      "200"
+     ],
+     "v2Capital": [
+      "200"
+     ],
+     "v2Region": [
+      "200"
+     ],
+     "v2Subregion": [],
+     "v2Lang": [
+      "200"
+     ],
+     "v2Demonym": [
+      "200"
+     ],
+     "v2Regionalbloc": [
+      "200"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 100.0,
+   "explanation": "Total number of status codes in API is 22 and codes covered is 22",
+   "details": {
+    "Missed response codes": {
+     "v1All": [],
+     "v1Alphacode": [],
+     "v1Alphacodes": [
+      "200"
+     ],
+     "v1Currency": [],
+     "v1Name": [
+      "200"
+     ],
+     "v1Callingcode": [
+      "200"
+     ],
+     "v1Capital": [],
+     "v1Region": [
+      "200"
+     ],
+     "v1Subregion": [
+      "200"
+     ],
+     "v1Lang": [],
+     "v2All": [],
+     "v2Alphacode": [],
+     "v2Alphacodes": [
+      "200"
+     ],
+     "v2Currency": [],
+     "v2Name": [
+      "200"
+     ],
+     "v2Callingcode": [
+      "200"
+     ],
+     "v2Capital": [
+      "200"
+     ],
+     "v2Region": [
+      "200"
+     ],
+     "v2Subregion": [],
+     "v2Lang": [
+      "200"
+     ],
+     "v2Demonym": [
+      "200"
+     ],
+     "v2Regionalbloc": [
+      "200"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of executed parameters in the API that are successfully covered",
+   "value_success": 32.4,
+   "value_failure": 0.0,
+   "value_invalid": 67.6,
+   "explanation": "Total number of parameters used in runs is 34 and covered parameters is {'v1Alphacode': ['alphacode'], 'v1Currency': ['currency'], 'v1Capital': ['capital'], 'v1Lang': ['lang'], 'v2All': ['fields'], 'v2Alphacode': ['fields', 'alphacode'], 'v2Currency': ['currency', 'fields'], 'v2Subregion': ['subregion', 'fields']}",
+   "details": {
+    "Parameters covered": {
+     "v1Alphacode": [
+      "alphacode"
+     ],
+     "v1Currency": [
+      "currency"
+     ],
+     "v1Capital": [
+      "capital"
+     ],
+     "v1Lang": [
+      "lang"
+     ],
+     "v2All": [
+      "fields"
+     ],
+     "v2Alphacode": [
+      "fields",
+      "alphacode"
+     ],
+     "v2Currency": [
+      "currency",
+      "fields"
+     ],
+     "v2Subregion": [
+      "subregion",
+      "fields"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "Number of Test Executions": 80,
+ "Number of 2xx": 31,
+ "Number of 4xx": 49,
+ "Number of 5xx": 0,
+ "Number of Sequences": 80,
+ "Successful Sequences": 31
+}

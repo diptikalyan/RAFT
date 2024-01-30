@@ -1,0 +1,655 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 33 and covered is 33",
+   "details": {
+    "Operations covered": [
+     "postUserUsingDELETE",
+     "helloWorldInternationalizedUsingGET",
+     "helloWorldUsingGET",
+     "userPostsUsingPATCH",
+     "userPostsUsingGET_1",
+     "userPostsUsingPOST",
+     "postUserUsingPUT",
+     "helloWorldPathVariableUsingGET",
+     "headerV1UsingGET",
+     "postUserUsingPATCH",
+     "paramV1UsingGET",
+     "retrieveListOfSomeBeansUsingGET",
+     "createUserUsingPOST",
+     "postUserUsingPOST",
+     "deleteUserUsingDELETE_1",
+     "personV1UsingGET",
+     "userPostsUsingDELETE",
+     "userPostsUsingGET",
+     "createPostUsingPOST",
+     "userPostsUsingPUT",
+     "retrieveUserUsingGET",
+     "helloWorldBeanUsingGET",
+     "producesV1UsingGET",
+     "createUserUsingPOST_1",
+     "deleteUserUsingDELETE",
+     "postUserUsingGET",
+     "retrieveUserUsingGET_1",
+     "retrieveSomeBeanUsingGET",
+     "retrieveAllUsersUsingGET",
+     "personV2UsingGET",
+     "retrieveAllUsersUsingGET_2",
+     "userPostsUsingDELETE_1",
+     "retrieveAllUsersUsingGET_1"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 100.0,
+   "explanation": "Total number of parameters is 32 and covered parameters is 32",
+   "details": {
+    "Parameters covered": {
+     "helloWorldPathVariableUsingGET": [
+      "name"
+     ],
+     "createUserUsingPOST": [
+      "user"
+     ],
+     "retrieveUserUsingGET": [
+      "id"
+     ],
+     "deleteUserUsingDELETE": [
+      "id"
+     ],
+     "retrieveAllUsersUsingGET": [
+      "id"
+     ],
+     "createPostUsingPOST": [
+      "post",
+      "id"
+     ],
+     "headerV1UsingGET": [
+      "X-API-VERSION"
+     ],
+     "paramV1UsingGET": [
+      "version"
+     ],
+     "postUserUsingGET": [
+      "id"
+     ],
+     "postUserUsingPOST": [
+      "body",
+      "id"
+     ],
+     "postUserUsingPUT": [
+      "body",
+      "id"
+     ],
+     "postUserUsingDELETE": [
+      "id"
+     ],
+     "postUserUsingPATCH": [
+      "body",
+      "id"
+     ],
+     "createUserUsingPOST_1": [
+      "user"
+     ],
+     "retrieveUserUsingGET_1": [
+      "id"
+     ],
+     "deleteUserUsingDELETE_1": [
+      "id"
+     ],
+     "userPostsUsingGET": [
+      "id"
+     ],
+     "userPostsUsingPOST": [
+      "id",
+      "body.array_item"
+     ],
+     "userPostsUsingPUT": [
+      "id",
+      "body.array_item"
+     ],
+     "userPostsUsingDELETE_1": [
+      "id"
+     ],
+     "userPostsUsingPATCH": [
+      "id",
+      "body.array_item"
+     ],
+     "userPostsUsingGET_1": [
+      "postId",
+      "id"
+     ],
+     "userPostsUsingDELETE": [
+      "postId",
+      "id"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 51.5,
+   "value_failure": 12.1,
+   "value_invalid": 18.2,
+   "explanation": "Total number of test suite operations is 33 and successfully covered is 17",
+   "details": {
+    "Operations successful": [
+     "createUserUsingPOST_1",
+     "helloWorldBeanUsingGET",
+     "helloWorldInternationalizedUsingGET",
+     "retrieveUserUsingGET_1",
+     "paramV1UsingGET",
+     "helloWorldUsingGET",
+     "retrieveSomeBeanUsingGET",
+     "producesV1UsingGET",
+     "personV2UsingGET",
+     "retrieveAllUsersUsingGET_2",
+     "retrieveListOfSomeBeansUsingGET",
+     "createUserUsingPOST",
+     "deleteUserUsingDELETE_1",
+     "helloWorldPathVariableUsingGET",
+     "retrieveAllUsersUsingGET_1",
+     "headerV1UsingGET",
+     "personV1UsingGET"
+    ],
+    "Operations failed": [
+     "deleteUserUsingDELETE",
+     "userPostsUsingGET",
+     "userPostsUsingDELETE_1",
+     "createUserUsingPOST"
+    ],
+    "Operations invalid": [
+     "createUserUsingPOST_1",
+     "retrieveAllUsersUsingGET",
+     "createPostUsingPOST",
+     "postUserUsingPOST",
+     "retrieveUserUsingGET",
+     "userPostsUsingPOST"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 53.1,
+   "value_failure": 3.7,
+   "value_invalid": 12.2,
+   "explanation": "Total number of test suite operations is 271 and successfully covered is 144",
+   "details": {
+    "Operations successful": [
+     "createUserUsingPOST_1",
+     "helloWorldBeanUsingGET",
+     "helloWorldInternationalizedUsingGET",
+     "retrieveUserUsingGET_1",
+     "paramV1UsingGET",
+     "helloWorldUsingGET",
+     "retrieveSomeBeanUsingGET",
+     "producesV1UsingGET",
+     "personV2UsingGET",
+     "retrieveAllUsersUsingGET_2",
+     "retrieveListOfSomeBeansUsingGET",
+     "createUserUsingPOST",
+     "deleteUserUsingDELETE_1",
+     "helloWorldPathVariableUsingGET",
+     "retrieveAllUsersUsingGET_1",
+     "headerV1UsingGET",
+     "personV1UsingGET"
+    ],
+    "Operations failed": [
+     "deleteUserUsingDELETE",
+     "userPostsUsingGET",
+     "userPostsUsingDELETE_1",
+     "createUserUsingPOST"
+    ],
+    "Operations invalid": [
+     "createUserUsingPOST_1",
+     "retrieveAllUsersUsingGET",
+     "createPostUsingPOST",
+     "postUserUsingPOST",
+     "retrieveUserUsingGET",
+     "userPostsUsingPOST"
+    ]
+   }
+  },
+  {
+   "name": "Output status class coverage",
+   "description": "Percentage of status code classes (2xx, 3xx, 4xx, 5xx) covered for all operations, as obtained in API responses",
+   "value": 20.5,
+   "explanation": "Total number of status code classes in API is 132 and classes covered is 27",
+   "details": {
+    "Missed response codes": {
+     "retrieveSomeBeanUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "retrieveListOfSomeBeansUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "helloWorldUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "helloWorldBeanUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "helloWorldInternationalizedUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "helloWorldPathVariableUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "retrieveAllUsersUsingGET_1": [
+      "404",
+      "403",
+      "401"
+     ],
+     "createUserUsingPOST": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "retrieveUserUsingGET": [
+      "200",
+      "403",
+      "401"
+     ],
+     "deleteUserUsingDELETE": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "retrieveAllUsersUsingGET": [
+      "200",
+      "403",
+      "401"
+     ],
+     "createPostUsingPOST": [
+      "201",
+      "200",
+      "403",
+      "401"
+     ],
+     "headerV1UsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "paramV1UsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "producesV1UsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "postUserUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "postUserUsingPOST": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "postUserUsingPUT": [
+      "201",
+      "403",
+      "404",
+      "200",
+      "401"
+     ],
+     "postUserUsingDELETE": [
+      "204",
+      "200",
+      "403",
+      "401"
+     ],
+     "postUserUsingPATCH": [
+      "204",
+      "200",
+      "403",
+      "401"
+     ],
+     "retrieveAllUsersUsingGET_2": [
+      "404",
+      "403",
+      "401"
+     ],
+     "createUserUsingPOST_1": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "retrieveUserUsingGET_1": [
+      "404",
+      "403",
+      "401"
+     ],
+     "deleteUserUsingDELETE_1": [
+      "401",
+      "403",
+      "204"
+     ],
+     "userPostsUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "userPostsUsingPOST": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "userPostsUsingPUT": [
+      "201",
+      "403",
+      "404",
+      "200",
+      "401"
+     ],
+     "userPostsUsingDELETE_1": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "userPostsUsingPATCH": [
+      "204",
+      "200",
+      "403",
+      "401"
+     ],
+     "userPostsUsingGET_1": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "userPostsUsingDELETE": [
+      "204",
+      "200",
+      "403",
+      "401"
+     ],
+     "personV1UsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "personV2UsingGET": [
+      "404",
+      "403",
+      "401"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 19.4,
+   "explanation": "Total number of status codes in API is 139 and codes covered is 27",
+   "details": {
+    "Missed response codes": {
+     "retrieveSomeBeanUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "retrieveListOfSomeBeansUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "helloWorldUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "helloWorldBeanUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "helloWorldInternationalizedUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "helloWorldPathVariableUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "retrieveAllUsersUsingGET_1": [
+      "404",
+      "403",
+      "401"
+     ],
+     "createUserUsingPOST": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "retrieveUserUsingGET": [
+      "200",
+      "403",
+      "401"
+     ],
+     "deleteUserUsingDELETE": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "retrieveAllUsersUsingGET": [
+      "200",
+      "403",
+      "401"
+     ],
+     "createPostUsingPOST": [
+      "201",
+      "200",
+      "403",
+      "401"
+     ],
+     "headerV1UsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "paramV1UsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "producesV1UsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "postUserUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "postUserUsingPOST": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "postUserUsingPUT": [
+      "201",
+      "403",
+      "404",
+      "200",
+      "401"
+     ],
+     "postUserUsingDELETE": [
+      "204",
+      "200",
+      "403",
+      "401"
+     ],
+     "postUserUsingPATCH": [
+      "204",
+      "200",
+      "403",
+      "401"
+     ],
+     "retrieveAllUsersUsingGET_2": [
+      "404",
+      "403",
+      "401"
+     ],
+     "createUserUsingPOST_1": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "retrieveUserUsingGET_1": [
+      "404",
+      "403",
+      "401"
+     ],
+     "deleteUserUsingDELETE_1": [
+      "401",
+      "403",
+      "204"
+     ],
+     "userPostsUsingGET": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "userPostsUsingPOST": [
+      "403",
+      "200",
+      "201",
+      "404",
+      "401"
+     ],
+     "userPostsUsingPUT": [
+      "201",
+      "403",
+      "404",
+      "200",
+      "401"
+     ],
+     "userPostsUsingDELETE_1": [
+      "401",
+      "200",
+      "403",
+      "204"
+     ],
+     "userPostsUsingPATCH": [
+      "204",
+      "200",
+      "403",
+      "401"
+     ],
+     "userPostsUsingGET_1": [
+      "404",
+      "200",
+      "403",
+      "401"
+     ],
+     "userPostsUsingDELETE": [
+      "204",
+      "200",
+      "403",
+      "401"
+     ],
+     "personV1UsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "personV2UsingGET": [
+      "404",
+      "403",
+      "401"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of executed parameters in the API that are successfully covered",
+   "value_success": 38.9,
+   "value_failure": 22.2,
+   "value_invalid": 50.0,
+   "explanation": "Total number of parameters used in runs is 18 and covered parameters is {'helloWorldPathVariableUsingGET': ['name'], 'createUserUsingPOST': ['user'], 'headerV1UsingGET': ['X-API-VERSION'], 'paramV1UsingGET': ['version'], 'createUserUsingPOST_1': ['user'], 'retrieveUserUsingGET_1': ['id'], 'deleteUserUsingDELETE_1': ['id']}",
+   "details": {
+    "Parameters covered": {
+     "helloWorldPathVariableUsingGET": [
+      "name"
+     ],
+     "createUserUsingPOST": [
+      "user"
+     ],
+     "headerV1UsingGET": [
+      "X-API-VERSION"
+     ],
+     "paramV1UsingGET": [
+      "version"
+     ],
+     "createUserUsingPOST_1": [
+      "user"
+     ],
+     "retrieveUserUsingGET_1": [
+      "id"
+     ],
+     "deleteUserUsingDELETE_1": [
+      "id"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "Number of Test Executions": 81,
+ "Number of 2xx": 144,
+ "Number of 4xx": 33,
+ "Number of 5xx": 10,
+ "Number of Sequences": 81,
+ "Successful Sequences": 38
+}

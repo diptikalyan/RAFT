@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "hospitalMaisProximoUsingGET-20230429124826219",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/v1/hospitais/maisProximo?raioMaximo\u003dJo%C3%A3o\u0026lon\u003d79.10031405410007\u0026lat\u003d52.55128879785045",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:48:26 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 07:18:25 GMT\nConnection: close\n",
+      "responseBody": "{\"timestamp\":\"2023-04-29T07:18:26.221+0000\",\"status\":400,\"error\":\"Bad Request\",\"message\":\"Failed to convert value of type \u0027java.lang.String\u0027 to required type \u0027java.lang.Double\u0027; nested exception is java.lang.NumberFormatException: For input string: \\\"João\\\"\",\"path\":\"/v1/hospitais/maisProximo\"}",
+      "responseReceivedAt": "Apr 29, 2023, 12:48:26 PM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:48:26 PM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "PASS",
+      "message": "The erroneous test sequence was rejected by the server."
+    }
+  },
+  "tags": []
+}

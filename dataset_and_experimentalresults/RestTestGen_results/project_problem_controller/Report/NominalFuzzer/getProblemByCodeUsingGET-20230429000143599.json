@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getProblemByCodeUsingGET-20230429000143599",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:50112/api/problem/PF58%201449%206477%2090PH%204MIS%206ASE%20U07",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 12:01:43 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 501
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Fri, 28 Apr 2023 18:31:43 GMT\nConnection: close\n",
+      "responseBody": "{\"timeStamp\":\"2023-04-28T18:31:43.736+0000\",\"message\":\"No data with this code\",\"details\":\"uri\u003d/api/problem/PF58%201449%206477%2090PH%204MIS%206ASE%20U07\"}",
+      "responseReceivedAt": "Apr 29, 2023, 12:01:43 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:01:43 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

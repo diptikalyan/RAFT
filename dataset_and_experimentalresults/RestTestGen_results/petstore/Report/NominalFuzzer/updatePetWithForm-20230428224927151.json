@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "updatePetWithForm-20230428224927151",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "https://petstore.swagger.io/v2/pet/52887",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 28, 2023, 10:49:28 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "date: Fri, 28 Apr 2023 17:19:31 GMT\ncontent-type: application/json\naccess-control-allow-origin: *\naccess-control-allow-methods: GET, POST, DELETE, PUT\naccess-control-allow-headers: Content-Type, api_key, Authorization\nserver: Jetty(9.2.9.v20150224)\n",
+      "responseBody": "{\"code\":200,\"type\":\"unknown\",\"message\":\"52887\"}",
+      "responseReceivedAt": "Apr 28, 2023, 10:49:29 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 28, 2023, 10:49:27 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

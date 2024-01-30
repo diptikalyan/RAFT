@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "getOrderById-20230428230003650",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://petstore.swagger.io/v2/store/order/%7BorderId%7D?false",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 28, 2023, 11:00:03 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "date: Fri, 28 Apr 2023 17:30:06 GMT\ncontent-type: application/json\naccess-control-allow-origin: *\naccess-control-allow-methods: GET, POST, DELETE, PUT\naccess-control-allow-headers: Content-Type, api_key, Authorization\nserver: Jetty(9.2.9.v20150224)\n",
+      "responseBody": "{\"code\":404,\"type\":\"unknown\",\"message\":\"java.lang.NumberFormatException: For input string: \\\"{orderId}\\\"\"}",
+      "responseReceivedAt": "Apr 28, 2023, 11:00:03 PM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 28, 2023, 11:00:03 PM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "PASS",
+      "message": "The erroneous test sequence was rejected by the server."
+    }
+  },
+  "tags": []
+}

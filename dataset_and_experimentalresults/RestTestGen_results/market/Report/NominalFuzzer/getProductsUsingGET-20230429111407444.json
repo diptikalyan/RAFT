@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getProductsUsingGET-20230429111407444",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:50117/products",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 11:14:07 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 500
+      },
+      "responseHeaders": "X-Content-Type-Options: nosniff\nX-XSS-Protection: 1; mode\u003dblock\nCache-Control: no-cache, no-store, max-age\u003d0, must-revalidate\nPragma: no-cache\nExpires: 0\nContent-Type: application/json\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 05:44:07 GMT\nConnection: close\n",
+      "responseBody": "{\"message\":\"could not prepare statement; SQL [select product0_.id as id1_7_, product0_.age as age2_7_, product0_.alcohol as alcohol3_7_, product0_.available as availabl4_7_, product0_.description as descript5_7_, product0_.distillery_id as distille9_7_, product0_.name as name6_7_, product0_.price as price7_7_, product0_.volume as volume8_7_ from product product0_]; nested exception is org.hibernate.exception.SQLGrammarException: could not prepare statement\",\"description\":\"uri\u003d/products\",\"entityName\":null,\"fieldErrors\":[]}",
+      "responseReceivedAt": "Apr 29, 2023, 11:14:07 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 11:14:07 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

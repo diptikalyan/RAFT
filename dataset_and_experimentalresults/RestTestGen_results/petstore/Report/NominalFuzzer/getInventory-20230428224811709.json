@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getInventory-20230428224811709",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "https://petstore.swagger.io/v2/store/inventory",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 28, 2023, 10:48:18 PM",
+      "responseProtocol": "h2",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "date: Fri, 28 Apr 2023 17:18:20 GMT\ncontent-type: application/json\naccess-control-allow-origin: *\naccess-control-allow-methods: GET, POST, DELETE, PUT\naccess-control-allow-headers: Content-Type, api_key, Authorization\nserver: Jetty(9.2.9.v20150224)\n",
+      "responseBody": "{\"string\":387,\"Old\":1,\"pending\":37,\"123456789\":1,\"available\":373,\"Not Available\":1,\"delivered\":1,\"soldout\":1,\"Unavailable\":1,\"avaliable\":1,\"not available\":1,\"Ahuenniy\":1,\"Available\":1,\"bay\":1,\"В резерве\":1,\"sold\":29,\"new\":1,\"DEYM5Dcp\":1,\"SKIP_OPTIONAL\":3,\"Nonavailable\":1,\"newborn\":1,\"2\":1,\"home pet\":1,\"5\":1,\"noavailable\":2,\"7\":1,\"invalid\":2,\"8\":4,\"12345\":1,\"parrot\":1,\"Pending\":1}",
+      "responseReceivedAt": "Apr 28, 2023, 10:48:18 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 28, 2023, 10:48:11 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

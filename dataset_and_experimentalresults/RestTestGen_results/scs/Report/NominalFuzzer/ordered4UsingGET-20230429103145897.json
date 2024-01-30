@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "ordered4UsingGET-20230429103145897",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/ordered4/traffic-choked//AB/Maja",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:31:45 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 05:01:45 GMT\n",
+      "responseBody": "{\"timestamp\":\"2023-04-29T05:01:45.982+0000\",\"status\":404,\"error\":\"Not Found\",\"message\":\"No message available\",\"path\":\"/api/ordered4/traffic-choked//AB/Maja\"}",
+      "responseReceivedAt": "Apr 29, 2023, 10:31:45 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:31:45 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

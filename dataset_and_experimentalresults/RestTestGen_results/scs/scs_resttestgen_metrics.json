@@ -1,0 +1,271 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 11 and covered is 11",
+   "details": {
+    "Operations covered": [
+     "GET /api/calc/{op}/{arg1}/{arg2}",
+     "GET /api/pat/{txt}/{pat}",
+     "GET /api/text2txt/{word1}/{word2}/{word3}",
+     "GET /api/title/{sex}/{title}",
+     "GET /api/pat/{txt}",
+     "GET /api/cookie/{name}/{val}/{site}",
+     "GET /api/notypevar/{i}/{s}",
+     "GET /api/ordered4/{w}/{x}/{z}/{y}",
+     "GET /api/costfuns/{i}/{s}",
+     "GET /api/dateparse/{dayname}/{monthname}",
+     "GET /api/filesuffix/{directory}/{file}"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 100.0,
+   "explanation": "Total number of parameters is 26 and covered parameters is 26",
+   "details": {
+    "Parameters covered": {
+     "calcUsingGET": [
+      "op",
+      "arg1",
+      "arg2"
+     ],
+     "cookieUsingGET": [
+      "val",
+      "site",
+      "name"
+     ],
+     "costfunsUsingGET": [
+      "i",
+      "s"
+     ],
+     "dateParseUsingGET": [
+      "monthname",
+      "dayname"
+     ],
+     "fileSuffixUsingGET": [
+      "file",
+      "directory"
+     ],
+     "notyPevarUsingGET": [
+      "i",
+      "s"
+     ],
+     "ordered4UsingGET": [
+      "w",
+      "y",
+      "z",
+      "x"
+     ],
+     "regexUsingGET": [
+      "txt"
+     ],
+     "patUsingGET": [
+      "txt",
+      "pat"
+     ],
+     "text2txtUsingGET": [
+      "word1",
+      "word2",
+      "word3"
+     ],
+     "titleUsingGET": [
+      "title",
+      "sex"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 100.0,
+   "value_failure": 0.0,
+   "value_invalid": 18.2,
+   "explanation": "Total number of test suite operations is 11 and successfully covered is 11",
+   "details": {
+    "Operations successful": [
+     "text2txtUsingGET",
+     "regexUsingGET",
+     "patUsingGET",
+     "calcUsingGET",
+     "cookieUsingGET",
+     "costfunsUsingGET",
+     "ordered4UsingGET",
+     "titleUsingGET",
+     "notyPevarUsingGET",
+     "fileSuffixUsingGET",
+     "dateParseUsingGET"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "costfunsUsingGET",
+     "ordered4UsingGET"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 98.2,
+   "value_failure": 0.0,
+   "value_invalid": 1.8,
+   "explanation": "Total number of test suite operations is 219 and successfully covered is 215",
+   "details": {
+    "Operations successful": [
+     "text2txtUsingGET",
+     "regexUsingGET",
+     "patUsingGET",
+     "calcUsingGET",
+     "cookieUsingGET",
+     "costfunsUsingGET",
+     "ordered4UsingGET",
+     "titleUsingGET",
+     "notyPevarUsingGET",
+     "fileSuffixUsingGET",
+     "dateParseUsingGET"
+    ],
+    "Operations failed": [],
+    "Operations invalid": [
+     "costfunsUsingGET",
+     "ordered4UsingGET"
+    ]
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 100.0,
+   "explanation": "Total number of parameters is 26 and covered parameters is 26",
+   "details": {
+    "Parameters covered": {
+     "calcUsingGET": [
+      "op",
+      "arg1",
+      "arg2"
+     ],
+     "cookieUsingGET": [
+      "val",
+      "site",
+      "name"
+     ],
+     "costfunsUsingGET": [
+      "i",
+      "s"
+     ],
+     "dateParseUsingGET": [
+      "monthname",
+      "dayname"
+     ],
+     "fileSuffixUsingGET": [
+      "file",
+      "directory"
+     ],
+     "notyPevarUsingGET": [
+      "i",
+      "s"
+     ],
+     "ordered4UsingGET": [
+      "w",
+      "y",
+      "z",
+      "x"
+     ],
+     "regexUsingGET": [
+      "txt"
+     ],
+     "patUsingGET": [
+      "txt",
+      "pat"
+     ],
+     "text2txtUsingGET": [
+      "word1",
+      "word2",
+      "word3"
+     ],
+     "titleUsingGET": [
+      "title",
+      "sex"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 36.4,
+   "explanation": "Total number of status codes in API is 44 and codes covered is 16",
+   "details": {
+    "Missed response codes": {
+     "calcUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "cookieUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "costfunsUsingGET": [
+      "403",
+      "401"
+     ],
+     "dateParseUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "fileSuffixUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "notyPevarUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "ordered4UsingGET": [
+      "403",
+      "401"
+     ],
+     "regexUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "patUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "text2txtUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "titleUsingGET": [
+      "404",
+      "403",
+      "401"
+     ]
+    }
+   }
+  }
+ ],
+ "Number of TestOp Executions": 219,
+ "Number of 2xx": 215,
+ "Number of 4xx": 4,
+ "Number of 5xx": 0,
+ "Number of Sequences": 219,
+ "Successful Sequences": 215
+}

@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "getUserByIdUsingGET-20230502142622201",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:50115/users/123",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "May 2, 2023, 2:26:22 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 500
+      },
+      "responseHeaders": "Content-Type: application/json\nTransfer-Encoding: chunked\nDate: Tue, 02 May 2023 08:56:21 GMT\nConnection: close\n",
+      "responseBody": "{\"timestamp\":\"2023-05-02T08:56:22.214+0000\",\"status\":500,\"error\":\"Internal Server Error\",\"message\":\"User not found for Id \u003d 123\",\"path\":\"/users/123\"}",
+      "responseReceivedAt": "May 2, 2023, 2:26:22 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "May 2, 2023, 2:26:22 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

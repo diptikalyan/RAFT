@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "updateProjectUsingPUT-20230429000138414",
+  "testInteractions": [
+    {
+      "requestMethod": "PUT",
+      "requestURL": "http://localhost:50112/api/project/CZ91%200247%208469%203415%201799%204735",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 29, 2023, 12:01:38 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 415
+      },
+      "responseHeaders": "Accept: application/json\nContent-Length: 0\nDate: Fri, 28 Apr 2023 18:31:38 GMT\n",
+      "responseBody": "",
+      "responseReceivedAt": "Apr 29, 2023, 12:01:38 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 12:01:38 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

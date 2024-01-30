@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "errorUsingHEAD-20230502142628394",
+  "testInteractions": [
+    {
+      "requestMethod": "HEAD",
+      "requestURL": "http://localhost:50115/error",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "May 2, 2023, 2:26:28 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 500
+      },
+      "responseHeaders": "Content-Type: application/json\nTransfer-Encoding: chunked\nDate: Tue, 02 May 2023 08:56:28 GMT\nConnection: close\n",
+      "responseBody": "",
+      "responseReceivedAt": "May 2, 2023, 2:26:28 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "May 2, 2023, 2:26:28 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

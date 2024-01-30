@@ -1,0 +1,28 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "v1Capital-20230429104924590",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://irlverifai.sl.cloud9.ibm.com:6060/rest/v1/capital/Windhoek",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:49:25 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 200
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dutf-8\nContent-Length: 590\nDate: Sat, 29 Apr 2023 05:19:24 GMT\nKeep-Alive: timeout\u003d60\nConnection: keep-alive\n",
+      "responseBody": "[{\"name\":\"Namibia\",\"topLevelDomain\":[\".na\"],\"alpha2Code\":\"NA\",\"alpha3Code\":\"NAM\",\"callingCodes\":[\"264\"],\"capital\":\"Windhoek\",\"altSpellings\":[\"NA\",\"Namibië\",\"Republic of Namibia\"],\"region\":\"Africa\",\"subregion\":\"Southern Africa\",\"population\":2280700,\"latlng\":[-22.0,17.0],\"demonym\":\"Namibian\",\"area\":825615.0,\"gini\":63.9,\"timezones\":[\"UTC+01:00\"],\"borders\":[\"AGO\",\"BWA\",\"ZAF\",\"ZMB\"],\"nativeName\":\"Namibia\",\"numericCode\":\"516\",\"currencies\":[\"NAD\",\"ZAR\"],\"languages\":[\"en\",\"af\"],\"translations\":{\"de\":\"Namibia\",\"es\":\"Namibia\",\"fr\":\"Namibie\",\"ja\":\"ナミビア\",\"it\":\"Namibia\"},\"relevance\":\"0\"}]",
+      "responseReceivedAt": "Apr 29, 2023, 10:49:25 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:49:24 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "PASS",
+      "message": "The test sequence was executed successfully."
+    }
+  },
+  "tags": []
+}

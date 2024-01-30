@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "updateUserUsingPUT-20230502142627437",
+  "testInteractions": [
+    {
+      "requestMethod": "PUT",
+      "requestURL": "http://localhost:50115/users/123",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "{\"address\": \"ANG\", \"address2\": \"f88ed4b9-ed8f-4891-ab92-5dff18c10f87\", \"country\": \"imbibers\", \"enabled\": false, \"facebook\": \"metatarsophalangeal\", \"mobile\": \"R\", \"skype\": \"theow\"}",
+      "requestSentAt": "May 2, 2023, 2:26:27 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 500
+      },
+      "responseHeaders": "Content-Type: application/json\nTransfer-Encoding: chunked\nDate: Tue, 02 May 2023 08:56:27 GMT\nConnection: close\n",
+      "responseBody": "{\"timestamp\":\"2023-05-02T08:56:27.558+0000\",\"status\":500,\"error\":\"Internal Server Error\",\"message\":\"The user with Id \u003d 123 doesn\u0027t exists\",\"path\":\"/users/123\"}",
+      "responseReceivedAt": "May 2, 2023, 2:26:27 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "May 2, 2023, 2:26:27 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

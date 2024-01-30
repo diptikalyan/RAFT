@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "registerNewUserAccountUsingPOST-20230502142620585",
+  "testInteractions": [
+    {
+      "requestMethod": "POST",
+      "requestURL": "http://localhost:50115/users/register",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "{}",
+      "requestSentAt": "May 2, 2023, 2:26:20 PM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 500
+      },
+      "responseHeaders": "Content-Type: application/json\nTransfer-Encoding: chunked\nDate: Tue, 02 May 2023 08:56:20 GMT\nConnection: close\n",
+      "responseBody": "{\"timestamp\":\"2023-05-02T08:56:20.628+0000\",\"status\":500,\"error\":\"Internal Server Error\",\"message\":\"username cannot be null\",\"path\":\"/users/register\"}",
+      "responseReceivedAt": "May 2, 2023, 2:26:20 PM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "May 2, 2023, 2:26:20 PM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "FAIL",
+      "message": "A server error occurred during the execution of the sequence."
+    }
+  },
+  "tags": []
+}

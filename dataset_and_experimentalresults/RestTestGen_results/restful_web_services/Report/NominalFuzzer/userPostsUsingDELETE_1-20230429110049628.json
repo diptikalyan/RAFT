@@ -1,0 +1,29 @@
+{
+  "generator": "NominalFuzzer",
+  "name": "userPostsUsingDELETE_1-20230429110049628",
+  "testInteractions": [
+    {
+      "requestMethod": "DELETE",
+      "requestURL": "http://localhost:8080/rest/users/89/posts",
+      "requestHeaders": "Accept: application/json\n",
+      "requestBody": "",
+      "requestSentAt": "Apr 29, 2023, 11:00:49 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 404
+      },
+      "responseHeaders": "Vary: Origin\nVary: Access-Control-Request-Method\nVary: Access-Control-Request-Headers\nContent-Type: application/json\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 05:30:48 GMT\nKeep-Alive: timeout\u003d60\nConnection: keep-alive\n",
+      "responseBody": "{\"timestamp\":\"2023-04-29T05:30:49.640+00:00\",\"status\":404,\"error\":\"Not Found\",\"message\":\"No message available\",\"path\":\"/rest/users/89/posts\"}",
+      "responseReceivedAt": "Apr 29, 2023, 11:00:49 AM",
+      "tags": []
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 11:00:49 AM",
+  "testResults": {
+    "StatusCodeOracle": {
+      "result": "UNKNOWN",
+      "message": "The obtained status code is not informative enough to determine the outcome of the test sequence."
+    }
+  },
+  "tags": []
+}

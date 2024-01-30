@@ -1,0 +1,1 @@
+{"documented":["/api/persons/averageAge","/api/person/{id}","/api/persons","/api/persons/count","/api/persons/{ids}","/api/person"],"documentedTested":["/api/persons/averageAge","/api/person/{id}","/api/persons","/api/persons/count","/api/persons/{ids}","/api/person"],"notDocumentedTested":[],"notTested":[]}

@@ -1,0 +1,430 @@
+{
+ "testsuite": [
+  {
+   "name": "Operation Coverage (Suite)",
+   "description": "Percentage of API operations covered by all the test cases",
+   "value": 100.0,
+   "explanation": "Total number of operations is 20 and covered is 20",
+   "details": {
+    "Operations covered": [
+     "verificaLeitosDisponiveisUsingGET",
+     "insertUsingPOST",
+     "findLocationNearHospitalByUsingGET",
+     "updatePatientUsingPUT",
+     "hospitalMaisProximoUsingGET",
+     "findByIdUsingGET",
+     "findProductByUsingGET",
+     "findPatientsUsingGET",
+     "deleteUsingDELETE",
+     "updateUsingPUT",
+     "findHospitalNearHospitalByUsingGET",
+     "insertUsingPOST_1",
+     "deleteByIdUsingDELETE",
+     "transferenciaProdutoUsingPOST",
+     "updateUsingPUT_1",
+     "checkinPacientUsingPOST",
+     "findAllProductByUsingGET",
+     "findAllUsingGET",
+     "findPatientByIdUsingGET",
+     "checkoutPacientUsingPOST"
+    ],
+    "Operations missed": []
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of parameters in the API that are covered",
+   "value": 77.1,
+   "explanation": "Total number of parameters is 35 and covered parameters is 27",
+   "details": {
+    "Parameters covered": {
+     "hospitalMaisProximoUsingGET": [
+      "hospitalMaisProximoUsingGET.query.lat",
+      "hospitalMaisProximoUsingGET.query.lon",
+      "hospitalMaisProximoUsingGET.query.raioMaximo"
+     ],
+     "findByIdUsingGET": [
+      "findByIdUsingGET.path.hospital_id"
+     ],
+     "updateUsingPUT": [
+      "updateUsingPUT.path.hospital_id"
+     ],
+     "deleteByIdUsingDELETE": [
+      "deleteByIdUsingDELETE.path.hospital_id"
+     ],
+     "findAllProductByUsingGET": [
+      "findAllProductByUsingGET.path.hospital_id"
+     ],
+     "insertUsingPOST_1": [
+      "insertUsingPOST_1.path.hospital_id"
+     ],
+     "findProductByUsingGET": [
+      "findProductByUsingGET.path.produto_id",
+      "findProductByUsingGET.path.hospital_id"
+     ],
+     "updateUsingPUT_1": [
+      "updateUsingPUT_1.path.hospital_id",
+      "updateUsingPUT_1.path.produto_id"
+     ],
+     "deleteUsingDELETE": [
+      "deleteUsingDELETE.path.produto_id",
+      "deleteUsingDELETE.path.hospital_id"
+     ],
+     "findHospitalNearHospitalByUsingGET": [
+      "findHospitalNearHospitalByUsingGET.path.hospital_id",
+      "findHospitalNearHospitalByUsingGET.query.raio"
+     ],
+     "findPatientsUsingGET": [
+      "findPatientsUsingGET.path.hospital_id"
+     ],
+     "checkinPacientUsingPOST": [
+      "checkinPacientUsingPOST.path.hospital_id"
+     ],
+     "checkoutPacientUsingPOST": [
+      "checkoutPacientUsingPOST.path.hospital_id"
+     ],
+     "findPatientByIdUsingGET": [
+      "findPatientByIdUsingGET.path.patientId",
+      "findPatientByIdUsingGET.path.hospital_id"
+     ],
+     "updatePatientUsingPUT": [
+      "updatePatientUsingPUT.path.patientId",
+      "updatePatientUsingPUT.path.hospital_id"
+     ],
+     "findLocationNearHospitalByUsingGET": [
+      "findLocationNearHospitalByUsingGET.path.hospital_id"
+     ],
+     "verificaLeitosDisponiveisUsingGET": [
+      "verificaLeitosDisponiveisUsingGET.path.id"
+     ],
+     "transferenciaProdutoUsingPOST": [
+      "transferenciaProdutoUsingPOST.path.productId",
+      "transferenciaProdutoUsingPOST.path.id"
+     ]
+    },
+    "Parameters missed": {
+     "insertUsingPOST": [
+      "insertUsingPOST.request-body.objDTO"
+     ],
+     "updateUsingPUT": [
+      "updateUsingPUT.request-body.objDTO"
+     ],
+     "insertUsingPOST_1": [
+      "insertUsingPOST_1.request-body.productDTO"
+     ],
+     "updateUsingPUT_1": [
+      "updateUsingPUT_1.request-body.productDTO"
+     ],
+     "checkinPacientUsingPOST": [
+      "checkinPacientUsingPOST.request-body.patient"
+     ],
+     "checkoutPacientUsingPOST": [
+      "checkoutPacientUsingPOST.request-body.idPatient"
+     ],
+     "updatePatientUsingPUT": [
+      "updatePatientUsingPUT.request-body.patient"
+     ],
+     "transferenciaProdutoUsingPOST": [
+      "transferenciaProdutoUsingPOST.request-body.quantidade"
+     ]
+    }
+   }
+  }
+ ],
+ "runtime": [
+  {
+   "name": "Operation Coverage (Runtime Unique)",
+   "description": "Percentage of test suite operations successfully covered (2xx) at runtime",
+   "value_success": 90.0,
+   "value_failure": 10.0,
+   "value_invalid": 95.0,
+   "explanation": "Total number of test suite operations is 20 and successfully covered is 18",
+   "details": {
+    "Operations successful": [
+     "checkinPacientUsingPOST",
+     "findAllProductByUsingGET",
+     "findHospitalNearHospitalByUsingGET",
+     "verificaLeitosDisponiveisUsingGET",
+     "findProductByUsingGET",
+     "findPatientsUsingGET",
+     "insertUsingPOST_1",
+     "insertUsingPOST",
+     "findLocationNearHospitalByUsingGET",
+     "hospitalMaisProximoUsingGET",
+     "findAllUsingGET",
+     "findByIdUsingGET",
+     "deleteByIdUsingDELETE",
+     "findPatientByIdUsingGET",
+     "updateUsingPUT_1",
+     "deleteUsingDELETE",
+     "updateUsingPUT",
+     "updatePatientUsingPUT"
+    ],
+    "Operations failed": [
+     "hospitalMaisProximoUsingGET",
+     "insertUsingPOST"
+    ],
+    "Operations invalid": [
+     "verificaLeitosDisponiveisUsingGET",
+     "insertUsingPOST",
+     "findLocationNearHospitalByUsingGET",
+     "hospitalMaisProximoUsingGET",
+     "checkoutPacientUsingPOST",
+     "findByIdUsingGET",
+     "deleteUsingDELETE",
+     "findPatientsUsingGET",
+     "findProductByUsingGET",
+     "updateUsingPUT",
+     "findHospitalNearHospitalByUsingGET",
+     "insertUsingPOST_1",
+     "deleteByIdUsingDELETE",
+     "transferenciaProdutoUsingPOST",
+     "updateUsingPUT_1",
+     "checkinPacientUsingPOST",
+     "findAllProductByUsingGET",
+     "findPatientByIdUsingGET",
+     "updatePatientUsingPUT"
+    ]
+   }
+  },
+  {
+   "name": "Operation Coverage (Runtime Instance-wise)",
+   "description": "Percentage of test suite operation instances successfully covered (2xx) at runtime",
+   "value_success": 34.5,
+   "value_failure": 29.8,
+   "value_invalid": 35.7,
+   "explanation": "Total number of test suite operations is 10900 and successfully covered is 3760",
+   "details": {
+    "Operations successful": [
+     "checkinPacientUsingPOST",
+     "findAllProductByUsingGET",
+     "findHospitalNearHospitalByUsingGET",
+     "verificaLeitosDisponiveisUsingGET",
+     "findProductByUsingGET",
+     "findPatientsUsingGET",
+     "insertUsingPOST_1",
+     "insertUsingPOST",
+     "findLocationNearHospitalByUsingGET",
+     "hospitalMaisProximoUsingGET",
+     "findAllUsingGET",
+     "findByIdUsingGET",
+     "deleteByIdUsingDELETE",
+     "findPatientByIdUsingGET",
+     "updateUsingPUT_1",
+     "deleteUsingDELETE",
+     "updateUsingPUT",
+     "updatePatientUsingPUT"
+    ],
+    "Operations failed": [
+     "hospitalMaisProximoUsingGET",
+     "insertUsingPOST"
+    ],
+    "Operations invalid": [
+     "verificaLeitosDisponiveisUsingGET",
+     "insertUsingPOST",
+     "findLocationNearHospitalByUsingGET",
+     "hospitalMaisProximoUsingGET",
+     "checkoutPacientUsingPOST",
+     "findByIdUsingGET",
+     "deleteUsingDELETE",
+     "findPatientsUsingGET",
+     "findProductByUsingGET",
+     "updateUsingPUT",
+     "findHospitalNearHospitalByUsingGET",
+     "insertUsingPOST_1",
+     "deleteByIdUsingDELETE",
+     "transferenciaProdutoUsingPOST",
+     "updateUsingPUT_1",
+     "checkinPacientUsingPOST",
+     "findAllProductByUsingGET",
+     "findPatientByIdUsingGET",
+     "updatePatientUsingPUT"
+    ]
+   }
+  },
+  {
+   "name": "Output status code coverage",
+   "description": "Percentage of status codes covered for all operations, as obtained in API responses",
+   "value": 53.4,
+   "explanation": "Total number of status codes in API is 88 and codes covered is 47",
+   "details": {
+    "Missed response codes": {
+     "findAllUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "insertUsingPOST": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "hospitalMaisProximoUsingGET": [
+      "403",
+      "401"
+     ],
+     "findByIdUsingGET": [
+      "403",
+      "401"
+     ],
+     "updateUsingPUT": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "deleteByIdUsingDELETE": [
+      "401",
+      "403",
+      "204"
+     ],
+     "findAllProductByUsingGET": [
+      "403",
+      "401"
+     ],
+     "insertUsingPOST_1": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "findProductByUsingGET": [
+      "403",
+      "401"
+     ],
+     "updateUsingPUT_1": [
+      "404",
+      "201",
+      "403",
+      "401"
+     ],
+     "deleteUsingDELETE": [
+      "401",
+      "403",
+      "204"
+     ],
+     "findHospitalNearHospitalByUsingGET": [
+      "403",
+      "401"
+     ],
+     "findPatientsUsingGET": [
+      "403",
+      "401"
+     ],
+     "checkinPacientUsingPOST": [
+      "201",
+      "403",
+      "401"
+     ],
+     "checkoutPacientUsingPOST": [
+      "201",
+      "200",
+      "403",
+      "401"
+     ],
+     "findPatientByIdUsingGET": [
+      "403",
+      "401"
+     ],
+     "updatePatientUsingPUT": [
+      "201",
+      "403",
+      "401"
+     ],
+     "findLocationNearHospitalByUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "verificaLeitosDisponiveisUsingGET": [
+      "404",
+      "403",
+      "401"
+     ],
+     "transferenciaProdutoUsingPOST": [
+      "201",
+      "200",
+      "403",
+      "401"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Parameter coverage",
+   "description": "Percentage of executed parameters in the API that are successfully covered",
+   "value_success": 88.9,
+   "value_failure": 11.1,
+   "value_invalid": 100.0,
+   "explanation": "Total number of parameters used in runs is 27 and covered successful parameters is {'hospitalMaisProximoUsingGET': ['hospitalMaisProximoUsingGET.query.raioMaximo', 'hospitalMaisProximoUsingGET.query.lat', 'hospitalMaisProximoUsingGET.query.lon'], 'findByIdUsingGET': ['findByIdUsingGET.path.hospital_id'], 'updateUsingPUT': ['updateUsingPUT.path.hospital_id'], 'deleteByIdUsingDELETE': ['deleteByIdUsingDELETE.path.hospital_id'], 'findAllProductByUsingGET': ['findAllProductByUsingGET.path.hospital_id'], 'insertUsingPOST_1': ['insertUsingPOST_1.path.hospital_id'], 'findProductByUsingGET': ['findProductByUsingGET.path.produto_id', 'findProductByUsingGET.path.hospital_id'], 'updateUsingPUT_1': ['updateUsingPUT_1.path.hospital_id', 'updateUsingPUT_1.path.produto_id'], 'deleteUsingDELETE': ['deleteUsingDELETE.path.produto_id', 'deleteUsingDELETE.path.hospital_id'], 'findHospitalNearHospitalByUsingGET': ['findHospitalNearHospitalByUsingGET.path.hospital_id', 'findHospitalNearHospitalByUsingGET.query.raio'], 'findPatientsUsingGET': ['findPatientsUsingGET.path.hospital_id'], 'checkinPacientUsingPOST': ['checkinPacientUsingPOST.path.hospital_id'], 'findPatientByIdUsingGET': ['findPatientByIdUsingGET.path.patientId', 'findPatientByIdUsingGET.path.hospital_id'], 'updatePatientUsingPUT': ['updatePatientUsingPUT.path.patientId', 'updatePatientUsingPUT.path.hospital_id'], 'findLocationNearHospitalByUsingGET': ['findLocationNearHospitalByUsingGET.path.hospital_id'], 'verificaLeitosDisponiveisUsingGET': ['verificaLeitosDisponiveisUsingGET.path.id']}",
+   "details": {
+    "Parameters covered": {
+     "hospitalMaisProximoUsingGET": [
+      "hospitalMaisProximoUsingGET.query.raioMaximo",
+      "hospitalMaisProximoUsingGET.query.lat",
+      "hospitalMaisProximoUsingGET.query.lon"
+     ],
+     "findByIdUsingGET": [
+      "findByIdUsingGET.path.hospital_id"
+     ],
+     "updateUsingPUT": [
+      "updateUsingPUT.path.hospital_id"
+     ],
+     "deleteByIdUsingDELETE": [
+      "deleteByIdUsingDELETE.path.hospital_id"
+     ],
+     "findAllProductByUsingGET": [
+      "findAllProductByUsingGET.path.hospital_id"
+     ],
+     "insertUsingPOST_1": [
+      "insertUsingPOST_1.path.hospital_id"
+     ],
+     "findProductByUsingGET": [
+      "findProductByUsingGET.path.produto_id",
+      "findProductByUsingGET.path.hospital_id"
+     ],
+     "updateUsingPUT_1": [
+      "updateUsingPUT_1.path.hospital_id",
+      "updateUsingPUT_1.path.produto_id"
+     ],
+     "deleteUsingDELETE": [
+      "deleteUsingDELETE.path.produto_id",
+      "deleteUsingDELETE.path.hospital_id"
+     ],
+     "findHospitalNearHospitalByUsingGET": [
+      "findHospitalNearHospitalByUsingGET.path.hospital_id",
+      "findHospitalNearHospitalByUsingGET.query.raio"
+     ],
+     "findPatientsUsingGET": [
+      "findPatientsUsingGET.path.hospital_id"
+     ],
+     "checkinPacientUsingPOST": [
+      "checkinPacientUsingPOST.path.hospital_id"
+     ],
+     "findPatientByIdUsingGET": [
+      "findPatientByIdUsingGET.path.patientId",
+      "findPatientByIdUsingGET.path.hospital_id"
+     ],
+     "updatePatientUsingPUT": [
+      "updatePatientUsingPUT.path.patientId",
+      "updatePatientUsingPUT.path.hospital_id"
+     ],
+     "findLocationNearHospitalByUsingGET": [
+      "findLocationNearHospitalByUsingGET.path.hospital_id"
+     ],
+     "verificaLeitosDisponiveisUsingGET": [
+      "verificaLeitosDisponiveisUsingGET.path.id"
+     ]
+    },
+    "Parameters missed": {}
+   }
+  }
+ ],
+ "Number of TestOp Executions": 10900,
+ "Number of 2xx": 3760,
+ "Number of 4xx": 3893,
+ "Number of 5xx": 3247,
+ "Number of Sequences": 6553,
+ "Successful Sequences": 3350
+}

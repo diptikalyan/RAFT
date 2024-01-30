@@ -1,0 +1,30 @@
+{
+  "generator": "ErrorFuzzer",
+  "name": "checkTriangleUsingGET-20230429104959461",
+  "testInteractions": [
+    {
+      "requestMethod": "GET",
+      "requestURL": "http://localhost:8080/api/triangle/117/111/%7Bc%7D",
+      "requestHeaders": "Accept: application/json\n",
+      "requestSentAt": "Apr 29, 2023, 10:49:59 AM",
+      "responseProtocol": "http/1.1",
+      "responseStatusCode": {
+        "code": 400
+      },
+      "responseHeaders": "Content-Type: application/json;charset\u003dUTF-8\nTransfer-Encoding: chunked\nDate: Sat, 29 Apr 2023 05:19:58 GMT\nConnection: close\n",
+      "responseBody": "{\"timestamp\":\"2023-04-29T05:19:59.463+0000\",\"status\":400,\"error\":\"Bad Request\",\"message\":\"Failed to convert value of type \u0027java.lang.String\u0027 to required type \u0027java.lang.Integer\u0027; nested exception is java.lang.NumberFormatException: For input string: \\\"{c}\\\"\",\"path\":\"/api/triangle/117/111/%7Bc%7D\"}",
+      "responseReceivedAt": "Apr 29, 2023, 10:49:59 AM",
+      "tags": [
+        "mutated"
+      ]
+    }
+  ],
+  "generatedAt": "Apr 29, 2023, 10:49:59 AM",
+  "testResults": {
+    "ErrorStatusCodeOracle": {
+      "result": "PASS",
+      "message": "The erroneous test sequence was rejected by the server."
+    }
+  },
+  "tags": []
+}
